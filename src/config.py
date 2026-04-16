@@ -59,14 +59,19 @@ GOOGLE_PLACE_TYPES = {
     "electrician",
     "electronics_store",
     "embassy",
+    "finance",
     "fire_station",
     "florist",
+    "food",
     "funeral_home",
     "furniture_store",
     "gas_station",
+    "general_contractor",
+    "grocery_or_supermarket",
     "gym",
     "hair_care",
     "hardware_store",
+    "health",
     "hindu_temple",
     "home_goods_store",
     "hospital",
@@ -94,6 +99,7 @@ GOOGLE_PLACE_TYPES = {
     "pet_store",
     "pharmacy",
     "physiotherapist",
+    "place_of_worship",
     "plumber",
     "police",
     "post_office",
@@ -123,12 +129,28 @@ GOOGLE_PLACE_TYPES = {
     "zoo",
 }
 
+META_TYPES = {
+    "establishment",
+    "point_of_interest",
+    "locality",
+    "political",
+    "sublocality",
+    "sublocality_level_1",
+    "administrative_area_level_1",
+    "administrative_area_level_2",
+    "neighborhood",
+    "premise",
+    "route",
+    "street_address",
+}
+
 VERTICAL_MAPPING = {
     "Food & Beverage": [
         "restaurant",
         "cafe",
         "bar",
         "bakery",
+        "food",
         "meal_delivery",
         "meal_takeaway",
         "liquor_store",
@@ -141,6 +163,7 @@ VERTICAL_MAPPING = {
         "drugstore",
         "physiotherapist",
         "veterinary_care",
+        "health",
     ],
     "Beauty & Wellness": [
         "beauty_salon",
@@ -161,8 +184,6 @@ VERTICAL_MAPPING = {
         "store",
         "shopping_mall",
         "department_store",
-        "convenience_store",
-        "supermarket",
         "bicycle_store",
         "hardware_store",
     ],
@@ -189,6 +210,7 @@ VERTICAL_MAPPING = {
         "locksmith",
         "storage",
         "laundry",
+        "general_contractor",
     ],
     "Lodging & Tourism": [
         "lodging",
@@ -215,12 +237,14 @@ VERTICAL_MAPPING = {
     "Finance": [
         "bank",
         "atm",
+        "finance",
     ],
     "Food Retail": [
         "bakery",
         "supermarket",
         "convenience_store",
         "liquor_store",
+        "grocery_or_supermarket",
     ],
     "Government & Public": [
         "city_hall",
@@ -247,14 +271,55 @@ VERTICAL_MAPPING = {
         "mosque",
         "synagogue",
         "hindu_temple",
+        "place_of_worship",
     ],
     "Arts & Culture": [
         "museum",
         "art_gallery",
         "movie_rental",
     ],
+    "Recreation": [
+        "park",
+        "aquarium",
+        "zoo",
+    ],
     "Funeral": [
         "funeral_home",
+    ],
+}
+
+DEFAULT_VERTICAL = "Other"
+
+VERTICAL_NAME_KEYWORDS = {
+    "Beauty & Wellness": [
+        "peluqueria", "peluquería", "salon", "salón", "belleza", "beleza", "beauty",
+        "barber", "barbería", "barberia",
+        "spa", "masaje", "masajista", "massage", "wellness",
+        "gym", "gimnasio", "fitness", "crossfit", "yoga", "pilates", "polideportivo",
+        "nail", "uñas", "unas", "manicure", "pedicure",
+        "estetica", "estética", "esteticista", "estilista", "stylist", "facial",
+        "maquillaje", "makeup", "make up", "cosmetico", "cosmético",
+        "tattoo", "tatuaje", "tatto", "tatoo", "piercing", "ink",
+        "pestana", "pestaña", "pestañas", "cejas", "lashes", "brows",
+        "depilacion", "depilación", "waxing",
+        "studio", "estudio", "academia",
+    ],
+    "Food & Beverage": [
+        "restaurant", "restaurante", "cafe", "café", "cafeteria",
+        "bar ", "pub", "cerveceria", "cervecería",
+        "pizzeria", "pizzería", "parrilla", "parrillada",
+        "bakery", "panaderia", "panadería", "confiteria", "confitería",
+    ],
+    "Health & Medical": [
+        "clinica", "clínica", "clinic", "hospital", "sanatorio",
+        "farmacia", "pharmacy", "drogueria", "droguería",
+        "doctor", "medico", "médico", "consultorio",
+        "dental", "odontolog", "dentista",
+        "fisio", "physiotherapy", "rehabilita",
+        "veterinar",
+    ],
+    "Retail & Shopping": [
+        "boutique", "tienda", "store", "shop",
     ],
 }
 

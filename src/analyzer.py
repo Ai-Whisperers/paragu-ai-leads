@@ -7,6 +7,9 @@ import requests as http_requests
 
 from src.config import (
     VERTICAL_MAPPING,
+    VERTICAL_NAME_KEYWORDS,
+    META_TYPES,
+    DEFAULT_VERTICAL,
     SOCIAL_MEDIA_DOMAINS,
     FREE_WEBSITE_DOMAINS,
     NEIGHBORHOODS_ASUNCION,
@@ -14,6 +17,17 @@ from src.config import (
 from src.models import Business
 
 logger = logging.getLogger(__name__)
+
+_TYPE_TO_VERTICAL = {
+    t: vertical
+    for vertical, vtypes in VERTICAL_MAPPING.items()
+    for t in vtypes
+}
+
+_NAME_KEYWORDS = [
+    (vertical, [kw.lower() for kw in keywords])
+    for vertical, keywords in VERTICAL_NAME_KEYWORDS.items()
+]
 
 
 class BusinessAnalyzer:
@@ -32,12 +46,20 @@ class BusinessAnalyzer:
 
     @staticmethod
     def _assign_vertical(business: Business):
-        type_set = set(business.types)
-        for vertical, vtypes in VERTICAL_MAPPING.items():
-            if type_set.intersection(vtypes):
+        for t in business.types:
+            if t in META_TYPES:
+                continue
+            vertical = _TYPE_TO_VERTICAL.get(t)
+            if vertical:
                 business.vertical = vertical
                 return
-        business.vertical = "Other"
+        name = business.name.lower()
+        if name:
+            for vertical, keywords in _NAME_KEYWORDS:
+                if any(kw in name for kw in keywords):
+                    business.vertical = vertical
+                    return
+        business.vertical = DEFAULT_VERTICAL
 
     @staticmethod
     def _assign_nearest_neighborhood(business: Business):
