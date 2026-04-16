@@ -1,0 +1,51 @@
+{
+  "total_businesses": 210,
+  "by_vertical": {
+    "Beauty & Wellness": 175,
+    "Other": 17,
+    "Retail & Shopping": 11,
+    "Food & Beverage": 3,
+    "Health & Medical": 3,
+    "Entertainment & Nightlife": 1
+  },
+  "by_type_top20": {
+    "establishment": 110,
+    "beauty_salon": 98,
+    "bar": 2
+  },
+  "by_neighborhood": {
+    "Canógrafa": 78,
+    "Recoleta": 25,
+    "Pettirossi": 19,
+    "Santa Ana": 14,
+    "Tte. Fariña": 11,
+    "Sajonia": 10,
+    "Mburicá": 10,
+    "Centro": 9,
+    "Mcal. López": 7,
+    "Pyrá": 7,
+    "Lambaré (parte)": 5,
+    "San Jorge": 4,
+    "Manorá": 3,
+    "Luque (parte)": 3,
+    "Ycuá Satí": 2,
+    "Villa Morra": 2,
+    "Fernando de la Mora (parte)": 1
+  },
+  "website_analysis": {
+    "no_website": 107,
+    "social_media_only": 61,
+    "free_builder_site": 1,
+    "unreachable_or_broken": 5,
+    "redirects_to_social": 1,
+    "has_working_website": 36,
+    "pct_no_website": 51.0
+  },
+  "leads": {
+    "high_priority": 175,
+    "medium_priority": 34,
+    "total_potential_leads": 209
+  },
+  "avg_rating": 4.55,
+  "total_reviews_sum": 23130
+}

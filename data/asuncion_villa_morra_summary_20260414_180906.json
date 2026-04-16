@@ -1,0 +1,60 @@
+{
+  "total_businesses": 244,
+  "by_vertical": {
+    "Other": 130,
+    "Retail & Shopping": 37,
+    "Transportation": 19,
+    "Food & Beverage": 14,
+    "Automotive": 12,
+    "Beauty & Wellness": 9,
+    "Lodging & Tourism": 8,
+    "Arts & Culture": 3,
+    "Government & Public": 3,
+    "Professional Services": 3,
+    "Education": 2,
+    "Finance": 1,
+    "Religious": 1,
+    "Home Services": 1,
+    "Entertainment & Nightlife": 1
+  },
+  "by_type_top20": {
+    "establishment": 204,
+    "car_repair": 11,
+    "beauty_salon": 7,
+    "clothing_store": 5,
+    "car_dealer": 3,
+    "bar": 3,
+    "bakery": 2,
+    "accounting": 2,
+    "atm": 1,
+    "book_store": 1,
+    "cafe": 1,
+    "electronics_store": 1,
+    "convenience_store": 1,
+    "car_rental": 1,
+    "church": 1
+  },
+  "by_neighborhood": {
+    "Mburicá": 88,
+    "Carmelitas": 86,
+    "Ycuá Satí": 41,
+    "Villa Morra": 18,
+    "Manorá": 11
+  },
+  "website_analysis": {
+    "no_website": 209,
+    "social_media_only": 11,
+    "free_builder_site": 0,
+    "unreachable_or_broken": 3,
+    "redirects_to_social": 0,
+    "has_working_website": 21,
+    "pct_no_website": 85.7
+  },
+  "leads": {
+    "high_priority": 105,
+    "medium_priority": 131,
+    "total_potential_leads": 236
+  },
+  "avg_rating": 2.39,
+  "total_reviews_sum": 5538
+}
