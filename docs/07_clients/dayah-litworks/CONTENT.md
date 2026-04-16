@@ -145,16 +145,26 @@ Detalles del proyecto:
 
 ## Page Composition Notes (for builder)
 
-Suggested section order on `/dayah-litworks`:
+Section order on `/dayah-litworks` (mirrors `page-spec.json:sectionOrder`):
 
-1. Hero - "Presupuesto de Servicios" + nombre/rol + delivery window badge.
-2. Packages - 3 grouped tabs/sections: Custom Covers, Premade Covers, Maquetacion. Each card shows price, deliverables list, and "Solicitar" CTA.
-3. Premades disclaimer callout (only inside Premade group).
-4. Standard project disclaimer (shown once near pricing or repeated per card).
-5. Conditions of Service - numbered list, collapsible on mobile.
-6. Payment methods - 3 simple icon tiles.
-7. Contact CTA - WhatsApp / email primary.
+1. **Hero** - "Presupuesto de Servicios" + nombre/rol + delivery badge + animated cover-flip stack (static fallback for reduced-motion).
+2. **Portfolio strip** - Horizontal-scroll of 8 Instagram covers (`@dayahlitworks`), 2:3 aspect ratio.
+3. **Packages** - Segmented control switches between Personalizadas / Premades / Maquetacion (default: Personalizadas). Cards stagger fade-up on scroll, lift on hover. "Mas elegido" badge on Paperback+eBook ($80); "Entrega rapida" on Premade eBook. Currency toggle (USD <-> PYG) sits near the pricing header.
+4. **Standard disclaimer** - Once below the pricing block.
+5. **Testimonials** - Carousel; collect copy before launch.
+6. **Conditions of Service** - Accordion, collapsed by default.
+7. **Payment methods** - 3 icon tiles.
+8. **Contact CTA** - WhatsApp primary; persistent sticky pill bottom-right (desktop) and bottom-bar (mobile) after 600px scroll.
 
-Visual identity: book / editorial aesthetic (serif display headings, warm
-neutrals, restrained accent). Spanish copy only on the public page; do not
-translate.
+### Visual identity (see `page-spec.json:designTokens`)
+- Palette: cream `#f7f1e6` background, ink `#1a1a1a`, copper accent `#a3683f`.
+- Display: Cormorant Garamond / Playfair Display. Body: Inter.
+- Cards: 12px radius, soft shadow, hover lift 1px.
+
+### Motion & accessibility
+- All motion respects `prefers-reduced-motion`.
+- Card entrance: 80ms stagger, fade-up 16px, 450ms ease-out.
+- Page transition: 250ms fade. Smooth scroll on anchor links.
+- Lighthouse target 90+, lazy-loaded images, webp/avif, font-display swap.
+
+Spanish copy only on the public page; do not translate.
