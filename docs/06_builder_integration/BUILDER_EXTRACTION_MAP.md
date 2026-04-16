@@ -65,6 +65,17 @@ structured equivalent in `paragu-ai-builder`.
 | `TECHNICAL_IMPLEMENTATION.md` (image specs) | `src/tokens/base.tokens.json` (images) | Extracted |
 | `BUSINESS_TYPE_REQUIREMENTS.md` (booking config) | `src/registry/*.type.json` (features.onlineBooking) | Extracted |
 
+### Custom Client Pages (One-off)
+
+These are bespoke single-client pages that live outside the 9-vertical
+template system. The builder consumes the structured `page-spec.json` to
+render the page at the matching slug.
+
+| Leads Repo Source | Builder Destination | Status |
+|---|---|---|
+| `docs/07_clients/dayah-litworks/page-spec.json` | route `/dayah-litworks` | Drafted |
+| `docs/07_clients/dayah-litworks/CONTENT.md` | (reference copy, source of truth) | Drafted |
+
 ---
 
 ## Lead Data -> Builder Pipeline (Future)
