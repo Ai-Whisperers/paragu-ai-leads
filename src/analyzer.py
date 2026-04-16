@@ -7,6 +7,8 @@ import requests as http_requests
 
 from src.config import (
     VERTICAL_MAPPING,
+    META_TYPES,
+    DEFAULT_VERTICAL,
     SOCIAL_MEDIA_DOMAINS,
     FREE_WEBSITE_DOMAINS,
     NEIGHBORHOODS_ASUNCION,
@@ -14,6 +16,12 @@ from src.config import (
 from src.models import Business
 
 logger = logging.getLogger(__name__)
+
+_TYPE_TO_VERTICAL = {
+    t: vertical
+    for vertical, vtypes in VERTICAL_MAPPING.items()
+    for t in vtypes
+}
 
 
 class BusinessAnalyzer:
@@ -32,12 +40,14 @@ class BusinessAnalyzer:
 
     @staticmethod
     def _assign_vertical(business: Business):
-        type_set = set(business.types)
-        for vertical, vtypes in VERTICAL_MAPPING.items():
-            if type_set.intersection(vtypes):
+        for t in business.types:
+            if t in META_TYPES:
+                continue
+            vertical = _TYPE_TO_VERTICAL.get(t)
+            if vertical:
                 business.vertical = vertical
                 return
-        business.vertical = "Other"
+        business.vertical = DEFAULT_VERTICAL
 
     @staticmethod
     def _assign_nearest_neighborhood(business: Business):
