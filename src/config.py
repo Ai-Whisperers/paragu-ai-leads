@@ -290,6 +290,39 @@ VERTICAL_MAPPING = {
 
 DEFAULT_VERTICAL = "Other"
 
+VERTICAL_NAME_KEYWORDS = {
+    "Beauty & Wellness": [
+        "peluqueria", "peluquería", "salon", "salón", "belleza", "beleza", "beauty",
+        "barber", "barbería", "barberia",
+        "spa", "masaje", "masajista", "massage", "wellness",
+        "gym", "gimnasio", "fitness", "crossfit", "yoga", "pilates", "polideportivo",
+        "nail", "uñas", "unas", "manicure", "pedicure",
+        "estetica", "estética", "esteticista", "estilista", "stylist", "facial",
+        "maquillaje", "makeup", "make up", "cosmetico", "cosmético",
+        "tattoo", "tatuaje", "tatto", "tatoo", "piercing", "ink",
+        "pestana", "pestaña", "pestañas", "cejas", "lashes", "brows",
+        "depilacion", "depilación", "waxing",
+        "studio", "estudio", "academia",
+    ],
+    "Food & Beverage": [
+        "restaurant", "restaurante", "cafe", "café", "cafeteria",
+        "bar ", "pub", "cerveceria", "cervecería",
+        "pizzeria", "pizzería", "parrilla", "parrillada",
+        "bakery", "panaderia", "panadería", "confiteria", "confitería",
+    ],
+    "Health & Medical": [
+        "clinica", "clínica", "clinic", "hospital", "sanatorio",
+        "farmacia", "pharmacy", "drogueria", "droguería",
+        "doctor", "medico", "médico", "consultorio",
+        "dental", "odontolog", "dentista",
+        "fisio", "physiotherapy", "rehabilita",
+        "veterinar",
+    ],
+    "Retail & Shopping": [
+        "boutique", "tienda", "store", "shop",
+    ],
+}
+
 NEIGHBORHOODS_ASUNCION = {
     "Centro": (-25.2637, -57.5759),
     "Carmelitas": (-25.2550, -57.5700),

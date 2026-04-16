@@ -7,6 +7,7 @@ import requests as http_requests
 
 from src.config import (
     VERTICAL_MAPPING,
+    VERTICAL_NAME_KEYWORDS,
     META_TYPES,
     DEFAULT_VERTICAL,
     SOCIAL_MEDIA_DOMAINS,
@@ -22,6 +23,11 @@ _TYPE_TO_VERTICAL = {
     for vertical, vtypes in VERTICAL_MAPPING.items()
     for t in vtypes
 }
+
+_NAME_KEYWORDS = [
+    (vertical, [kw.lower() for kw in keywords])
+    for vertical, keywords in VERTICAL_NAME_KEYWORDS.items()
+]
 
 
 class BusinessAnalyzer:
@@ -47,6 +53,12 @@ class BusinessAnalyzer:
             if vertical:
                 business.vertical = vertical
                 return
+        name = business.name.lower()
+        if name:
+            for vertical, keywords in _NAME_KEYWORDS:
+                if any(kw in name for kw in keywords):
+                    business.vertical = vertical
+                    return
         business.vertical = DEFAULT_VERTICAL
 
     @staticmethod
