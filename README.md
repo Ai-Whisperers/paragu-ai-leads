@@ -73,6 +73,19 @@ python -m src.main
 3. **Outreach** - Contact Priority A businesses
 4. **Scale** - Build templates for remaining 8 categories
 
+## 🏢 Tenancy
+
+**This repo is single-tenant.** It has no tenant, org, or workspace model — no `tenant_id`, no row-level security, no multi-tenant routing. It's a standalone dataset + analysis pipeline for one market (Paraguay beauty/wellness).
+
+The word "business" means different things across the two Paragu-AI repos:
+
+| Repo | "business" means |
+|------|------------------|
+| `paragu-ai-leads` (this one) | A scraped record describing a real-world business (row in `paraguay_beauty_prioritized.csv`, `Business` dataclass in `src/models.py`). It is source data. |
+| `paragu-ai-builder` | A **tenant** — the owner of a generated site, with isolation enforced via `business_id` on every tenant-scoped table. See `docs/TENANTS.md` in that repo. |
+
+Leads produced here feed into `paragu-ai-builder`, where each selected lead becomes a tenant. Don't confuse the two.
+
 ## 📄 Full Documentation
 
 See [PROJECT_INDEX.md](./PROJECT_INDEX.md) for complete file listing.
