@@ -38,6 +38,10 @@ paraguay-beauty-data/
 |------|-------------|
 | `ANALYSIS.md` | Full market analysis (7,463 businesses) |
 | `MARKET_ANALYSIS_SUMMARY.md` | Executive summary |
+| `MARKET_DEEP_RESEARCH.md` | Extended market research |
+| `BUSINESS_TYPES_ANALYSIS.md` | 4-layer taxonomy audit (Google Places → verticals → beauty categories) |
+| `PARAGUAY_RUBROS_TAXONOMY.md` | Paraguayan SME-directory rubros (18 optgroups, 144 options) mapped to builder vertical + type |
+| `LATAM_RUBROS_LANDSCAPE.md` | Cross-LATAM classification (PY/AR/UY/CL/CO/PE/MX/BR) — statistical + regulatory + commercial layers, website-need clusters, expansion priority |
 | `FEATURE_ROADMAP.md` | First-world competitor analysis |
 
 ### 02_requirements/ - Business Requirements
@@ -64,6 +68,7 @@ paraguay-beauty-data/
 | File | Description |
 |------|-------------|
 | `PRICING_STRATEGY.md` | Revenue models and pricing |
+| `DEMO_ROSTER_100_RUBROS.md` | 110 Paraguayan rubros chosen for first demo wave, sequenced in 3 waves with execution pipeline |
 | `DOCUMENTATION_INDEX.md` | Complete documentation index |
 
 ---
