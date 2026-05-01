@@ -1,0 +1,325 @@
+{
+  "$schema": "../../../schemas/client-page.schema.json",
+  "slug": "dayah-litworks",
+  "locale": "es",
+  "vertical": "creative-services",
+  "brand": {
+    "name": "Dayah Lit Works",
+    "owner": "Dayah Araujo",
+    "role": "Book Cover Designer",
+    "tagline": "Presupuesto de servicios",
+    "workingDays": "Lunes a Viernes",
+    "deliveryWindow": "2 a 4 semanas (a definir con el cliente)",
+    "currency": "USD"
+  },
+  "hero": {
+    "eyebrow": "Dayah Araujo - Book Cover Designer",
+    "title": "Presupuesto de servicios",
+    "subtitle": "Diseno de portadas y maquetacion para tu libro.",
+    "deliveryBadge": "Entrega estimada: 2 a 4 semanas",
+    "primaryCta": { "label": "Solicitar presupuesto", "type": "whatsapp" }
+  },
+  "packageGroups": [
+    {
+      "id": "custom-covers",
+      "title": "Portadas personalizadas",
+      "packages": [
+        {
+          "id": "ebook-digital",
+          "name": "Portada Digital - eBook",
+          "priceUsd": 40,
+          "deliverables": [
+            "Portada de libro electronico (JPG/PDF)",
+            "Titulo en formato PNG y Portadilla PNG",
+            "2 banners de revelacion de portada",
+            "2 mockups"
+          ]
+        },
+        {
+          "id": "paperback",
+          "name": "Portada Paperback",
+          "priceUsd": 60,
+          "deliverables": [
+            "Portada de libro tapa blanda (JPG/PDF)",
+            "Archivo imprimible (PDF)",
+            "Titulo en formato PNG y Portadilla PNG",
+            "2 banners de revelacion de portada",
+            "2 mockups"
+          ]
+        },
+        {
+          "id": "paperback-ebook",
+          "name": "Portada Paperback & eBook",
+          "priceUsd": 80,
+          "deliverables": [
+            "Portada de libro electronico (JPG/PDF)",
+            "Archivo imprimible (PDF)",
+            "Titulo en formato PNG y Portadilla PNG",
+            "2 banners de revelacion de portada",
+            "2 mockups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "premade-covers",
+      "title": "Premades",
+      "disclaimer": [
+        "Premades se trabajan desde:",
+        "Alteraciones en redaccion y tipografias.",
+        "Cambios de color especificos.",
+        "Cambios menores en la posicion de los elementos."
+      ],
+      "packages": [
+        {
+          "id": "premade-ebook",
+          "name": "Premade eBook",
+          "priceUsd": 30,
+          "deliverables": [
+            "Portada de libro electronico (JPG/PDF)",
+            "Titulo en formato PNG y Portadilla PNG",
+            "2 banners de revelacion de portada",
+            "2 mockups"
+          ]
+        },
+        {
+          "id": "premade-ebook-paperback",
+          "name": "Premade eBook & Paperback",
+          "priceUsd": 50,
+          "deliverables": [
+            "Portada de libro tapa blanda (JPG/PDF)",
+            "Archivo imprimible (PDF)",
+            "Titulo en formato PNG y Portadilla PNG",
+            "2 banners de revelacion de portada",
+            "2 mockups"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interior-layout",
+      "title": "Maquetacion",
+      "packages": [
+        {
+          "id": "maquetacion-ebook",
+          "name": "Maquetacion eBook",
+          "priceUsd": 15,
+          "deliverables": [
+            "Diseno interior",
+            "Entrega del archivo segun especificaciones de la plataforma (WORD/PDF)"
+          ]
+        },
+        {
+          "id": "maquetacion-paperback",
+          "name": "Maquetacion Paperback",
+          "priceUsd": 25,
+          "deliverables": [
+            "Diseno interior",
+            "Entrega del archivo segun especificaciones de la plataforma (PDF)"
+          ]
+        },
+        {
+          "id": "maquetacion-ebook-paperback",
+          "name": "Maquetacion eBook & Paperback",
+          "priceUsd": 40,
+          "deliverables": [
+            "Diseno interior",
+            "Entrega del archivo segun especificaciones de la plataforma (WORD/PDF)"
+          ]
+        }
+      ]
+    }
+  ],
+  "standardDisclaimer": [
+    "Tiempo estimado total: a definir con el cliente. Estimado de 2 a 4 semanas.",
+    "Los detalles del proyecto pueden ser modificados por el cliente.",
+    "El costo del presupuesto podria sufrir variaciones en base a un plan predefinido, dependiendo de las modificaciones establecidas."
+  ],
+  "conditions": {
+    "intro": "El pago del presupuesto lleva implicito su aceptacion y el cumplimiento de los siguientes items.",
+    "items": [
+      {
+        "title": "Referencias previas",
+        "body": "Recuerda siempre de mandarme referencias de ideas, tipografias, colores o estilos que tengas antes de solicitar el diseno, no despues de enviar la propuesta terminada."
+      },
+      {
+        "title": "Dias habiles",
+        "body": "Se realizara el trabajo en dias habiles (lunes a viernes), el tiempo suficiente acordado para entregar una pieza de calidad."
+      },
+      {
+        "title": "No reembolso",
+        "body": "Si una vez iniciado el proyecto el cliente decidiera rescindir el contrato y no seguir trabajando con Dayah LitWorks, no se le reembolsara el porcentaje adelantado."
+      },
+      {
+        "title": "Revision del cliente",
+        "body": "El cliente adquiere la responsabilidad de revisar el diseno, los textos y datos antes de empezar cualquier proceso de impresion, reproduccion y/o publicacion, y libera a Dayah LitWorks de cualquier responsabilidad por los errores que se pudieran producir, siempre y cuando no los hubiese comunicado con anterioridad."
+      },
+      {
+        "title": "Cambios de orientacion",
+        "body": "Este acuerdo no incluye los trabajos adicionales que se puedan derivar de los cambios de orientacion en su desarrollo por parte del cliente; si se diera el caso, Dayah LitWorks tendra que informar al cliente y podra modificar el presupuesto anadiendo los incrementos en el importe que se pudieran producir, pero manteniendo los mismos criterios de valoracion utilizados en el primer presupuesto."
+      },
+      {
+        "title": "Derechos del diseno",
+        "body": "Los derechos del o los disenos realizados pertenecen a Dayah LitWorks hasta que el cliente no haya efectuado el 100% del pago."
+      },
+      {
+        "title": "Portfolio",
+        "body": "Dayah LitWorks podra mostrar, siempre que lo crea conveniente, los trabajos realizados en el portfolio, asi como en otras plataformas digitales como Instagram, Facebook, TikTok."
+      }
+    ]
+  },
+  "paymentMethods": [
+    { "id": "western-union", "label": "Western Union" },
+    { "id": "bank-transfer", "label": "Transferencias Bancarias" },
+    { "id": "cash", "label": "Efectivo" }
+  ],
+  "portfolioStrip": {
+    "enabled": true,
+    "title": "Trabajos recientes",
+    "source": "instagram",
+    "handle": "@dayahlitworks",
+    "itemCount": 8,
+    "aspectRatio": "2:3",
+    "layout": "horizontal-scroll",
+    "fallback": "local-images",
+    "ctaLabel": "Ver mas en Instagram"
+  },
+  "testimonials": {
+    "enabled": true,
+    "title": "Lo que dicen mis autoras",
+    "layout": "carousel",
+    "autoplay": false,
+    "items": []
+  },
+  "currencyToggle": {
+    "enabled": true,
+    "options": ["USD", "PYG"],
+    "default": "USD",
+    "fxNote": "Tasa referencial. El monto final se confirma con Dayah al solicitar el presupuesto.",
+    "displayPosition": "near-pricing-header"
+  },
+  "badges": [
+    {
+      "packageId": "paperback-ebook",
+      "label": "Mas elegido",
+      "variant": "accent"
+    },
+    {
+      "packageId": "premade-ebook",
+      "label": "Entrega rapida",
+      "variant": "soft"
+    }
+  ],
+  "sectionOrder": [
+    "hero",
+    "portfolioStrip",
+    "packageGroups",
+    "standardDisclaimer",
+    "testimonials",
+    "conditions",
+    "paymentMethods",
+    "contactCta"
+  ],
+  "layout": {
+    "packagesView": "segmented",
+    "segmentedDefault": "custom-covers",
+    "segmentedLabels": {
+      "custom-covers": "Personalizadas",
+      "premade-covers": "Premades",
+      "interior-layout": "Maquetacion"
+    },
+    "conditionsView": "accordion-collapsed",
+    "stickyCta": {
+      "desktop": {
+        "enabled": true,
+        "variant": "whatsapp-pill",
+        "position": "bottom-right",
+        "showAfterScrollPx": 600
+      },
+      "mobile": {
+        "enabled": true,
+        "variant": "bottom-bar",
+        "primary": { "label": "Solicitar presupuesto", "type": "whatsapp" },
+        "secondary": { "label": "Ver paquetes", "type": "scroll-to", "target": "packageGroups" }
+      }
+    }
+  },
+  "designTokens": {
+    "palette": {
+      "background": "#f7f1e6",
+      "surface": "#ffffff",
+      "ink": "#1a1a1a",
+      "inkMuted": "#6b5d4f",
+      "accent": "#a3683f",
+      "accentSoft": "#d9b891",
+      "border": "#e8ddc9",
+      "success": "#4a7c59"
+    },
+    "typography": {
+      "display": "Cormorant Garamond, Playfair Display, serif",
+      "heading": "Playfair Display, serif",
+      "body": "Inter, Source Sans Pro, sans-serif",
+      "scale": {
+        "h1": "3rem",
+        "h2": "2.25rem",
+        "h3": "1.5rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      }
+    },
+    "radius": { "card": "12px", "pill": "999px", "input": "8px" },
+    "shadow": {
+      "card": "0 1px 2px rgba(26,26,26,0.05)",
+      "cardHover": "0 12px 24px rgba(26,26,26,0.08)",
+      "stickyCta": "0 8px 24px rgba(26,26,26,0.18)"
+    },
+    "spacing": {
+      "sectionDesktop": "96px",
+      "sectionTablet": "64px",
+      "sectionMobile": "48px"
+    }
+  },
+  "motion": {
+    "respectReducedMotion": true,
+    "pageTransition": { "type": "fade", "duration": 250 },
+    "cardEntrance": {
+      "type": "fade-up",
+      "distance": "16px",
+      "stagger": 80,
+      "duration": 450,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "trigger": "intersection-observer",
+      "threshold": 0.2
+    },
+    "cardHover": {
+      "lift": "1px",
+      "shadow": "cardHover",
+      "duration": 200
+    },
+    "hero": {
+      "effect": "cover-flip-stack",
+      "fallback": "static-mockup",
+      "loop": false
+    },
+    "smoothScroll": true,
+    "buttonPress": { "scale": 0.98, "duration": 120 }
+  },
+  "accessibility": {
+    "minContrastRatio": 4.5,
+    "focusRing": "2px solid var(--accent)",
+    "skipLink": true,
+    "reducedMotionFallback": "instant"
+  },
+  "performance": {
+    "lighthouseTarget": 90,
+    "imageLoading": "lazy",
+    "imageFormat": ["webp", "avif"],
+    "fontDisplay": "swap",
+    "preload": ["display-font-400", "body-font-400"]
+  },
+  "designNotes": {
+    "aesthetic": "Editorial / book design - serif display heading, warm cream background, restrained copper accent.",
+    "fontHints": ["serif display for headings", "humanist sans for body"],
+    "language": "Public copy is Spanish only; do not translate."
+  }
+}
