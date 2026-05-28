@@ -488,7 +488,7 @@
 
   <script>
     // ─── State ────────────────────────────────────────────────
-    const API = 'http://localhost:3042';
+    const API = window.location.protocol + '//' + window.location.host;
     let leads = [];
     let selectedLead = null;
     let currentFilter = 'all';
@@ -504,7 +504,7 @@
     // ─── API Calls ────────────────────────────────────────────
     async function loadLeads() {
       try {
-        const res = await fetch(`${API}/api/leads`);
+        const res = await fetch(`${API}/api/v1/leads`);
         if (!res.ok) throw new Error('API not available');
         leads = await res.json();
       } catch {
@@ -515,7 +515,7 @@
     
     async function loadMetrics() {
       try {
-        const res = await fetch(`${API}/api/metrics/summary`);
+        const res = await fetch(`${API}/api/v1/metrics/summary`);
         const m = await res.json();
         document.getElementById('statTotal').textContent = m.total_leads || 0;
         document.getElementById('statResponded').textContent = m.responded || 0;
@@ -528,7 +528,7 @@
     
     async function loadMessages(leadId) {
       try {
-        const res = await fetch(`${API}/api/leads/${leadId}/messages`);
+        const res = await fetch(`${API}/api/v1/leads/${leadId}/messages`);
         return await res.json();
       } catch {
         return [];
@@ -537,7 +537,7 @@
     
     async function saveMessage(leadId, direction, content) {
       try {
-        await fetch(`${API}/api/messages`, {
+        await fetch(`${API}/api/v1/messages`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ lead_id: leadId, direction, content, status: 'sent' })
@@ -549,7 +549,7 @@
     
     async function updateLeadStatus(leadId, status) {
       try {
-        await fetch(`${API}/api/leads/${leadId}`, {
+        await fetch(`${API}/api/v1/leads/${leadId}`, {
           method: 'PATCH',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ status })
@@ -748,22 +748,41 @@
     }
     
     function getDemoLeads() {
+      // These match the OUTREACH_TRACKER.csv data — used when API is unreachable
       return [
-        { id: '1', business_name: 'Estudio Medieval', contact_name: 'Léo', 
-          whatsapp_number: '595961482854', score: 133.2, rating: 4.7, reviews: 392, 
-          status: 'contacted', location: 'San Lorenzo' },
-        { id: '2', business_name: 'SHINE Nails', contact_name: 'Celeste',
-          whatsapp_number: '595986693259', score: 130.7, rating: 4.8, reviews: 287, 
-          status: 'contacted', location: 'Fernando' },
-        { id: '3', business_name: 'HidroBaby Spa', contact_name: '',
+        { id: 'lead009', business_name: 'HidroBaby Spa', contact_name: '', 
           whatsapp_number: '595993444222', score: 135.1, rating: 4.6, reviews: 74, 
           status: 'contacted', location: 'Fernando' },
-        { id: '4', business_name: 'Leticia Carballo', contact_name: 'Leticia',
+        { id: 'em001', business_name: 'Estudio Medieval SRL', contact_name: 'Léo', 
+          whatsapp_number: '595961482854', score: 133.2, rating: 4.7, reviews: 392, 
+          status: 'contacted', location: 'San Lorenzo' },
+        { id: 'sn002', business_name: 'SHINE Nails / Celestial Nails', contact_name: 'Celeste',
+          whatsapp_number: '595986693259', score: 130.7, rating: 4.8, reviews: 287, 
+          status: 'contacted', location: 'Fernando' },
+        { id: 'lead010', business_name: 'Leticia Carballo', contact_name: 'Leticia',
           whatsapp_number: '595984904215', score: 118.5, rating: 4.5, reviews: 31, 
           status: 'contacted', location: 'Asunción' },
-        { id: '5', business_name: 'Nde Barba', contact_name: 'Marcos',
+        { id: 'lead011', business_name: 'Nutrifit Spa', contact_name: '',
+          whatsapp_number: '595981953000', score: 111.3, rating: 4.5, reviews: 0, 
+          status: 'contacted', location: 'Fernando' },
+        { id: 'lead008', business_name: 'Barbye Nails I', contact_name: '',
+          whatsapp_number: '595961336346', score: 107.2, rating: 4.7, reviews: 92, 
+          status: 'contacted', location: 'San Lorenzo' },
+        { id: 'nb003', business_name: 'Nde Barba Barberia', contact_name: 'Marcos',
           whatsapp_number: '595991444268', score: 92.6, rating: 4.8, reviews: 118, 
           status: 'contacted', location: 'Fernando' },
+        { id: 'ab005', business_name: 'Arnos Barber Shop', contact_name: '',
+          whatsapp_number: '595983996086', score: 88.0, rating: 5.0, reviews: 5, 
+          status: 'contacted', location: 'San Lorenzo' },
+        { id: 'lead006', business_name: 'CRONOS ACADEMY', contact_name: '',
+          whatsapp_number: '595962201042', score: 87.0, rating: 4.9, reviews: 0, 
+          status: 'contacted', location: 'Fernando' },
+        { id: 'pb004', business_name: 'Portas Barber Shop', contact_name: '',
+          whatsapp_number: '595994215627', score: 85.6, rating: 4.7, reviews: 162, 
+          status: 'contacted', location: 'Fernando' },
+        { id: 'lead007', business_name: 'Viviesteticpy', contact_name: '',
+          whatsapp_number: '595976668289', score: 82.1, rating: 4.9, reviews: 61, 
+          status: 'contacted', location: 'Asunción' },
       ];
     }
     

@@ -1,0 +1,4 @@
+2026-05-28 16:46:13,289 [INFO] 🔄 WhatsApp Bridge Sync started
+2026-05-28 16:46:13,293 [WARNING] ⚠️  Supabase not configured
+2026-05-28 16:46:13,293 [WARNING] ⚠️  Running in demo mode (no Supabase)
+2026-05-28 16:46:13,296 [INFO] ✅ Sync completed
