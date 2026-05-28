@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParaguAI — Outreach CRM</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    :root {
+      --bg: #0a0a0f;
+      --surface: #111118;
+      --surface2: #1a1a24;
+      --border: #2a2a3a;
+      --accent: #7c3aed;
+      --accent-light: #a78bfa;
+      --green: #10b981;
+      --yellow: #f59e0b;
+      --red: #ef4444;
+      --text: #f1f5f9;
+      --text-dim: #94a3b8;
+      --text-muted: #64748b;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      overflow: hidden;
+    }
+    
+    /* SIDEBAR */
+    .sidebar {
+      width: 280px;
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+      flex-shrink: 0;
+    }
+    
+    .sidebar-header {
+      padding: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .sidebar-header h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    
+    .sidebar-header span {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    
+    .stats-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .stat-card {
+      background: var(--surface2);
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .stat-card .num {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent-light);
+    }
+    
+    .stat-card .label {
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .search-box {
+      padding: 12px 20px;
+    }
+    
+    .search-box input {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 12px;
+      color: var(--text);
+      font-size: 13px;
+    }
+    
+    .search-box input::placeholder { color: var(--text-muted); }
+    .search-box input:focus { outline: none; border-color: var(--accent); }
+    
+    .filter-tabs {
+      display: flex;
+      padding: 0 20px 12px;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+    
+    .filter-tab {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      background: var(--surface2);
+      color: var(--text-dim);
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+    }
+    
+    .filter-tab:hover { border-color: var(--accent); color: var(--text); }
+    .filter-tab.active { background: var(--accent); color: white; border-color: var(--accent); }
+    
+    .lead-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0 8px 16px;
+    }
+    
+    .lead-item {
+      padding: 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-bottom: 4px;
+      border: 1px solid transparent;
+      transition: all 0.12s;
+    }
+    
+    .lead-item:hover { background: var(--surface2); }
+    .lead-item.active { background: var(--surface2); border-color: var(--accent); }
+    
+    .lead-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 6px;
+    }
+    
+    .lead-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    
+    .lead-score {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent-light);
+      background: rgba(124, 58, 237, 0.15);
+      padding: 2px 6px;
+      border-radius: 4px;
+      flex-shrink: 0;
+      margin-left: 8px;
+    }
+    
+    .lead-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .lead-phone {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    
+    .lead-status {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+    
+    .status-new { background: rgba(148, 163, 184, 0.15); color: var(--text-dim); }
+    .status-contacted { background: rgba(245, 158, 11, 0.15); color: var(--yellow); }
+    .status-responded { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .status-qualified { background: rgba(124, 58, 237, 0.15); color: var(--accent-light); }
+    .status-proposal { background: rgba(139, 92, 246, 0.2); color: #c4b5fd; }
+    .status-negotiating { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+    .status-converted { background: rgba(16, 185, 129, 0.25); color: #34d399; }
+    .status-closed { background: rgba(100, 116, 139, 0.2); color: var(--text-dim); }
+    .status-disqualified { background: rgba(239, 68, 68, 0.15); color: var(--red); }
+    
+    /* MAIN PANEL */
+    .main-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .chat-header {
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--surface);
+    }
+    
+    .chat-header-info h2 {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    
+    .chat-header-info span {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    
+    .chat-header-actions {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .btn {
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s;
+    }
+    
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+    
+    .btn-primary:hover { background: #6d28d9; }
+    .btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid var(--border); }
+    .btn-ghost:hover { background: var(--surface2); color: var(--text); }
+    
+    /* MESSAGES */
+    .messages-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .msg {
+      max-width: 70%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .msg.outbound {
+      align-self: flex-end;
+      align-items: flex-end;
+    }
+    
+    .msg.inbound {
+      align-self: flex-start;
+      align-items: flex-start;
+    }
+    
+    .msg-bubble {
+      padding: 10px 14px;
+      border-radius: 16px;
+      font-size: 13px;
+      line-height: 1.5;
+      word-wrap: break-word;
+    }
+    
+    .msg.outbound .msg-bubble {
+      background: var(--accent);
+      color: white;
+      border-bottom-right-radius: 4px;
+    }
+    
+    .msg.inbound .msg-bubble {
+      background: var(--surface2);
+      color: var(--text);
+      border-bottom-left-radius: 4px;
+    }
+    
+    .msg-time {
+      font-size: 10px;
+      color: var(--text-muted);
+      margin-top: 4px;
+      padding: 0 4px;
+    }
+    
+    /* COMPOSER */
+    .composer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      display: flex;
+      gap: 8px;
+    }
+    
+    .composer input {
+      flex: 1;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 16px;
+      color: var(--text);
+      font-size: 13px;
+    }
+    
+    .composer input::placeholder { color: var(--text-muted); }
+    .composer input:focus { outline: none; border-color: var(--accent); }
+    
+    .composer .btn { padding: 10px 20px; }
+    
+    /* EMPTY STATE */
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+    }
+    
+    .empty-state svg { width: 48px; height: 48px; margin-bottom: 16px; opacity: 0.3; }
+    .empty-state p { font-size: 14px; }
+    
+    /* DROPDOWN */
+    .dropdown {
+      position: relative;
+    }
+    
+    .dropdown-menu {
+      position: absolute;
+      right: 0;
+      top: 100%;
+      margin-top: 4px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px;
+      min-width: 160px;
+      display: none;
+      z-index: 100;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+    
+    .dropdown.open .dropdown-menu { display: block; }
+    
+    .dropdown-item {
+      padding: 8px 12px;
+      font-size: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      color: var(--text-dim);
+    }
+    
+    .dropdown-item:hover { background: var(--border); color: var(--text); }
+    
+    /* STATUS BADGE */
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    
+    .status-badge::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+    
+    .status-new::before { background: var(--text-muted); }
+    .status-contacted::before { background: var(--yellow); }
+    .status-responded::before { background: var(--green); }
+    .status-qualified::before { background: var(--accent-light); }
+    .status-converted::before { background: var(--green); }
+    
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h1>ParaguAI CRM</h1>
+      <span>Outreach Pipeline</span>
+    </div>
+    
+    <div class="stats-row" id="statsRow">
+      <div class="stat-card">
+        <div class="num" id="statTotal">—</div>
+        <div class="label">Total Leads</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="statResponded">—</div>
+        <div class="label">Respondieron</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="statContacted">—</div>
+        <div class="label">Contactados</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="statConverted">—</div>
+        <div class="label">Convertidos</div>
+      </div>
+    </div>
+    
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Buscar negocio..." />
+    </div>
+    
+    <div class="filter-tabs">
+      <div class="filter-tab active" data-filter="all">Todos</div>
+      <div class="filter-tab" data-filter="new">Nuevos</div>
+      <div class="filter-tab" data-filter="contacted">Contactados</div>
+      <div class="filter-tab" data-filter="responded">Respondieron</div>
+      <div class="filter-tab" data-filter="converted">Convertidos</div>
+    </div>
+    
+    <div class="lead-list" id="leadList">
+      <div style="padding: 20px; text-align: center; color: var(--text-muted); font-size: 12px;">
+        Cargando leads...
+      </div>
+    </div>
+  </div>
+  
+  <!-- MAIN PANEL -->
+  <div class="main-panel">
+    <!-- EMPTY STATE (shown when no lead selected) -->
+    <div class="empty-state" id="emptyState">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+      </svg>
+      <p>Seleccioná un lead para ver la conversación</p>
+    </div>
+    
+    <!-- CHAT VIEW (hidden by default) -->
+    <div id="chatView" class="hidden">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <h2 id="chatName">—</h2>
+          <span id="chatMeta">—</span>
+        </div>
+        <div class="chat-header-actions">
+          <button class="btn btn-ghost" onclick="setLeadStatus('qualified')">Qualified</button>
+          <button class="btn btn-ghost" onclick="setLeadStatus('proposal')">Proposal</button>
+          <button class="btn btn-primary" onclick="setLeadStatus('converted')">Convertir</button>
+          <div class="dropdown" id="moreDropdown">
+            <button class="btn btn-ghost" onclick="toggleDropdown()">⋮</button>
+            <div class="dropdown-menu">
+              <div class="dropdown-item" onclick="setLeadStatus('disqualified')">Descartar</div>
+              <div class="dropdown-item" onclick="scheduleFollowUp()">Agendar Follow-up</div>
+              <div class="dropdown-item" onclick="copyPhone()">Copiar WhatsApp</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="messages-area" id="messagesArea">
+        <!-- Messages render here -->
+      </div>
+      
+      <div class="composer">
+        <input type="text" id="composerInput" placeholder="Escribí un mensaje..." 
+               onkeydown="if(event.key==='Enter')sendMessage()"/>
+        <button class="btn btn-primary" onclick="sendMessage()">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ─── State ────────────────────────────────────────────────
+    const API = 'http://localhost:3042';
+    let leads = [];
+    let selectedLead = null;
+    let currentFilter = 'all';
+    let searchQuery = '';
+    
+    // ─── Init ─────────────────────────────────────────────────
+    async function init() {
+      await loadLeads();
+      await loadMetrics();
+      setupFilters();
+    }
+    
+    // ─── API Calls ────────────────────────────────────────────
+    async function loadLeads() {
+      try {
+        const res = await fetch(`${API}/api/leads`);
+        if (!res.ok) throw new Error('API not available');
+        leads = await res.json();
+      } catch {
+        leads = getDemoLeads();
+      }
+      renderLeadList();
+    }
+    
+    async function loadMetrics() {
+      try {
+        const res = await fetch(`${API}/api/metrics/summary`);
+        const m = await res.json();
+        document.getElementById('statTotal').textContent = m.total_leads || 0;
+        document.getElementById('statResponded').textContent = m.responded || 0;
+        document.getElementById('statContacted').textContent = m.contacted || 0;
+        document.getElementById('statConverted').textContent = m.converted || 0;
+      } catch {
+        // demo mode — keep dashes
+      }
+    }
+    
+    async function loadMessages(leadId) {
+      try {
+        const res = await fetch(`${API}/api/leads/${leadId}/messages`);
+        return await res.json();
+      } catch {
+        return [];
+      }
+    }
+    
+    async function saveMessage(leadId, direction, content) {
+      try {
+        await fetch(`${API}/api/messages`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ lead_id: leadId, direction, content, status: 'sent' })
+        });
+      } catch {
+        // Silent fail in demo mode
+      }
+    }
+    
+    async function updateLeadStatus(leadId, status) {
+      try {
+        await fetch(`${API}/api/leads/${leadId}`, {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ status })
+        });
+      } catch {}
+      
+      // Update local
+      const lead = leads.find(l => l.id === leadId);
+      if (lead) lead.status = status;
+      renderLeadList();
+    }
+    
+    // ─── Render ───────────────────────────────────────────────
+    function renderLeadList() {
+      const list = document.getElementById('leadList');
+      const q = searchQuery.toLowerCase();
+      
+      const filtered = leads.filter(l => {
+        const matchFilter = currentFilter === 'all' || l.status === currentFilter;
+        const matchSearch = !q || l.business_name.toLowerCase().includes(q) 
+          || (l.contact_name || '').toLowerCase().includes(q);
+        return matchFilter && matchSearch;
+      });
+      
+      if (filtered.length === 0) {
+        list.innerHTML = `<div style="padding:20px;text-align:center;color:var(--text-muted);font-size:12px;">No hay leads</div>`;
+        return;
+      }
+      
+      list.innerHTML = filtered.map(l => `
+        <div class="lead-item ${selectedLead?.id === l.id ? 'active' : ''}" onclick="selectLead('${l.id}')">
+          <div class="lead-top">
+            <div class="lead-name">${escapeHtml(l.business_name)}</div>
+            <div class="lead-score">${l.score || 0}</div>
+          </div>
+          <div class="lead-meta">
+            <div class="lead-phone">${formatPhone(l.whatsapp_number)}</div>
+            <div class="lead-status status-${l.status}">${STATUS_LABELS[l.status] || l.status}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    async function selectLead(leadId) {
+      selectedLead = leads.find(l => l.id === leadId);
+      if (!selectedLead) return;
+      
+      document.getElementById('emptyState').classList.add('hidden');
+      document.getElementById('chatView').classList.remove('hidden');
+      
+      document.getElementById('chatName').textContent = selectedLead.business_name;
+      document.getElementById('chatMeta').textContent = 
+        `⭐ ${selectedLead.rating || '—'} · ${selectedLead.reviews || 0} reseñas · Score: ${selectedLead.score || 0}`;
+      
+      renderLeadList(); // re-render to show active
+      
+      const messages = await loadMessages(leadId);
+      renderMessages(messages);
+    }
+    
+    function renderMessages(messages) {
+      const area = document.getElementById('messagesArea');
+      
+      if (messages.length === 0) {
+        area.innerHTML = `
+          <div style="text-align:center;color:var(--text-muted);padding:40px; font-size:13px;">
+            No hay mensajes aún.<br>Hacé clic en "Enviar" para comenzar la conversación.
+          </div>`;
+        return;
+      }
+      
+      area.innerHTML = messages.map(m => {
+        const dir = m.direction === 'outbound' ? 'outbound' : 'inbound';
+        const time = new Date(m.created_at).toLocaleString('es-PY', {
+          day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
+        });
+        return `
+          <div class="msg ${dir}">
+            <div class="msg-bubble">${escapeHtml(m.content)}</div>
+            <div class="msg-time">${time}</div>
+          </div>`;
+      }).join('');
+      
+      area.scrollTop = area.scrollHeight;
+    }
+    
+    // ─── Actions ──────────────────────────────────────────────
+    async function sendMessage() {
+      const input = document.getElementById('composerInput');
+      const content = input.value.trim();
+      if (!content || !selectedLead) return;
+      
+      // Save locally and render immediately
+      const msg = {
+        id: Date.now(),
+        lead_id: selectedLead.id,
+        direction: 'outbound',
+        content,
+        status: 'sent',
+        created_at: new Date().toISOString()
+      };
+      
+      await saveMessage(selectedLead.id, 'outbound', content);
+      
+      const area = document.getElementById('messagesArea');
+      const existingEmpty = area.querySelector('div[style*="No hay mensajes"]');
+      if (existingEmpty) existingEmpty.remove();
+      
+      const time = new Date().toLocaleString('es-PY', {
+        day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
+      });
+      area.insertAdjacentHTML('beforeend', `
+        <div class="msg outbound">
+          <div class="msg-bubble">${escapeHtml(content)}</div>
+          <div class="msg-time">${time}</div>
+        </div>`);
+      area.scrollTop = area.scrollHeight;
+      
+      input.value = '';
+      
+      // Update lead status to contacted if still new
+      if (selectedLead.status === 'new') {
+        await updateLeadStatus(selectedLead.id, 'contacted');
+      }
+    }
+    
+    async function setLeadStatus(status) {
+      if (!selectedLead) return;
+      await updateLeadStatus(selectedLead.id, status);
+    }
+    
+    function scheduleFollowUp() {
+      const due = new Date();
+      due.setDate(due.getDate() + 2);
+      const dueStr = due.toLocaleString('es-PY', { dateStyle: 'medium', timeStyle: 'short' });
+      alert(`Follow-up agendado para: ${dueStr}`);
+    }
+    
+    function copyPhone() {
+      if (!selectedLead) return;
+      navigator.clipboard.writeText(selectedLead.whatsapp_number);
+    }
+    
+    function toggleDropdown() {
+      document.getElementById('moreDropdown').classList.toggle('open');
+    }
+    
+    // Close dropdown on outside click
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.dropdown')) {
+        document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+      }
+    });
+    
+    // ─── Filters ──────────────────────────────────────────────
+    function setupFilters() {
+      document.querySelectorAll('.filter-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          currentFilter = tab.dataset.filter;
+          renderLeadList();
+        });
+      });
+      
+      document.getElementById('searchInput').addEventListener('input', e => {
+        searchQuery = e.target.value;
+        renderLeadList();
+      });
+    }
+    
+    // ─── Helpers ──────────────────────────────────────────────
+    const STATUS_LABELS = {
+      new: 'Nuevo',
+      contacted: 'Contactado',
+      responded: 'Respondió',
+      qualified: 'Qualified',
+      proposal: 'Proposal',
+      negotiating: 'Negociando',
+      converted: 'Convertido',
+      closed: 'Cerrado',
+      disqualified: 'Descartado'
+    };
+    
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
+    function formatPhone(phone) {
+      if (!phone) return '—';
+      const p = phone.replace(/\D/g, '');
+      if (p.length === 9) return `+595 ${p.slice(0,3)} ${p.slice(3,6)} ${p.slice(6)}`;
+      return phone;
+    }
+    
+    function getDemoLeads() {
+      return [
+        { id: '1', business_name: 'Estudio Medieval', contact_name: 'Léo', 
+          whatsapp_number: '595961482854', score: 133.2, rating: 4.7, reviews: 392, 
+          status: 'contacted', location: 'San Lorenzo' },
+        { id: '2', business_name: 'SHINE Nails', contact_name: 'Celeste',
+          whatsapp_number: '595986693259', score: 130.7, rating: 4.8, reviews: 287, 
+          status: 'contacted', location: 'Fernando' },
+        { id: '3', business_name: 'HidroBaby Spa', contact_name: '',
+          whatsapp_number: '595993444222', score: 135.1, rating: 4.6, reviews: 74, 
+          status: 'contacted', location: 'Fernando' },
+        { id: '4', business_name: 'Leticia Carballo', contact_name: 'Leticia',
+          whatsapp_number: '595984904215', score: 118.5, rating: 4.5, reviews: 31, 
+          status: 'contacted', location: 'Asunción' },
+        { id: '5', business_name: 'Nde Barba', contact_name: 'Marcos',
+          whatsapp_number: '595991444268', score: 92.6, rating: 4.8, reviews: 118, 
+          status: 'contacted', location: 'Fernando' },
+      ];
+    }
+    
+    // ─── Start ────────────────────────────────────────────────
+    init();
+  </script>
+</body>
+</html>
