@@ -1,12 +1,12 @@
 lead_id,business_name,whatsapp,score,round_1_sent,round_1_date,round_2_sent,round_2_date,round_3_call,round_3_date,response,status,notes,
-lead009,HidroBaby Spa,wa.me/595993444222,135.1,TRUE,2026-05-27,,,,,msg1,OUTREACH SENT,,
-em001,Estudio Medieval SRL,wa.me/595961482854,133.2,TRUE,2026-05-27,_,_,_,PENDING,msg1,OUTREACH SENT, 392 reviews,"[' SR.L.', ' 4 sub-brands', ' #1 PRIORITY']"
-sn002,SHINE Nails / Celestial Nails,wa.me/595986693259,130.7,TRUE,2026-05-27,_,_,_,PENDING,msg1,OUTREACH SENT, 287 reviews,[' confirmed IG']
-lead010,Leticia Carballo,wa.me/595984904215,118.5,TRUE,2026-05-27,,,,,msg1,OUTREACH SENT,,
-lead011,Nutrifit Spa,wa.me/595981953000,111.3,TRUE,2026-05-27,,,,,msg1,OUTREACH SENT,,
-lead008,Barbye Nails I,wa.me/595961336346,107.2,TRUE,2026-05-28,,,,,msg1,OUTREACH SENT,,
-nb003,Nde Barba Barberia,wa.me/595991444268,92.6,TRUE,2026-05-28,_,_,_,PENDING,msg1,OUTREACH SENT, 118 reviews,
-ab005,Arnos Barber Shop,wa.me/595983996086,88.0,TRUE,2026-05-28,_,_,_,PENDING,msg1,OUTREACH SENT,,
-lead006,CRONOS ACADEMY,wa.me/595962201042,87.0,TRUE,2026-05-28,,,,,msg1,OUTREACH SENT,,
-pb004,Portas Barber Shop,wa.me/595994215627,85.6,TRUE,2026-05-28,_,_,_,PENDING,msg1,OUTREACH SENT, 4.9star,[' needs phone']
-lead007,Viviesteticpy,wa.me/595976668289,82.1,TRUE,2026-05-28,,,,,msg1,OUTREACH SENT,,
+lead009,HidroBaby Spa,wa.me/595993444222,135.1,TRUE,2026-05-27,,,,"No response yet",OUTREACH SENT,,
+em001,Estudio Medieval SRL,wa.me/595961482854,133.2,TRUE,2026-05-27,,,,"No response yet",OUTREACH SENT,"392 reviews",
+sn002,SHINE Nails / Celestial Nails,wa.me/595986693259,130.7,TRUE,2026-05-27,,,,"No response yet",OUTREACH SENT,"287 reviews",
+lead010,Leticia Carballo,wa.me/595984904215,118.5,TRUE,2026-05-27,,,,"No response yet",OUTREACH SENT,,
+lead011,Nutrifit Spa,wa.me/595981953000,111.3,TRUE,2026-05-27,,,,"No response yet",OUTREACH SENT,,
+lead008,Barbye Nails I,wa.me/595961336346,107.2,TRUE,2026-05-28,,,,"No response yet",OUTREACH SENT,"92 reviews",
+nb003,Nde Barba Barberia,wa.me/595991444268,92.6,TRUE,2026-05-28,,,,"No response yet",OUTREACH SENT,"118 reviews",
+ab005,Arnos Barber Shop,wa.me/595983996086,88.0,TRUE,2026-05-28,,,,"No response yet",OUTREACH SENT,"5.0 stars",
+lead006,CRONOS ACADEMY,wa.me/595962201042,87.0,TRUE,2026-05-28,,,,"No response yet",OUTREACH SENT,"4.9 stars",
+pb004,Portas Barber Shop,wa.me/595994215627,85.6,TRUE,2026-05-28,,,,"No response yet",OUTREACH SENT,"162 reviews",
+lead007,Viviesteticpy,wa.me/595976668289,82.1,TRUE,2026-05-28,,,,"No response yet",OUTREACH SENT,"61 reviews",
