@@ -11,7 +11,7 @@ Tenés **21K seguidores en TikTok, 287 reseñas en Google (4.9⭐), 952K likes**
 Lo que te falta no es presencia digital. **Te falta el lugar donde tus clientes reservan**.
 
 Hoy:
-- Cliente te ve en TikTok → quiere reservar → abre WhatsApp → te escribe → esperás respuesta → perdés la venta
+- Cliente te ve en TikTok → quiere reservar → abre Messaging → te escribe → esperás respuesta → perdés la venta
 - O peor: te googlea → vé solo el mapa → se va
 
 **Un sitio web profesional convierte ese tráfico de TikTok en turnos reales.**
@@ -27,13 +27,13 @@ Hoy:
 2. **Galería** — Portafolio de trabajos (nail art, gel, acrylic) — **tu strength en formato web**
 3. **Servicios** — Manicure, gel, acrylic, nail art con precios y duración
 4. **Reservas** — Booking online (fecha + hora + servicio)
-5. **Contacto** — WhatsApp, mapa, horarios
+5. **Contacto** — Messaging, mapa, horarios
 
 ### Features:
-- ✅ WhatsApp CTA flotante
+- ✅ Messaging CTA flotante
 - ✅ Galería de trabajos (Antes/Después)
 - ✅ Catálogo de servicios con precios
-- ✅ Reserva online — **tu cliente reserva sin usar WhatsApp**
+- ✅ Reserva online — **tu cliente reserva sin usar Messaging**
 - ✅ IG embed (mostrás @celestialnails)
 - ✅ Mobile-first
 - ✅ SEO local ("uñas Fernando de la Mora", "gel nails Paraguay")

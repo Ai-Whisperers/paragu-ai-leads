@@ -1,4 +1,4 @@
-# WHATSAPP OUTREACH — MENSAJES PARA CLIENTES
+# MESSAGING OUTREACH — MENSAJES PARA CLIENTES
 Solo copy-paste estos mensajes. El cliente recibe exactamente esto.
 
 ---
@@ -19,7 +19,7 @@ Vi que Estudio Medieval es referente en tatuajes en San Lorenzo — 58K seguidor
 
 ¡Hola! Soy Iván de ParaguAI.
 
-Vi tu TikTok @celestialnails — 21K seguidores y 952K likes. Tenés la audiencia. Lo que te falta es el lugar donde tus clientes reservan online sin usar WhatsApp.
+Vi tu TikTok @celestialnails — 21K seguidores y 952K likes. Tenés la audiencia. Lo que te falta es el lugar donde tus clientes reservan online sin usar Messaging.
 
 ¿Querés que te cuente cómo sería un sitio web para SHINE Nails? Sin compromiso.
 
@@ -30,7 +30,7 @@ Vi tu TikTok @celestialnails — 21K seguidores y 952K likes. Tenés la audienci
 
 ¡Hola! Soy Iván de ParaguAI.
 
-Tu centro estético tiene muy buena presencia en redes —閉じ栓 spa con buena reputación en Fernando. Lo que falta es un lugar donde tus clientes puedan ver tus servicios, precios y reservar turno online sin depender de WhatsApp.
+Tu centro estético tiene muy buena presencia en redes —閉じ栓 spa con buena reputación en Fernando. Lo que falta es un lugar donde tus clientes puedan ver tus servicios, precios y reservar turno online sin depender de Messaging.
 
 ¿Querés que te cuente opciones? Sin compromiso.
 
@@ -52,7 +52,7 @@ Vi tu trabajo como nutricionista — muy buen perfil profesional. Lo que falta e
 
 ¡Hola! Soy Iván de ParaguAI.
 
-Tu centro nutricional tiene buena presencia en redes. Lo que falta es un sitio profesional donde tus clientes puedan ver servicios, precios y reservar online sin depender de WhatsApp.
+Tu centro nutricional tiene buena presencia en redes. Lo que falta es un sitio profesional donde tus clientes puedan ver servicios, precios y reservar online sin depender de Messaging.
 
 ¿Querés que te cuente opciones? Sin compromiso.
 

@@ -1,4 +1,4 @@
--- ParaguAI WhatsApp CRM - Supabase Schema
+-- ParaguAI Messaging CRM - Supabase Schema
 -- Ejecutar en: Supabase SQL Editor
 
 -- Tabla: leads
@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS leads (
   id              UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   business_name   TEXT NOT NULL,
   contact_name    TEXT,
-  whatsapp_number TEXT NOT NULL,
+  messaging_number TEXT NOT NULL,
   wa_chat_id      TEXT,
   score           DECIMAL(5,1) DEFAULT 0,
   rating          DECIMAL(2,1) DEFAULT 0,
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS follow_ups (
   id           UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   lead_id      UUID NOT NULL REFERENCES leads(id) ON DELETE CASCADE,
   due_date     TIMESTAMPTZ NOT NULL,
-  type         TEXT CHECK (type IN ('call','whatsapp','email','meeting')),
+  type         TEXT CHECK (type IN ('call','messaging','email','meeting')),
   notes        TEXT,
   completed    BOOLEAN DEFAULT FALSE,
   completed_at TIMESTAMPTZ,
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS response_metrics (
 CREATE INDEX IF NOT EXISTS idx_messages_lead_id ON messages(lead_id);
 CREATE INDEX IF NOT EXISTS idx_messages_created_at ON messages(created_at);
 CREATE INDEX IF NOT EXISTS idx_leads_status ON leads(status);
-CREATE INDEX IF NOT EXISTS idx_leads_whatsapp ON leads(whatsapp_number);
+CREATE INDEX IF NOT EXISTS idx_leads_messaging ON leads(messaging_number);
 CREATE INDEX IF NOT EXISTS idx_follow_ups_due ON follow_ups(due_date) WHERE completed = FALSE;
 
 -- Trigger para updated_at automático

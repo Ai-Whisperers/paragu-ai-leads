@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Clau Bellino Estética Facial |
 | **Owner** | Clau Bellino |
-| **WhatsApp** | wa.me/595981924858 |
+| **Messaging** | wa.me/595981924858 |
 | **Phone** | 0981 924 858 |
 | **Address** | Mompox 1739, Fernando de la Mora 110312 |
 | **Category** | Estética Facial / Spa |
@@ -69,7 +69,7 @@
 
 ## WHAT THEY HAVE
 - ✅ **5.0⭐ PERFECTO rating** = clientes ENAMORADOS (rating = Hidrobaby)
-- ✅ WhatsApp directo
+- ✅ Messaging directo
 - ✅ Especialización facial = diferenciación por nicho
 - ✅ Sin website = oportunidad
 - ✅ "Clau Bellino" = nombre personal = historia de marca possible
@@ -107,7 +107,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 981 924 858
+- [x] Messaging: +595 981 924 858
 - [x] Phone: 0981 924 858
 - [x] Google Maps: Listed con 21 reviews, 5.0⭐
 - [x] Address: Mompox 1739, Fernando Mora 110312
@@ -120,5 +120,5 @@ Razones:
 ## NEXT STEPS
 1. Buscar "Clau Bellino Estetica Facial Paraguay Instagram"
 2. Extraer reviews + fotos de Google Maps
-3. Confirmar servicios + precios vía WhatsApp
+3. Confirmar servicios + precios vía Messaging
 \end{markdown}

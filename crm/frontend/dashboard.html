@@ -468,7 +468,7 @@
             <div class="dropdown-menu">
               <div class="dropdown-item" onclick="setLeadStatus('disqualified')">Descartar</div>
               <div class="dropdown-item" onclick="scheduleFollowUp()">Agendar Follow-up</div>
-              <div class="dropdown-item" onclick="copyPhone()">Copiar WhatsApp</div>
+              <div class="dropdown-item" onclick="copyPhone()">Copiar Messaging</div>
             </div>
           </div>
         </div>
@@ -586,7 +586,7 @@
             <div class="lead-score">${l.score || 0}</div>
           </div>
           <div class="lead-meta">
-            <div class="lead-phone">${formatPhone(l.whatsapp_number)}</div>
+            <div class="lead-phone">${formatPhone(l.messaging_number)}</div>
             <div class="lead-status status-${l.status}">${STATUS_LABELS[l.status] || l.status}</div>
           </div>
         </div>
@@ -690,7 +690,7 @@
     
     function copyPhone() {
       if (!selectedLead) return;
-      navigator.clipboard.writeText(selectedLead.whatsapp_number);
+      navigator.clipboard.writeText(selectedLead.messaging_number);
     }
     
     function toggleDropdown() {
@@ -751,37 +751,37 @@
       // These match the OUTREACH_TRACKER.csv data — used when API is unreachable
       return [
         { id: 'lead009', business_name: 'HidroBaby Spa', contact_name: '', 
-          whatsapp_number: '595993444222', score: 135.1, rating: 4.6, reviews: 74, 
+          messaging_number: '595993444222', score: 135.1, rating: 4.6, reviews: 74, 
           status: 'contacted', location: 'Fernando' },
         { id: 'em001', business_name: 'Estudio Medieval SRL', contact_name: 'Léo', 
-          whatsapp_number: '595961482854', score: 133.2, rating: 4.7, reviews: 392, 
+          messaging_number: '595961482854', score: 133.2, rating: 4.7, reviews: 392, 
           status: 'contacted', location: 'San Lorenzo' },
         { id: 'sn002', business_name: 'SHINE Nails / Celestial Nails', contact_name: 'Celeste',
-          whatsapp_number: '595986693259', score: 130.7, rating: 4.8, reviews: 287, 
+          messaging_number: '595986693259', score: 130.7, rating: 4.8, reviews: 287, 
           status: 'contacted', location: 'Fernando' },
         { id: 'lead010', business_name: 'Leticia Carballo', contact_name: 'Leticia',
-          whatsapp_number: '595984904215', score: 118.5, rating: 4.5, reviews: 31, 
+          messaging_number: '595984904215', score: 118.5, rating: 4.5, reviews: 31, 
           status: 'contacted', location: 'Asunción' },
         { id: 'lead011', business_name: 'Nutrifit Spa', contact_name: '',
-          whatsapp_number: '595981953000', score: 111.3, rating: 4.5, reviews: 0, 
+          messaging_number: '595981953000', score: 111.3, rating: 4.5, reviews: 0, 
           status: 'contacted', location: 'Fernando' },
         { id: 'lead008', business_name: 'Barbye Nails I', contact_name: '',
-          whatsapp_number: '595961336346', score: 107.2, rating: 4.7, reviews: 92, 
+          messaging_number: '595961336346', score: 107.2, rating: 4.7, reviews: 92, 
           status: 'contacted', location: 'San Lorenzo' },
         { id: 'nb003', business_name: 'Nde Barba Barberia', contact_name: 'Marcos',
-          whatsapp_number: '595991444268', score: 92.6, rating: 4.8, reviews: 118, 
+          messaging_number: '595991444268', score: 92.6, rating: 4.8, reviews: 118, 
           status: 'contacted', location: 'Fernando' },
         { id: 'ab005', business_name: 'Arnos Barber Shop', contact_name: '',
-          whatsapp_number: '595983996086', score: 88.0, rating: 5.0, reviews: 5, 
+          messaging_number: '595983996086', score: 88.0, rating: 5.0, reviews: 5, 
           status: 'contacted', location: 'San Lorenzo' },
         { id: 'lead006', business_name: 'CRONOS ACADEMY', contact_name: '',
-          whatsapp_number: '595962201042', score: 87.0, rating: 4.9, reviews: 0, 
+          messaging_number: '595962201042', score: 87.0, rating: 4.9, reviews: 0, 
           status: 'contacted', location: 'Fernando' },
         { id: 'pb004', business_name: 'Portas Barber Shop', contact_name: '',
-          whatsapp_number: '595994215627', score: 85.6, rating: 4.7, reviews: 162, 
+          messaging_number: '595994215627', score: 85.6, rating: 4.7, reviews: 162, 
           status: 'contacted', location: 'Fernando' },
         { id: 'lead007', business_name: 'Viviesteticpy', contact_name: '',
-          whatsapp_number: '595976668289', score: 82.1, rating: 4.9, reviews: 61, 
+          messaging_number: '595976668289', score: 82.1, rating: 4.9, reviews: 61, 
           status: 'contacted', location: 'Asunción' },
       ];
     }

@@ -117,7 +117,7 @@
 - **Info Column**:
   - Address with map
   - Phone (click-to-call)
-  - WhatsApp button
+  - Messaging button
   - Hours (table format)
   - Social links
 - **Form**: Name, Phone, Service dropdown, Preferred date, Message

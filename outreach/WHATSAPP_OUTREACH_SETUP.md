@@ -1,30 +1,30 @@
-# WHATSAPP OUTREACH — Setup Required
+# MESSAGING OUTREACH — Setup Required
 
 ## Current State (2026-05-28)
-- Hermes WhatsApp bridge: CONNECTED ✅ (port 3007) — but to Ivan's personal account (weissvanderpol)
+- Hermes Messaging bridge: CONNECTED ✅ (port 3007) — but to Ivan's personal account (weissvanderpol)
 - Evolution API: 9 instances, all LOGGED OUT / "close" state ❌
 - ParaguAI Hair outreach instance: close ❌ — needs QR reconnection
-- whatsapp-ai service: 404 ❌ (service may be down)
+- messaging-ai service: 404 ❌ (service may be down)
 
 ## Problem
-We have the infrastructure but the WhatsApp account used for outreach is either:
+We have the infrastructure but the Messaging account used for outreach is either:
 1. Not connected (Evolution instances all logged out)
 2. Ivan's personal account (can't use for cold outreach to leads)
 
 ## Solutions — Pick One
 
 ### Option A: AgentCall (Fastest — Set Up Today)
-AgentCall can send WhatsApp messages from a US/CA number. ParaguAI creates the content → AgentCall delivers.
+AgentCall can send Messaging messages from a US/CA number. ParaguAI creates the content → AgentCall delivers.
 
 Steps:
 1. Provision a US number via AgentCall (~$2/mo)
 2. Use mcp_agentcall_send_sms or mcp_agentcall_initiate_ai_call
 3. BUT: AgentCall sends from the provisioned number TO the leads' numbers
 
-Limitation: AgentCall WhatsApp is SMS-ONLY (no multimedia), outbound AI calls work but expensive ($0.40/min).
+Limitation: AgentCall Messaging is SMS-ONLY (no multimedia), outbound AI calls work but expensive ($0.40/min).
 
 ### Option B: Reconnect Evolution ParaguAI Hair Instance (1hr setup)
-1. Re-pair the ParaguAI Hair WhatsApp Business number
+1. Re-pair the ParaguAI Hair Messaging Business number
 2. Use it as the dedicated outreach number
 3. Send campaigns via Evolution API
 
@@ -34,11 +34,11 @@ This is the RIGHT long-term solution but requires QR scan from the ParaguAI acco
 Telegram IS connected. Setup a Telegram group for ParaguAI leads outreach.
 - Create Telegram channel/group "ParaguAI Leads"
 - Add Ivan and send via Telegram
-- Leads still need to respond via WhatsApp but initial contact can come from Telegram
+- Leads still need to respond via Messaging but initial contact can come from Telegram
 
 ### Option D: Ivan Sends Manually (Zero Setup)
-- Erebus generates perfectly formatted WhatsApp messages
-- Ivan sends from his personal WhatsApp
+- Erebus generates perfectly formatted Messaging messages
+- Ivan sends from his personal Messaging
 - Uses Ivan's existing relationship/rapport with leads
 
 ---
@@ -52,7 +52,7 @@ Erebus prepares everything, Ivan does 1 tap to send.
 
 ```
 Contacto 1: Estudio Medieval
-WhatsApp: wa.me/595961482854
+Messaging: wa.me/595961482854
 Mensaje:
 ---
 ¡Hola! Soy Iván de ParaguAI.
@@ -63,12 +63,12 @@ Estudio Medieval es referente en tatuajes en San Lorenzo — 58K seguidores en I
 ---
 
 Contacto 2: SHINE Nails (Celeste)
-WhatsApp: wa.me/595986693259
+Messaging: wa.me/595986693259
 Mensaje:
 ---
 ¡Hola! Soy Iván de ParaguAI.
 
-¿Te gustaría que tus clientes puedan reserva online sin usar WhatsApp? Tenemos soluciones web para salones de uñas — con galera de trabajos, precios y reserva online.
+¿Te gustaría que tus clientes puedan reserva online sin usar Messaging? Tenemos soluciones web para salones de uñas — con galera de trabajos, precios y reserva online.
 
 Te vi en TikTok (@celestialnails) — ya tenés presencia digital. Solo falta el sitio web profesio
 
@@ -78,7 +78,7 @@ nal.
 ---
 
 Contacto 3: Nde Barba Barbería  
-WhatsApp: wa.me/595991444268
+Messaging: wa.me/595991444268
 Mensaje:
 ---
 ¡Hola! Soy Iván de ParaguAI.
@@ -89,7 +89,7 @@ Nde Barba es una de las barberías mejor puntuadas de Fernando — 118 reseñas 
 ---
 
 Contacto 4: Arno's Barber Shop
-WhatsApp: wa.me/595983996086
+Messaging: wa.me/595983996086
 Mensaje:
 ---
 ¡Hola! Soy Iván de ParaguAI.
@@ -112,6 +112,6 @@ s que te muestre cómo sería?
 5. Arno's Barber (88.0 — 5.0⭐)
 
 ## Next Steps
-- Ivan: Review contacts above; send via personal WhatsApp
+- Ivan: Review contacts above; send via personal Messaging
 - Erebus: Set up Evolution reconnect workflow (Option B) for next session
 - Team: Create follow-up sequences per lead type

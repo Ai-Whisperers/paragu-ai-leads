@@ -19,7 +19,7 @@
 "Tenemos 4 planes, todos con el mismo setup único de 450.000 guaraníes. Eso cubre crear tu web, configurar todo y dejarla funcionando."
 
 **Plan Básico — 187.000 Gs/mes**
-"Ideal si sos un emprendedor o tenés un negocio chico. 5 páginas, WhatsApp, formulario, galería de fotos. Lo básico pero bien hecho."
+"Ideal si sos un emprendedor o tenés un negocio chico. 5 páginas, Messaging, formulario, galería de fotos. Lo básico pero bien hecho."
 
 **Plan Profesional — 381.000 Gs/mes**
 "Para negocios que necesitan más presencia: perfiles de tu equipo, sistema de turnos o reservas online, blog. Clínicas, restaurantes, gimnasios eligen este."

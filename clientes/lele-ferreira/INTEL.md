@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Lele Ferreira - Makeup Studio |
 | **Owner** | Lele Ferreira |
-| **WhatsApp** | wa.me/595985598630 |
+| **Messaging** | wa.me/595985598630 |
 | **Phone** | 0985 598 630 |
 | **Address** | Cnel. Luis Irrazabal casi, 110311 Fernando de la Mora |
 | **Category** | Maquillaje / Hair care |
@@ -33,7 +33,7 @@
 ## NOTE — SEARCH NOISE
 ⚠️ La búsqueda para "Lele Ferreira" devolvió MUCHO RUÍDO: makeup artists Robert Petersen, Nadia Ferreira's makeup artist, etc. La búsqueda específica de "Lele Ferreira Maquillaje Fernando Mora Paraguay Instagram" no devolvió resultados directos.
 
-→ Necesita verificación por WhatsApp para confirmar IG o FB.
+→ Necesita verificación por Messaging para confirmar IG o FB.
 
 ---
 
@@ -67,7 +67,7 @@
 - ✅ 82 Google reviews · 4.8⭐ (MEJOR rating del grupo maquillaje)
 - ✅ Near faculties FP (1.9km)
 - ✅ Makeup + Hair combo = multi-servicio
-- ✅ WhatsApp directo
+- ✅ Messaging directo
 
 ---
 
@@ -92,13 +92,13 @@ Razones:
 
 **Propuesta sugerida:**
 - Landing page simple с galería + servicios
-- WhatsApp botón
+- Messaging botón
 - Mapa + cómo llegar
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 985 598 630
+- [x] Messaging: +595 985 598 630
 - [x] Phone: 0985 598 630
 - [x] Google Maps: Listed con 82 reviews, 4.8⭐
 - [x] Address: Cnel. Luis Irrazabal casi, Fernando Mora
@@ -109,6 +109,6 @@ Razones:
 ---
 
 ## NEXT STEPS
-1. Confirm IG handle via WhatsApp message asking for IG profile
+1. Confirm IG handle via Messaging message asking for IG profile
 2. Extract Google Maps fotos + reviews
-3. Identify services + pricing via WhatsApp
+3. Identify services + pricing via Messaging

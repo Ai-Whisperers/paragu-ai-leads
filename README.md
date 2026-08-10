@@ -6,7 +6,7 @@ Sistema de outreach para clientes potenciales de sitios web cerca de la Facultad
 
 ### TOP TIER — Alta Probabilidad de Conversión
 
-| # | Negocio | Score | Reseñas |WhatsApp |
+| # | Negocio | Score | Reseñas |Messaging |
 |---|---------|-------|---------|---------|
 | 1 | Estudio Medieval SRL | 133.2 | 392 | wa.me/595961482854 |
 | 2 | SHINE Nails (Celestial) | 130.7 | 287 | wa.me/595986693259 |
@@ -16,7 +16,7 @@ Sistema de outreach para clientes potenciales de sitios web cerca de la Facultad
 
 ### SECONDARY TIER — Buena Oportunidad
 
-| # | Negocio | Score | Reseñas | WhatsApp |
+| # | Negocio | Score | Reseñas | Messaging |
 |---|---------|-------|---------|---------|
 | 6 | Barbye Nails I | 107.2 | 92 | wa.me/595961336346 |
 | 7 | Nde Barba Barbería | 92.6 | 118 | wa.me/595991444268 |
@@ -29,13 +29,13 @@ Sistema de outreach para clientes potenciales de sitios web cerca de la Facultad
 
 | # | Negocio | Score | Notas |
 |---|---------|-------|-------|
-| 12 | XXGym | 76.0 | Sin WhatsApp confirmado |
-| 13 | Avani Belleza | 69.5 | Sin WhatsApp |
-| 14 | Lele Ferreira | 68.0 | Sin WhatsApp |
-| 15 | Scott Tatuajes | 67.5 | Sin WhatsApp |
-| 16 | Woman Cosméticos | 65.0 | Sin WhatsApp |
-| 17 | Clau Bellino | 64.0 | Sin WhatsApp |
-| 18 | Peluqueria Barbershop | 58.0 | Sin WhatsApp |
+| 12 | XXGym | 76.0 | Sin Messaging confirmado |
+| 13 | Avani Belleza | 69.5 | Sin Messaging |
+| 14 | Lele Ferreira | 68.0 | Sin Messaging |
+| 15 | Scott Tatuajes | 67.5 | Sin Messaging |
+| 16 | Woman Cosméticos | 65.0 | Sin Messaging |
+| 17 | Clau Bellino | 64.0 | Sin Messaging |
+| 18 | Peluqueria Barbershop | 58.0 | Sin Messaging |
 
 ---
 
@@ -50,5 +50,5 @@ Sistema de outreach para clientes potenciales de sitios web cerca de la Facultad
 ## Archivos del Sistema
 
 - `outreach/OUTREACH_TRACKER.csv` — CRM de seguimiento
-- `outreach/WHATSAPP_MENSAJES_CLIENTES.md` — Mensajes para enviar
+- `outreach/MESSAGING_MENSAJES_CLIENTES.md` — Mensajes para enviar
 - `clientes/*/INTEL.md` — Inteligencia de cada lead

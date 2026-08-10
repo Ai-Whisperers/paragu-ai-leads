@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Estudio Medieval S.R.L — Tattoo & Body Piercing |
 | **Owner/Contact** | Leo Feltes *(presumido, basado en datos públicos)* |
-| **WhatsApp Direct** | wa.me/595961482854 |
+| **Messaging Direct** | wa.me/595961482854 |
 | **Phone** | 0961 482 854 |
 | **Address** | Cnel. Feliciano Duarte 315 esq. Mariscal Estigarribia, San Lorenzo |
 | **Legal Entity** | S.R.L (Sociedad de Responsabilidad Limitada — entity formally registered) |
@@ -46,7 +46,7 @@
 
 ### Facebook (@estudiomedivalS.R.L)
 - Posts públicos con trabajos terminados
-- WhatsApp directo en biofilm
+- Messaging directo en biofilm
 - Photos con trabajos realizados
 
 ### Collaborations (red de influencers)
@@ -82,7 +82,7 @@
 3. Insumos tattoo B2B (@studsuppliestattoo) — VENTA A OTROS TATUADORES
 4. Showroom de productos (@showroommedieval)
 5. Sección estética (@estudiomedievalstetic)
-6. Consultas por WhatsApp directo
+6. Consultas por Messaging directo
 
 ---
 
@@ -132,14 +132,14 @@
 | **Multi-marca** | 4 cuentas IG + showroom físico = complejidad operativa |
 | **SUCURSAL prob.** | Dirección "Cnel. Feliciano Duarte 315" puede no ser la única ubicación |
 | **Merchandising** | Showroom sugiere venta de productos derivados |
-| **Pricing signals** | Sin datos públicos de precios — posible WhatsApp-quote basis |
+| **Pricing signals** | Sin datos públicos de precios — posible Messaging-quote basis |
 
 ---
 
 ## WHAT THEY HAVE (Digital)
 - ✅ Instagram con 58K audiencia
 - ✅ Facebook con trabajos publicados
-- ✅ WhatsApp directo
+- ✅ Messaging directo
 - ✅ 392 Google reviews
 - ✅ B2B brand para insumos
 
@@ -157,7 +157,7 @@
 ---
 
 ## PRONUNCIAMIENTO (“Lo que dirían ellos”)
-> "8 años haciéndolos en San Lorenzo. Tattoos, piercings y insumos. Showroom abierto. Turnos por WhatsApp. 392 reviews en Google Maps."
+> "8 años haciéndolos en San Lorenzo. Tattoos, piercings y insumos. Showroom abierto. Turnos por Messaging. 392 reviews en Google Maps."
 
 ---
 
@@ -166,7 +166,7 @@
 
 Razones:
 1. Volume de 58K audiencia IG ya existe → potencial de referral masivo
-2. Modelo B2B+B2C = necesita plataforma web profesional (no solo WhatsApp)
+2. Modelo B2B+B2C = necesita plataforma web profesional (no solo Messaging)
 3. Multi-sucursal = necesita sistema de gestión de ubicaciones
 4. B2B insumos = catálogo de productos = e-commerce potencial
 5. Formal (S.R.L) = capacidad de pagar servicios profesionales
@@ -176,7 +176,7 @@ Razones:
 - Sitio web profesional con galería + catálogo insumos
 - Sistema de turnos online
 - Páginas por sucursal
-- Integración WhatsApp Business API
+- Integración Messaging Business API
 - Blog con cuidados post-tattoo (SEO)
 
 ---
@@ -190,7 +190,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 961 482 854
+- [x] Messaging: +595 961 482 854
 - [x] Phone: 0961 482 854
 - [x] Address: Cnel. Feliciano Duarte 315 esq. Mariscal Estigarribia
 - [x] IG principal: @estudiomedievalsrl
@@ -207,4 +207,4 @@ Razones:
 1. Scrapear posts IG completos (URLs de imágenes)
 2. Extraer contenido de reviews de Google Maps
 3. Confirmar número exacto de sucursales
-4. Investigar precios/servicios desde WhatsApp
+4. Investigar precios/servicios desde Messaging

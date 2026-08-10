@@ -1,7 +1,7 @@
 """
-WhatsApp Bridge Sync Script
-Polls the WhatsApp bridge for incoming messages and saves them to Supabase.
-Run as a cron job: */1 * * * * /usr/bin/python3 /root/paragu-ai-leads/crm/scripts/sync_whatsapp.py
+Messaging Bridge Sync Script
+Polls the Messaging bridge for incoming messages and saves them to Supabase.
+Run as a cron job: */1 * * * * /usr/bin/python3 /root/paragu-ai-leads/crm/scripts/sync_messaging.py
 """
 
 import os
@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 # Configuration
 SUPABASE_URL = os.getenv("SUPABASE_URL", "")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
-WHATSAPP_BRIDGE_URL = os.getenv("WHATSAPP_BRIDGE_URL", "http://localhost:3007")
+MESSAGING_BRIDGE_URL = os.getenv("MESSAGING_BRIDGE_URL", "http://localhost:3007")
 POLL_TIMEOUT = 65  # seconds (bridge long-poll timeout)
 
 def get_supabase():
@@ -43,7 +43,7 @@ def get_supabase():
 def get_bridge_health():
     """Check if bridge is healthy."""
     try:
-        resp = requests.get(f"{WHATSAPP_BRIDGE_URL}/health", timeout=5)
+        resp = requests.get(f"{MESSAGING_BRIDGE_URL}/health", timeout=5)
         return resp.status_code == 200
     except:
         return False
@@ -52,7 +52,7 @@ def poll_incoming_messages():
     """Long-poll the bridge for new incoming messages."""
     try:
         resp = requests.get(
-            f"{WHATSAPP_BRIDGE_URL}/messages",
+            f"{MESSAGING_BRIDGE_URL}/messages",
             timeout=POLL_TIMEOUT
         )
         if resp.status_code == 200:
@@ -66,7 +66,7 @@ def poll_incoming_messages():
         return []
 
 def find_lead_by_phone(supabase, phone: str) -> dict | None:
-    """Find a lead by WhatsApp number."""
+    """Find a lead by Messaging number."""
     if not supabase:
         return None
     
@@ -75,7 +75,7 @@ def find_lead_by_phone(supabase, phone: str) -> dict | None:
     
     response = supabase.table("leads").select("*").execute()
     for lead in response.data:
-        lead_phone = "".join(filter(str.isdigit, lead.get("whatsapp_number", "")))
+        lead_phone = "".join(filter(str.isdigit, lead.get("messaging_number", "")))
         if lead_phone and phone_clean.endswith(lead_phone[-9:]):  # Last 9 digits
             return lead
     
@@ -142,7 +142,7 @@ def save_message(supabase, message: dict):
             supabase.table("follow_ups").insert({
                 "lead_id": lead["id"],
                 "due_date": follow_up_date.isoformat(),
-                "type": "whatsapp",
+                "type": "messaging",
                 "notes": "Respuesta recibida — hacer seguimiento"
             }).execute()
     
@@ -150,7 +150,7 @@ def save_message(supabase, message: dict):
         logger.error(f"Error saving message: {e}")
 
 def main():
-    logger.info("🔄 WhatsApp Bridge Sync started")
+    logger.info("🔄 Messaging Bridge Sync started")
     
     if not get_bridge_health():
         logger.error("❌ Bridge not healthy, aborting")

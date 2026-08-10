@@ -39,7 +39,7 @@
 |------|------|-------|
 | Hosting (Vercel/Netlify) | $0 | Free tier |
 | Domain (1 per customer) | $1.25 | $15/yr ÷ 12 |
-| WhatsApp Business | $0 | Free |
+| Messaging Business | $0 | Free |
 | Email (Google Workspace) | $6 | Per user |
 | Tools (Canva, etc) | $0 | Free tier |
 | **Total Fixed/Month** | **$7.25** | |
@@ -55,7 +55,7 @@
 ### Customer Acquisition Cost (CAC)
 | Channel | Cost | Notes |
 |---------|------|-------|
-| WhatsApp outreach | $0.50 | Time only |
+| Messaging outreach | $0.50 | Time only |
 | Phone calls | $1.00 | Time only |
 | Total CAC | **$1.50** | |
 

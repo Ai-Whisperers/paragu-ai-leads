@@ -5,7 +5,7 @@
 
 ## WHAT OUR LEADS ALREADY HAVE (Website-wise)
 
-| Lead | Has Website? | Has Instagram? | Has Facebook? | WhatsApp? | Tech Platform |
+| Lead | Has Website? | Has Instagram? | Has Facebook? | Messaging? | Tech Platform |
 |------|-------------|--------------|--------------|-----------|---------------|
 | Estudio Medieval | ❌ NO dedicated site | ✅ @estudiomedievalsrl | ✅ Facebook | ✅ 0961482854 | None |
 | SHINE Nails (Celeste) | ❌ NO | ✅ @celestialnails | ❌ | ✅ +595 9XX | None |
@@ -52,7 +52,7 @@
 ### TIER 1 — Non-negotiable to compete
 | # | Feature | % Competitors Who Have It | Why It's Needed |
 |---|---------|--------------------------|----------------|
-| 1 | WhatsApp floating CTA | 87% | Primary contact channel in Paraguay |
+| 1 | Messaging floating CTA | 87% | Primary contact channel in Paraguay |
 | 2 | Online booking form | 100% | Baseline expectation |
 | 3 | Service menu (6+ services) | 100% | Core product presentation |
 | 4 | Prices shown (Gs.) | 18% | **Huge gap** — 82% hide prices |
@@ -88,7 +88,7 @@
 | 26 | Progress tracker (gym) | 9% | Gamification + retention |
 | 27 | Booking with deposit (Tigo/Bancard) | 9% | Reduce no-shows |
 | 28 | Analytics dashboard (cliente) | 0% | Show owner traffic |
-| 29 | WhatsApp CRM / chat history | 0% | Customer memory |
+| 29 | Messaging CRM / chat history | 0% | Customer memory |
 | 30 | Zapier/Mailchimp integration | 18% | Automation |
 
 ---
@@ -123,13 +123,13 @@
 **Current digital presence:**
 - Instagram: @estudiomedievalsrl (58K followers, very active)
 - Facebook: active (estudiomedivalSRL)
-- WhatsApp: 0961482854
+- Messaging: 0961482854
 - Google Maps: 1315 reviews, 4.9★
 - **Website: NONE**
 - **Sub-brands:** @studsuppliestattoo, @showroommedieval, @estudiomedievalstetic
 
 **What to propose (based on market gaps):**
-1. ✅ WhatsApp floating CTA
+1. ✅ Messaging floating CTA
 2. ✅ Booking form for tattoo appointments
 3. ✅ Service menu with prices (Gs.)
 4. ✅ Before/After gallery (tattoo results)
@@ -148,12 +148,12 @@
 **Current digital presence:**
 - TikTok: active (bio references IG @celestialnails)
 - Instagram: inferred @celestialnails (needs confirmation)
-- WhatsApp: found in Google Maps
+- Messaging: found in Google Maps
 - Google Maps: 287 reviews, 4.7★
 - **Website: NONE**
 
 **What to propose:**
-1. ✅ WhatsApp floating CTA (PRIORITY)
+1. ✅ Messaging floating CTA (PRIORITY)
 2. ✅ Before/After nail art gallery (THE differentiator)
 3. ✅ Service menu with prices
 4. ✅ Instagram feed embed
@@ -168,7 +168,7 @@
 ### CronosFit / Cronos Academy (Has website)
 **Current website:** cronosfit.com (WordPress, 444KB)
 **Instagram:** @cronosacademy.py
-**WhatsApp:** listed on site
+**Messaging:** listed on site
 **Google Maps:** 4.1★ (lower rating — opportunity)
 
 **What to propose (upgrade path):**
@@ -179,7 +179,7 @@
 5. ✅ Meta Pixel + conversion tracking
 6. ✅ Google Reviews widget
 7. ✅ FAQ section
-8. ✅ WhatsApp auto-booking confirmation
+8. ✅ Messaging auto-booking confirmation
 
 **Estimated proposal value:** G. 2.5M–4M (upgrade/add-ons)
 
@@ -187,10 +187,10 @@
 
 ### Portas Barber Shop (Score 82.5)
 **Current:** No website, no IG, 162 reviews (4.9★)
-**WhatsApp:** found in Google Maps
+**Messaging:** found in Google Maps
 
 **What to propose:**
-1. ✅ WhatsApp CTA
+1. ✅ Messaging CTA
 2. ✅ Online booking (barber appointments)
 3. ✅ Service menu + prices
 4. ✅ Gallery (barbers at work)
@@ -204,10 +204,10 @@
 
 ### Nde Barba Barberia (Score 67.0)
 **Current:** No website, no IG, 109 reviews (4.8★)
-**WhatsApp:** found in Google Maps
+**Messaging:** found in Google Maps
 
 **What to propose (same template as Portas):**
-1. ✅ WhatsApp floating CTA
+1. ✅ Messaging floating CTA
 2. ✅ Booking form
 3. ✅ Service menu + prices
 4. ✅ Gallery
@@ -222,10 +222,10 @@
 ### Nutrifit Spa Belleza (Score 82.5)
 **Current:** No website, IG active (@nutrifit.spa_belleza)
 **Facebook:** active
-**WhatsApp:** listed
+**Messaging:** listed
 
 **What to propose:**
-1. ✅ WhatsApp CTA
+1. ✅ Messaging CTA
 2. ✅ Service menu + prices
 3. ✅ Before/After (spa results)
 4. ✅ Booking system
@@ -242,10 +242,10 @@
 All have:
 - Google Maps listing (phone, hours, basic address)
 - 1-5 photos on Maps
-- WhatsApp number available
+- Messaging number available
 
 **Standard package for these leads:**
-1. ✅ WhatsApp floating CTA
+1. ✅ Messaging floating CTA
 2. ✅ Online booking form
 3. ✅ Service menu (6+ services)
 4. ✅ Prices in Gs.
@@ -259,7 +259,7 @@ All have:
 ## THE 5 MUST-HAVE FEATURES (Universal)
 
 Every client near Politécnica needs at minimum:
-1. **WhatsApp floating CTA** (conversion, Paraguay is WhatsApp-first)
+1. **Messaging floating CTA** (conversion, Paraguay is Messaging-first)
 2. **Service menu with prices** (transparency = trust, 82% of competitors don't show prices)
 3. **Online form booking** (reduces phone tag, qualifies leads)
 4. **Instagram feed embed** (live content, they already have IG)

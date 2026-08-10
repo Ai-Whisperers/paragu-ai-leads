@@ -9,8 +9,8 @@
 **Negocio:** El Viajero — Tienda de camping, pesca, accesorios para auto y moto
 **Ubicación:** Mariano Roque Alonso (local físico)
 **Productos:** 200+ productos, 7 categorías
-**WhatsApp:** Su canal de ventas principal
-**Presencia actual:** Local físico + WhatsApp + posible Facebook/Instagram
+**Messaging:** Su canal de ventas principal
+**Presencia actual:** Local físico + Messaging + posible Facebook/Instagram
 
 ---
 
@@ -26,11 +26,11 @@ Te escribo porque tenemos una propuesta que encaja justo con lo que hacen. ¿Ten
 
 **Apertura**
 
-"Osmar, El Viajero tiene un local en Mariano Roque Alonso y vende por WhatsApp, ¿cierto? Me imagino que recibís consultas todo el día: precios, disponibilidad, si tal producto está en stock."
+"Osmar, El Viajero tiene un local en Mariano Roque Alonso y vende por Messaging, ¿cierto? Me imagino que recibís consultas todo el día: precios, disponibilidad, si tal producto está en stock."
 
 **El Dolor**
 
-"El problema con vender solo por WhatsApp es que:
+"El problema con vender solo por Messaging es que:
 - Respondés la misma pregunta 20 veces por día ("cuánto cuesta tal carpa?")
 - Trabajas fuera de horario porque los clientes te escriben a cualquier hora
 - Perdés ventas cuando no contestás rápido
@@ -43,12 +43,12 @@ Te escribo porque tenemos una propuesta que encaja justo con lo que hacen. ¿Ten
 - El cliente entra a el-viajero.paragu-ai.com
 - Ve todo tu catálogo: carpas, bolsas de dormir, equipos de pesca, accesorios para auto y moto
 - Cada producto tiene foto, precio, descripción, especificaciones
-- Toca "Consultar por WhatsApp" y se abre su WhatsApp con el producto ya listo para preguntar
+- Toca "Consultar por Messaging" y se abre su Messaging con el producto ya listo para preguntar
 - Cero trabajo extra para vos — la misma atención personalizada que das en el local, pero con clientes que ya vieron el producto y saben lo que quieren"
 
 **El Diferenciador**
 
-"La web no reemplaza tu WhatsApp — lo potencia. Los clientes llegan sabiendo precio y especificaciones, y vos solo cerrás la venta. Menos consultas boludas, más ventas concretadas.
+"La web no reemplaza tu Messaging — lo potencia. Los clientes llegan sabiendo precio y especificaciones, y vos solo cerrás la venta. Menos consultas boludas, más ventas concretadas.
 
 Además, aparecés en Google. Cuando alguien busque "camping gear Paraguay" o "carpa Mariano Roque Alonso", El Viajero va a aparecer."
 
@@ -85,7 +85,7 @@ Nada más. Sin contratos rígidos, sin permanencia."
 "Excelente, seguí usándolos. La web es complementaria. En Facebook mostrás contenido, en la web la gente compra. Además, la web aparece en Google — tus redes no."
 
 **"No sé manejar eso"**
-"No necesitás saber. Nosotros la mantenemos. Los clientes llegan solos por Google o WhatsApp. Vos seguís vendiendo como siempre."
+"No necesitás saber. Nosotros la mantenemos. Los clientes llegan solos por Google o Messaging. Vos seguís vendiendo como siempre."
 
 **"Cuánto tiempo toma"**
 "48 horas y está. Ya tenemos el contenido cargado, solo ajustamos los detalles con vos."
@@ -105,7 +105,7 @@ Nada más. Sin contratos rígidos, sin permanencia."
 - Nosotros: el-viajero.paragu-ai.com/nosotros
 - Blog: el-viajero.paragu-ai.com/blog
 
-**WhatsApp de ejemplo de la web:** Al hacer clic en cualquier producto, se abre WhatsApp con el producto y precio precargados.
+**Messaging de ejemplo de la web:** Al hacer clic en cualquier producto, se abre Messaging con el producto y precio precargados.
 
 ---
 

@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | HidroBaby (HidroBaby Spa Pinedo) |
 | **Founders** | **Fábio Castillo** + **Fátima Flecha** (matrimonio/emprendedores) |
-| **WhatsApp** | wa.me/595993444222 |
+| **Messaging** | wa.me/595993444222 |
 | **Phone** | 0993 444 222 |
 | **Address** | Av. Mariscal López y, San Lorenzo 111420 |
 | **Founded** | **Marzo 2020** (concebida pendant el embarazo de Guillermina) |
@@ -101,7 +101,7 @@
 - ❌ Reserva de turnos online
 - ❌ Presencia de marca unificada para 3Sucursales
 - ❌ Catálogo de servicios digital
-- ❌ Canal de comunicación unificado (WhatsApp solo)
+- ❌ Canal de comunicación unificado (Messaging solo)
 - ❌ Email de contacto
 - ❌ Blog / contenido educativo para padres
 - ❌ Instagram activo visible públicamente
@@ -127,7 +127,7 @@ Razones:
 - Blog "Guía de cuidado del bebé" (SEO huge)
 - Página de profesionales / equipo
 - Portal para padres / historial del bebé
-- Integración WhatsApp Business API
+- Integración Messaging Business API
 
 ---
 
@@ -140,7 +140,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 993 444 222
+- [x] Messaging: +595 993 444 222
 - [x] Phone: 0993 444 222
 - [x] Instagram: @hidrobabyspapinedo (aún no verificado, buscar)
 - [x] Facebook: buscar @hidrobabypy

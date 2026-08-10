@@ -331,7 +331,7 @@ Estimated scale by optgroup (rough, to prioritize the next scrape):
 5. Copy content from `src/content/<vertical>.content.json` as the starting scaffold.
 
 ### When planning the next lead scrape
-Order the unscraped optgroups in §5 by ACV × reachability. Early candidates: Medicina y Salud (high ACV, regulated), Viajes y Turismo (medium ACV, digital-native), Fiestas y Eventos (seasonal, WhatsApp-friendly).
+Order the unscraped optgroups in §5 by ACV × reachability. Early candidates: Medicina y Salud (high ACV, regulated), Viajes y Turismo (medium ACV, digital-native), Fiestas y Eventos (seasonal, Messaging-friendly).
 
 ### When the builder registry is extended
 Every new `type.json` added should back-populate the "Builder type" column here. Delete the "🆕 gap" row from §4 once a slug is live.

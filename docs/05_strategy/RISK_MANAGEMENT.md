@@ -10,7 +10,7 @@
 |------|--------|------------|------------|
 | Website platform downtime | HIGH | LOW | Use reliable hosting (Vercel 99.9% uptime) |
 | Lead data loss | HIGH | LOW | Daily backups, cloud storage |
-| WhatsApp account ban | MEDIUM | MEDIUM | Follow WhatsApp rules, use business app |
+| Messaging account ban | MEDIUM | MEDIUM | Follow Messaging rules, use business app |
 | Domain issues | MEDIUM | LOW | Use reputable registrar, auto-renew |
 | Payment processing failure | MEDIUM | LOW | Multiple payment options |
 
@@ -20,7 +20,7 @@
 | Competitor launches similar service | MEDIUM | MEDIUM | First-mover advantage, relationships |
 | Market saturation | LOW | LOW | 7,000+ businesses, low saturation |
 | Economic downturn in Paraguay | HIGH | MEDIUM | Diversify to other sectors later |
-| Changing WhatsApp policies | MEDIUM | LOW | Build email list as backup |
+| Changing Messaging policies | MEDIUM | LOW | Build email list as backup |
 
 ### 1.3 Customer Risks
 | Risk | Impact | Likelihood | Mitigation |
@@ -35,7 +35,7 @@
 |------|--------|------------|------------|
 | Template breaks on update | MEDIUM | LOW | Version control, testing |
 | Security vulnerabilities | HIGH | LOW | Regular updates, security tools |
-| Integration failures | MEDIUM | LOW | Fallback options (WhatsApp) |
+| Integration failures | MEDIUM | LOW | Fallback options (Messaging) |
 | Performance issues | MEDIUM | LOW | Optimize images, fast hosting |
 
 ---
@@ -46,7 +46,7 @@
 | Risk | Score | Action |
 |------|-------|--------|
 | Low lead conversion | 25/30 | Test different outreach messages |
-| WhatsApp ban | 20/30 | Build email list backup |
+| Messaging ban | 20/30 | Build email list backup |
 | Non-payment | 15/30 | Require 50% upfront |
 
 ### Medium Priority Risks (Monitor)
@@ -113,7 +113,7 @@ TIMELINE: Respond within 1 month
 ## 4. Early Warning Indicators
 
 ### Metrics to Monitor Daily
-- WhatsApp delivery rate
+- Messaging delivery rate
 - Response rate (target: 15%)
 - Website uptime
 

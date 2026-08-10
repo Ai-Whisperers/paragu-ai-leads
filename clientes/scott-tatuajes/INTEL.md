@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Scott Tatuajes |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595981575176 |
+| **Messaging** | wa.me/595981575176 |
 | **Phone** | 0981 575 176 |
 | **Address** | Eugenio A. Garay, Fernando Zona Norte |
 | **Category** | Tatuajes / Tattoo Artist |
@@ -56,7 +56,7 @@
 ## WHAT THEY HAVE
 - ✅ 82 Google reviews (base de clientes real)
 - ✅ 4.6⭐ rating igual que Estudio Medieval
-- ✅ Número WhatsApp directo
+- ✅ Número Messaging directo
 - ✅ Sin website = oportunidad
 
 ---
@@ -81,13 +81,13 @@ Razones:
 
 **Propuesta sugerida:**
 - Landing page с gallery + servicios
-- WhatsApp botón besar
+- Messaging botón besar
 - Mapa cómo llegar
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 981 575 176
+- [x] Messaging: +595 981 575 176
 - [x] Phone: 0981 575 176
 - [x] Google Maps: Listed con 82 reviews
 - [x] Address: Eugenio A. Garay, Fernando Zona Norte
@@ -98,6 +98,6 @@ Razones:
 ---
 
 ## NEXT
-1. Confirm existence via WhatsApp direct query
+1. Confirm existence via Messaging direct query
 2. Google Maps extraer photos + reviews
 3. Identify services + portfolio

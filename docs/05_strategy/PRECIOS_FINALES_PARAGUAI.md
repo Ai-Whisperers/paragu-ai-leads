@@ -9,7 +9,7 @@
 **450.000 Gs** para cualquier plan. Pago único, cubre:
 - Relevamiento del negocio
 - Diseño y contenido completo según el plan
-- Fotos, logo, mapa, WhatsApp integrado
+- Fotos, logo, mapa, Messaging integrado
 - Dominio (subdominio .paragu-ai.com) o configuración de dominio existente
 - SSL + HTTPS
 - SEO básico
@@ -46,7 +46,7 @@ Setup gratis si pagan el año completo por adelantado.
 
 ### Básico
 - 5 páginas (Inicio, Nosotros, Servicios, Contacto, Galería)
-- WhatsApp integrado
+- Messaging integrado
 - Formulario de contacto
 - Galería de hasta 10 fotos
 - Mapa de ubicación

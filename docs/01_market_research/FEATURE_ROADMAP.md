@@ -27,7 +27,7 @@ This document compiles findings from analyzing top-performing beauty, wellness, 
 | Staff/ stylist profiles | High | Photos, specialties, portfolio links |
 | Photo gallery/ portfolio | High | Real client transformations, not stock photos |
 | Mobile-first design | Critical | 70%+ bookings happen on mobile |
-| WhatsApp integration | High | Paraguay market requirement |
+| Messaging integration | High | Paraguay market requirement |
 | Before/ after gallery | High | Visual proof of results |
 | Business hours & location | High | Easy findability |
 | Contact form | Medium | For inquiries outside booking |
@@ -114,7 +114,7 @@ This document compiles findings from analyzing top-performing beauty, wellness, 
 | Staff/ technician profiles | High | Build personal connection |
 | Mobile-responsive design | Critical | 60%+ traffic mobile |
 | Location & hours | High | Multiple locations if applicable |
-| Contact/ WhatsApp integration | High | Paraguay-specific requirement |
+| Contact/ Messaging integration | High | Paraguay-specific requirement |
 | Testimonials/ reviews | Medium | Social proof |
 | Color/ polish brands used | Medium | Luxury positioning |
 
@@ -142,7 +142,7 @@ This document compiles findings from analyzing top-performing beauty, wellness, 
 | Aftercare information | High | Critical for safety |
 | Location & hours | High | Often appointment-only |
 | Safety/ hygiene certifications | High | Build trust |
-| Contact/ WhatsApp | High | Paraguay requirement |
+| Contact/ Messaging | High | Paraguay requirement |
 | FAQ section | Medium | Common questions answered |
 
 #### Optional Features
@@ -254,7 +254,7 @@ This document compiles findings from analyzing top-performing beauty, wellness, 
 | Location & clinic photos | High | Show professional environment |
 | Online booking | Critical | For consultations + treatments |
 | Safety information | High | Skin type suitability |
-| Contact/ WhatsApp | High | Paraguay requirement |
+| Contact/ Messaging | High | Paraguay requirement |
 
 #### Optional Features
 - Blog/ hair removal guides
@@ -277,7 +277,7 @@ This document compiles findings from analyzing top-performing beauty, wellness, 
 | Service menu with pricing | All 9 categories |
 | Portfolio/ gallery | 8/9 (not depilación if not visual) |
 | Location & contact info | All 9 categories |
-| WhatsApp integration | Critical for Paraguay market |
+| Messaging integration | Critical for Paraguay market |
 | Mobile click-to-call | All 9 categories |
 
 ### High Priority Features (Most Categories)
@@ -316,7 +316,7 @@ Based on competitor analysis, these are the most commonly used platforms in firs
 6. **Mindbody** - For larger spas and fitness
 7. **Calendly** - Simple booking, good for consultations
 
-**Paraguay Adaptation**: Many businesses will need WhatsApp integration as primary booking method alongside any platform integration.
+**Paraguay Adaptation**: Many businesses will need Messaging integration as primary booking method alongside any platform integration.
 
 ---
 
@@ -382,7 +382,7 @@ Based on competitor analysis, each website needs:
 - Mobile-first responsive design
 - Service menu with pricing
 - Online booking integration
-- WhatsApp integration
+- Messaging integration
 - Location & contact
 - Portfolio gallery framework
 
@@ -422,7 +422,7 @@ Based on competitor analysis, each website needs:
 1. Prioritize category order based on market size (Hair salons have most potential)
 2. Define MVP for each category (5-7 essential features)
 3. Create templates for each business type
-4. Build booking integration options (platform + WhatsApp)
+4. Build booking integration options (platform + Messaging)
 5. Develop portfolio/ gallery framework
 6. Establish pricing display templates
 

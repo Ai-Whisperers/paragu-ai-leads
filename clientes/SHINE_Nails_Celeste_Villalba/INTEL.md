@@ -7,7 +7,7 @@
 ## BUSINESS IDENTIFICATION
 - **Name:** SHINE Nails by Celeste Villalba
 - **Owner:** Celeste Villalba
-- **WhatsApp:** wa.me/595986693259 (0986 693 259)
+- **Messaging:** wa.me/595986693259 (0986 693 259)
 - **Phone:** (021) ??? — celular premium
 - **Address:** Fernando de la Mora (near Politécnica, distance ~1.6km)
 - **Category:** Beauty Salon (Nails + Hair + Health combo)
@@ -37,7 +37,7 @@
 ### Linktree contents (inferred from TikTok bio):
 - IG: @celestialnails
 - Possibly booking link
-- Possibly WhatsApp direct
+- Possibly Messaging direct
 
 **IG HANDLE CONFIRMED VIA INFERENCE:** @celestialnails
 
@@ -56,7 +56,7 @@
 1. 287 Google reviews · 4.9⭐ = PROVEN quality brand
 2. Multi-category business (beauty + health + hair) = web needs: services, booking, galerías
 3. 21K TikTok followers = already has social media presence = needs web to COMPLETE, not build from scratch
-4. WhatsApp DIRECT line on Google = Celeste is digitally aware
+4. Messaging DIRECT line on Google = Celeste is digitally aware
 5. Linktree in bio = already using tools to centralize links = PERFECT candidate for a landing page/web
 6. Multi-category = recurring clients across services
 7. Near FP (1.6km) — walkable from Polytechnic
@@ -73,6 +73,6 @@
 ---
 
 ## CONTACT
-- **WhatsApp:** wa.me/595986693259 — CELESTE directly
+- **Messaging:** wa.me/595986693259 — CELESTE directly
 - **Opening line:** Reference her TikTok content or Linktree to show you already know her brand
 - **Tone:** Professional but casual (she is highly active online — she's comfortable with digital tools)

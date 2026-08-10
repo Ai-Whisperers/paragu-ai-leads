@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | CRONOS ACADEMY |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595962201042 |
+| **Messaging** | wa.me/595962201042 |
 | **Phone** | 0962 201 042 |
 | **Address** | J部委Mixin Carreras, Fernando de la Mora (Zona Norte) |
 | **Category** | Gym / Fitness / Academia |
@@ -72,7 +72,7 @@
 ## WHAT THEY HAVE
 - ✅ **4.9⭐ — el rating más ALTO de todos los leads de gym**
 - ✅ 51 Google reviews (base Premium/small but dedicated)
-- ✅ Número WhatsApp directo
+- ✅ Número Messaging directo
 - ✅ Sin website = oportunidad CRASH
 
 ---
@@ -101,13 +101,13 @@ Razones:
 - Landing page с historia del gym
 - Plans/membresías con precios
 - Trial gratuito / primera clase gratis
-- Integración WhatsApp + reservas
+- Integración Messaging + reservas
 - Galería de equipos y clases
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 962 201 042
+- [x] Messaging: +595 962 201 042
 - [x] Phone: 0962 201 042
 - [x] Google Maps: Listed with 51 reviews, 4.9⭐
 - [ ] IG: no confirmado
@@ -119,4 +119,4 @@ Razones:
 ## Siguiente paso
 1. Confirmar IG/FB search "Academia Cronos Fernando Mora Paraguay"
 2. Extraer fotos Google Maps + reviews
-3. Identificar servicios + planes/membresías vía WhatsApp
+3. Identificar servicios + planes/membresías vía Messaging

@@ -110,14 +110,14 @@ Best for: Maximum performance, custom features
 </a>
 ```
 
-## 3.2 WhatsApp Integration
+## 3.2 Messaging Integration
 
-### WhatsApp Button
+### Messaging Button
 ```html
-<a href="https://wa.me/595YOURNUMBER?text=Hola!%20Quisiera%20reservar%20una%20cita" 
-   class="whatsapp-float"
+<a href="tel:+595YOURNUMBER?text=Hola!%20Quisiera%20reservar%20una%20cita" 
+   class="messaging-float"
    target="_blank">
-  <img src="/whatsapp-icon.svg" alt="WhatsApp" />
+  <img src="/messaging-icon.svg" alt="Messaging" />
 </a>
 ```
 
@@ -131,16 +131,16 @@ const messages = {
 };
 ```
 
-## 3.3 Contact Form to WhatsApp
+## 3.3 Contact Form to Messaging
 
 ```javascript
-// Form submission → WhatsApp message
+// Form submission → Messaging message
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const name = document.getElementById('name').value;
   const service = document.getElementById('service').value;
   const message = `Hola! Soy ${name}. Quisiera reservar ${service}`;
-  window.open(`https://wa.me/5959XXXXXXXX?text=${encodeURIComponent(message)}`);
+  window.open(`tel:+5959XXXXXXXX?text=${encodeURIComponent(message)}`);
 });
 ```
 

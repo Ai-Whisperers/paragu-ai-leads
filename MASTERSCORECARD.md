@@ -8,7 +8,7 @@
 
 ### 🏆 TIER 1 — HOT LEADS (Contactar primero)
 
-| Rank | Lead | Score | IG | WhatsApp | Why |
+| Rank | Lead | Score | IG | Messaging | Why |
 |------|-------|-------|----|----|-----|
 | **#1** | **Estudio Medieval** | **133.2** | @estudiomedievalsrl (58K) ✅ | 0981 519 040 | Best: 58K IG, 1315 reviews, 3 sub-brands, multi-location, media coverage. THE show piece. |
 | **#2** | **SHINE Nails** | **130.7** | @celestialnails 🎯 (inferred from linktree) | 0986 693 259 | 287 reviews, multi-category, 21K TikTok. IG buried in linktree. |
@@ -21,9 +21,9 @@
 
 ### 🥈 TIER 2 — SOLID BACKUP
 
-| Rank | Lead | Score | IG | WhatsApp | Why |
+| Rank | Lead | Score | IG | Messaging | Why |
 |------|-------|-------|-----|----|-----|
-| **#7** | **Nde Barba** | **92.6** | ❌ NOT FOUND | 0991 444 268 | 118 reviews, 4.8⭐, established near FP. WhatsApp Business active. |
+| **#7** | **Nde Barba** | **92.6** | ❌ NOT FOUND | 0991 444 268 | 118 reviews, 4.8⭐, established near FP. Messaging Business active. |
 | **#8** | **XXGym** | **92.4** | ❌ NOT FOUND | (021) 678 171 | 119 reviews, 4.7⭐. Gym = recurring revenue web if sold right. |
 | **#9** | **Portas Barber** | **85.6** | ❌ NOT FOUND | 0994 215 627 | 162 reviews · 4.9⭐ = #1 barber by review volume in area. |
 | **#10** | **CRONOS ACADEMY** | **87.0** | @cronosacademy.py ✅ | TBD | 50 reviews, fit academy, presencial + online training. |
@@ -34,7 +34,7 @@
 
 ### 🥉 TIER 3 — SECONDARY / FALLBACK
 
-| Rank | Lead | Score | IG | WhatsApp | Why |
+| Rank | Lead | Score | IG | Messaging | Why |
 |------|-------|-------|-----|----|-----|
 | **#13** | **Lele Ferreira** | **81.2** | ❌ NOT FOUND | 0985 598 630 | 4.8⭐ best in makeup, 82 reviews. Could be on LinkedIn/other platforms. |
 | **#14** | **AVANI Belleza** | **69.7** | TBD | 0994 202 928 | 4.7⭐/25 reviews, Glow Privé event via Infonegocios. |
@@ -103,14 +103,14 @@
 ## ACTION PLAN
 
 ### Phase 1 — Contact NOW (this week)
-1. Estudio Medieval (WhatsApp: 0981 519 040)
-2. SHINE Nails (WhatsApp: 0986 693 259)
-3. Viviesteticpy (WhatsApp: 0976 668 289) — IG already confirmed
+1. Estudio Medieval (Messaging: 0981 519 040)
+2. SHINE Nails (Messaging: 0986 693 259)
+3. Viviesteticpy (Messaging: 0976 668 289) — IG already confirmed
 
 ### Phase 2 — Cold approach this month
-4. Leticia Carballo (WhatsApp: 0984 904 215)
-5. Portas Barber Shop (WhatsApp: 0994 215 627)
-6. Nde Barba (WhatsApp: 0991 444 268)
+4. Leticia Carballo (Messaging: 0984 904 215)
+5. Portas Barber Shop (Messaging: 0994 215 627)
+6. Nde Barba (Messaging: 0991 444 268)
 
 ### Phase 3 — Secondary leads
 7. HidroBaby Spa (for family/pediatric market)

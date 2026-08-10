@@ -10,7 +10,7 @@ Analyzed 11 beauty/wellness/gym competitor websites in Paraguay.
 **LTM Benchmark (most feature-rich):**XCORE.fit (16/20), Almacén del Barbero (14/20), Dermobeauty (13/20)
 
 **What competitors already have → what clients NEED to compete:**
-- ✅ WhatsApp CTA (87% have it)
+- ✅ Messaging CTA (87% have it)
 - ✅ Online booking (100% have it)
 - ✅ Social media links (100% have it)
 - ✅ Multi-location (73% have it)
@@ -73,8 +73,8 @@ Analyzed 11 beauty/wellness/gym competitor websites in Paraguay.
 | Feature | Availability | Must-Have? | Notes |
 |---------|-------------|-----------|-------|
 | Phone number visible | 100% | **YES** | Obvious |
-| WhatsApp CTA | 87% | **YES** | WhatsApp-first Paraguay |
-| WhatsApp chat widget | 55% | **YES** | Floating WA bubble |
+| Messaging CTA | 87% | **YES** | Messaging-first Paraguay |
+| Messaging chat widget | 55% | **YES** | Floating WA bubble |
 | Google Maps embed | 27% | **YES** | Navigation + trust |
 | Hours displayed | 64% | **YES** | "Abierto ahora" state |
 | Multiple locations | 73% | Per-client | Not needed for single-location |
@@ -121,7 +121,7 @@ Analyzed 11 beauty/wellness/gym competitor websites in Paraguay.
 ## MUST-HAVE FEATURES BY VERTICAL
 
 ### 🏪 BARBERIA / BARBERSHOP
-1. WhatsApp floating button
+1. Messaging floating button
 2. Online booking (even simple form)
 3. Service menu with prices
 4. Instagram feed embed
@@ -131,7 +131,7 @@ Analyzed 11 beauty/wellness/gym competitor websites in Paraguay.
 ### 💅 NAILS / BEAUTY SALON
 1. Before/After gallery (our key differentiator)
 2. Service menu + pricing
-3. WhatsApp booking CTA
+3. Messaging booking CTA
 4. Instagram embed
 5. Google Maps
 6. Gallery lightbox
@@ -141,14 +141,14 @@ Analyzed 11 beauty/wellness/gym competitor websites in Paraguay.
 2. Booking for classes
 3. Free trial CTA
 4. Google Reviews widget
-5. WhatsApp
+5. Messaging
 6. Video content (intro + testimonials)
 
 ### 🧖 SPA / ESTHETICS
 1. Online booking (appointment required)
 2. Service menu + pricing
 3. About + team section
-4. WhatsApp
+4. Messaging
 5. Instagram
 
 ---
@@ -157,14 +157,14 @@ Analyzed 11 beauty/wellness/gym competitor websites in Paraguay.
 
 Every client site MUST have these to compete with the market:
 
-**1. WHATSAPP FLOATING CTA** (87% competitors have it)
-- Simple `wa.me/595XXXXXXXXX` or WhatsApp Business widget
+**1. MESSAGING FLOATING CTA** (87% competitors have it)
+- Simple `wa.me/595XXXXXXXXX` or Messaging Business widget
 - Floating bottom-right bubble
 - This is non-negotiable in Paraguay
 
 **2. ONLINE BOOKING FORM** (100% competitors have it)
 - Minimum: Name, phone, service, preferred date
-- Confirm via WhatsApp automatically
+- Confirm via Messaging automatically
 - Premium: real-time calendar slots
 
 **3. SERVICE MENU WITH PRICES** (only 18% show prices)
@@ -198,7 +198,7 @@ These increase the proposal value:
 | Online payment (MercadoPago) | 45% | Full transaction capability |
 | Video intro / testimonials | 45% | Emotional connection |
 | Google Reviews widget | 45% | Social proof |
-| Booking confirmation via WhatsApp | 27% | Automation + trust |
+| Booking confirmation via Messaging | 27% | Automation + trust |
 | Meta Pixel / conversion tracking | 64% | Ad retargeting capability |
 | Blog / content strategy | 45% | SEO + thought leadership |
 
@@ -217,7 +217,7 @@ Competitors' websites were downloaded. Here's what they have visually:
 - Images: 28-25 per page
 - Content: Beard products, academy section, blog, FAQ, team photos
 - Strong: product catalog, educational content, FAQ
-- Missing: WhatsApp, Google Maps, hours
+- Missing: Messaging, Google Maps, hours
 
 ### NailBar (nailbar.com.py)
 - Images: 29
@@ -254,7 +254,7 @@ Showing prices attracts the right clients and filters tire-kickers.
 
 ```
 MUST-HAVE TIER (compete with market)
-├── WhatsApp floating CTA button
+├── Messaging floating CTA button
 ├── Online booking (service + date + name + phone)
 ├── Service menu with at least 6 services
 ├── Prices shown (Gs. format)
@@ -268,7 +268,7 @@ PREMIUM TIER (differentiate from market)
 ├── Online payment (MercadoPago / Tigo Money)
 ├── 3-tier membership/plan cards
 ├── Google Reviews embedded widget
-├── Booking confirmation WhatsApp auto-reply
+├── Booking confirmation Messaging auto-reply
 ├── Multiple location pages
 ├── Video intro / testimonials section
 ├── Meta Pixel tracking (ad retargeting)

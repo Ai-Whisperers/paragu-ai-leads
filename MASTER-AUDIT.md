@@ -69,7 +69,7 @@
 - No e-commerce / booking integration
 - No search functionality
 - No localization (Spanish only — OK for PY clients but no English fallback)
-- No CTA variants (all sites use same "Contactar por WhatsApp" CTA)
+- No CTA variants (all sites use same "Contactar por Messaging" CTA)
 
 ---
 
@@ -125,7 +125,7 @@ WEAKNESSES:
 ┌─ HERO ───────────────────────────────────────────────┐
 │ ✓ Gradient background with dot pattern               │
 │ ✓ Crisp heading with subtitle                        │
-│ ✓ WhatsApp CTA button                                │
+│ ✓ Messaging CTA button                                │
 │ ✗ NO HERO IMAGE — Just a gradient, looks empty       │
 │ ✗ No gym equipment photos, no facility showcase      │
 │ ✗ Generic "Reservar" — doesn't say WHAT you book     │
@@ -270,7 +270,7 @@ What makes it professional:
 9. **Trust badges** — "13 puntos en todo el país", "Garantía de fábrica"
 10. **Secondary navigation** — mobile CTAs, bottom nav
 11. **Recently viewed** + wishlist hooks
-12. **CTA Banner** — gradient with WhatsApp CTA
+12. **CTA Banner** — gradient with Messaging CTA
 13. **Business address** — real Villeta, Central location
 14. **Founding date** — since 1976, brand authority
 15. **Product cards** — hover effects, star ratings, descriptions
@@ -319,7 +319,7 @@ MISSING FROM AUTO-GEN SITES:
   □ payment-methods.tsx    □ product-card.tsx
   □ quick-order.tsx        □ recently-viewed.tsx
   □ safe-image.tsx         □ search-autocomplete.tsx
-  □ share-whatsapp.tsx     □ skeleton.tsx
+  □ share-messaging.tsx     □ skeleton.tsx
   □ toast.tsx              □ bottom-nav.tsx
   □ json-ld.tsx            □ breadcrumb-jsonld.tsx
   □ article-json-ld.tsx    □ faq-json-ld.tsx
@@ -461,7 +461,7 @@ HOOKS
 UTILITIES
 ─────────
 □ Add cn() class merge utility (clsx + tailwind-merge)
-□ Add wa() URL builder for WhatsApp
+□ Add wa() URL builder for Messaging
 □ Add formatCurrency for Gs.
 □ Add formatPhone for display
 □ Add slugify utility
@@ -602,7 +602,7 @@ WEAK COPY TO REPLACE
 □ Generic "Contacto" page → booking flow
 □ Generic FAQ → specific business questions
 □ About page → origin story + team
-□ No calls to action beyond WhatsApp
+□ No calls to action beyond Messaging
 
 MISSING SECTIONS
 ────────────────
@@ -636,10 +636,10 @@ CORE PAGES
 
 FEATURES
 ────────
-□ WhatsApp click-to-chat on every page (we have this)
+□ Messaging click-to-chat on every page (we have this)
 □ Google Maps embed on contacto
 □ Contact form (email)
-□ WhatsApp share buttons
+□ Messaging share buttons
 □ Print-friendly styles
 □ RSS feed
 □ Search (static site search)
@@ -768,7 +768,7 @@ ANALYTICS
 ─────────
 □ Add Google Analytics 4 (or alternative)
 □ Add privacy-friendly Plausible/Umami
-□ Track WhatsApp clicks
+□ Track Messaging clicks
 □ Track page views per page
 □ Track CTA conversions
 □ Track form submissions
@@ -783,7 +783,7 @@ MONITORING
 CONVERSION
 ──────────
 □ Set up conversion goals
-□ Track WhatsApp chat initiations
+□ Track Messaging chat initiations
 □ Track phone number clicks
 □ Track form fills
 ```
@@ -819,7 +819,7 @@ BRANDING
 □ Register domain per business
 □ Add business email
 □ Add Google Business Profile
-□ Add WhatsApp Business API
+□ Add Messaging Business API
 ```
 
 ---
@@ -864,5 +864,5 @@ BRANDING
 6. Add testimonials section
 7. Add trust badges section
 8. Add real service photos
-9. Add contact form (not just WhatsApp)
+9. Add contact form (not just Messaging)
 10. Run Lighthouse and improve scores

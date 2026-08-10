@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Nutrifit Spa y Belleza |
 | **Founders** | **Auda Riveros** — Licenciada en Nutrición y Cosmetología |
-| **WhatsApp** | wa.me/595981953000 |
+| **Messaging** | wa.me/595981953000 |
 | **Phone** | 0981 953 000 |
 | **Address (HQ)** | Don Bosco 2221, Fernando de la Mora 110310 — Zona Norte |
 | **Address (Sucursal)** | Los Laureles: Lamas Carísimo 5.842 casi Alas Paraguayas |
@@ -123,7 +123,7 @@ Inicio con: consultorio nutricional + tratamientos faciales + masajes con una ma
 | Google Maps | 233 reviews, 4.6⭐ |
 | Gift Cards | fanbag.com.py (gift card vendor) |
 | Website | N/A |
-| WhatsApp | wa.me/595981953000 |
+| Messaging | wa.me/595981953000 |
 | Phone | 0981 953 000 |
 
 ---
@@ -185,7 +185,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 981 953 000
+- [x] Messaging: +595 981 953 000
 - [x] Phone: 0981 953 000
 - [x] IG: @nutrifit.spa_belleza
 - [x] FB: buscar @nutrifitpy

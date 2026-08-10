@@ -51,11 +51,11 @@
 - [ ] **Services Menu** - All services with prices, durations, descriptions
 - [ ] **Portfolio Gallery** - 20-40 images organized by service type
 - [ ] **Team/Stylists** - Individual profiles with specialties, Instagram links
-- [ ] **Contact/Location** - Address, map, hours, phone, WhatsApp
+- [ ] **Contact/Location** - Address, map, hours, phone, Messaging
 
 ### Functional Requirements
 - [ ] Online booking integration (Fresha/GlossGenius/Square)
-- [ ] WhatsApp direct booking button
+- [ ] Messaging direct booking button
 - [ ] Click-to-call on mobile
 - [ ] Service menu with filter capability
 - [ ] Image lightbox/gallery view
@@ -93,7 +93,7 @@
 **Contact:**
 - Full address with Google Maps embed
 - Phone number (click-to-call on mobile)
-- WhatsApp business link
+- Messaging business link
 - Business hours (including special hours)
 - Parking/transportation info
 - Contact form for inquiries
@@ -127,7 +127,7 @@
 1. **Fresha** (Recommended - Free)
    - Free for business
    - Spanish language support
-   - WhatsApp notifications
+   - Messaging notifications
    - Recurring bookings
 
 2. **GlossGenius**
@@ -139,8 +139,8 @@
    - Good for multi-service
    - Inventory tracking
 
-### WhatsApp Fallback
-- Direct WhatsApp business link
+### Messaging Fallback
+- Direct Messaging business link
 - Pre-filled message template: "Hola! Quisiera agendar una cita para [service]"
 
 ## 1.7 SEO Requirements
@@ -230,7 +230,7 @@
 - [ ] Trainer profiles with booking
 - [ ] Location with directions + parking
 - [ ] Mobile-responsive
-- [ ] WhatsApp for inquiries
+- [ ] Messaging for inquiries
 
 ### Content Requirements
 
@@ -265,7 +265,7 @@
 
 **Contact:**
 - Full address with map
-- Phone, email, WhatsApp
+- Phone, email, Messaging
 - Opening hours (including 24/7 if applicable)
 - Parking info
 - "Schedule Tour" CTA
@@ -360,7 +360,7 @@
 - [ ] Facility photos (environment is selling point)
 - [ ] Gift voucher purchase option
 - [ ] Mobile-responsive
-- [ ] WhatsApp for inquiries
+- [ ] Messaging for inquiries
 
 ### Content Requirements
 
@@ -389,7 +389,7 @@
 **Contact:**
 - Address (often destination/spa location)
 - Hours (including any special timing)
-- Booking form + phone + WhatsApp
+- Booking form + phone + Messaging
 
 ## 3.5 Design Requirements
 
@@ -452,7 +452,7 @@
 - [ ] Nail art style categories
 - [ ] Before/after transformations
 - [ ] Mobile-responsive
-- [ ] WhatsApp booking
+- [ ] Messaging booking
 
 ### Content Requirements
 
@@ -675,7 +675,7 @@
 - [ ] Pricing transparency (or "from" pricing)
 - [ ] Trust signals (certifications, reviews)
 - [ ] Mobile-responsive
-- [ ] WhatsApp for inquiries
+- [ ] Messaging for inquiries
 
 ### Content Requirements
 
@@ -817,7 +817,7 @@
 - [ ] Safety information
 - [ ] Pricing transparency
 - [ ] Mobile-responsive
-- [ ] WhatsApp for inquiries
+- [ ] Messaging for inquiries
 
 ### Content Requirements
 
@@ -843,7 +843,7 @@
 **Contact:**
 - Location + hours
 - Free consultation form
-- Phone + WhatsApp
+- Phone + Messaging
 
 ---
 
@@ -860,7 +860,7 @@
 | Before/After | ⚠️ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ |
 | Pricing Display | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ✅ |
 | Location/Map | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| WhatsApp | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ |
+| Messaging | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ |
 | Mobile-First | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ✅ Essential | ⚠️ Important | ❌ Not Required
@@ -869,15 +869,15 @@
 
 | Category | Primary Booking | Paraguayan Adaptation |
 |----------|-----------------|----------------------|
-| Hair Salons | Platform (Fresha) | WhatsApp fallback |
-| Gym/Fitness | Platform (Mindbody) | Form + WhatsApp |
-| Spa/Wellness | Platform (Fresha) | WhatsApp fallback |
-| Nail Salons | Platform (Fresha) | WhatsApp fallback |
-| Tattoo/Piercing | Consultation form | WhatsApp inquiry |
-| Barber Shops | Platform (Square) | Walk-in + WhatsApp |
-| Aesthetic Clinics | Consultation form | WhatsApp inquiry |
-| Makeup Artists | Inquiry form | WhatsApp inquiry |
-| Hair Removal | Consultation form | WhatsApp inquiry |
+| Hair Salons | Platform (Fresha) | Messaging fallback |
+| Gym/Fitness | Platform (Mindbody) | Form + Messaging |
+| Spa/Wellness | Platform (Fresha) | Messaging fallback |
+| Nail Salons | Platform (Fresha) | Messaging fallback |
+| Tattoo/Piercing | Consultation form | Messaging inquiry |
+| Barber Shops | Platform (Square) | Walk-in + Messaging |
+| Aesthetic Clinics | Consultation form | Messaging inquiry |
+| Makeup Artists | Inquiry form | Messaging inquiry |
+| Hair Removal | Consultation form | Messaging inquiry |
 
 ## Technical Requirements Summary
 
@@ -887,7 +887,7 @@
 - Contact form
 - Google Maps embed
 - Social media links
-- WhatsApp integration
+- Messaging integration
 - Fast loading (< 3 seconds)
 - Basic SEO (title, meta, schema)
 

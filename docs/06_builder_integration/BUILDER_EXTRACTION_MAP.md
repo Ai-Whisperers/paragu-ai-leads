@@ -99,7 +99,7 @@ paraguay_priority_a.csv
 |---|---|
 | `name` | `businessName` |
 | `phone` | `contact.phone` |
-| `international_phone` | `contact.whatsapp` |
+| `international_phone` | `contact.messaging` |
 | `address` | `location.address` |
 | `city` | `location.city` |
 | `neighborhood` | `location.neighborhood` |

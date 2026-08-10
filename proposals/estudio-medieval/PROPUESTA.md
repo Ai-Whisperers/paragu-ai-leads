@@ -11,7 +11,7 @@ Tenés **58K seguidores en Instagram, 392 reseñas en Google, 4 sub-marcas y 8+ 
 Cada vez que alguien te googlea vé:
 - El mapa de Google (okay)
 - Tu Instagram (no pueden reservar)
-- Tu WhatsApp (tienen que escribir y esperar)
+- Tu Messaging (tienen que escribir y esperar)
 
 **Un sitio web profesional llena ese vacío** — y te hace encontrar en Google even cuando no知道你 existent.
 
@@ -29,10 +29,10 @@ Cada vez que alguien te googlea vé:
 4. **Nuestros Artistas** — Perfiles de tatuadores con especialidades
 5. **Historia / Nosotros** — Tu historia, 8 años de trayectoria
 6. **Skin Shop** — Integración con tu zona de insumos (B2B)
-7. **Contacto + Reserva online** — Formulario + WhatsApp + mapa
+7. **Contacto + Reserva online** — Formulario + Messaging + mapa
 
 ### Features críticos incluidos:
-- ✅ WhatsApp CTA flotante en todas las páginas
+- ✅ Messaging CTA flotante en todas las páginas
 - ✅ Galería Before/After (fundamental para tatuadores)
 - ✅ Reserva de consulta online
 - ✅ Catálogo de servicios con precios

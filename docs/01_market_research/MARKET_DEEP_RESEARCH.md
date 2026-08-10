@@ -173,7 +173,7 @@
 
 ### 4.3 Indirect Competition
 - Social media (Instagram) as pseudo-website
-- WhatsApp Business as contact solution
+- Messaging Business as contact solution
 - Classifieds (Olx, Yapo) for presence
 
 ---
@@ -185,12 +185,12 @@
 |---------|-----------------|-------|
 | Instagram | 45% | Primary discovery |
 | Google "near me" | 30% | Search intent |
-| WhatsApp | 15% | Word of mouth |
+| Messaging | 15% | Word of mouth |
 | Facebook | 8% | Older demographic |
 | Referral | 2% | Personal networks |
 
 ### 5.2 Booking Behavior
-- **70%+** book via WhatsApp
+- **70%+** book via Messaging
 - **20%** call directly
 - **10%** use online booking (growing)
 - Peak booking times: Before weekends, Monday
@@ -202,7 +202,7 @@
 | Price transparency | HIGH | Listed prices important |
 | Reviews/Ratings | MEDIUM | Google reviews matter |
 | Location convenience | MEDIUM | "Near me" searches |
-| WhatsApp response | HIGH | Speed of reply |
+| Messaging response | HIGH | Speed of reply |
 
 ---
 
@@ -258,7 +258,7 @@ Based on Paraguayan small business behavior:
 3. **Poor mobile experience** - Most websites not optimized
 4. **No portfolio showcasing** - Instagram is only showcase
 5. **No pricing transparency** - Hidden pricing = lost leads
-6. **No lead capture** - WhatsApp only, no CRM
+6. **No lead capture** - Messaging only, no CRM
 
 ### 8.2 Opportunities by Category
 
@@ -302,7 +302,7 @@ Based on Paraguayan small business behavior:
 | Economic downturn | Reduced spend | Focus on value/ROI messaging |
 | Currency fluctuation | Pricing uncertainty | Use USD equivalent |
 | Competition entry | Price pressure | Build relationships first |
-| WhatsApp policy changes | Communication | Build email list |
+| Messaging policy changes | Communication | Build email list |
 
 ### 10.2 Customer Risks
 | Risk | Impact | Mitigation |

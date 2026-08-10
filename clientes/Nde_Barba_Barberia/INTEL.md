@@ -7,7 +7,7 @@
 ## BUSINESS IDENTIFICATION
 - **Name:** Nde Barba Barbería
 - **Owner:** Unknown (name not found publicly)
-- **WhatsApp:** wa.me/595991444268 (0991 444 268)
+- **Messaging:** wa.me/595991444268 (0991 444 268)
 - **Phone:** 0991 444 268
 - **Address:** San Lorenzo / Fernando de la Mora (~1.7km from Politécnica)
 - **Category:** Barbershop
@@ -26,10 +26,10 @@
 - **Search attempts:** by name, by phone number, by location
 - **Viralist scan:** NOT FOUND on Viralist
 
-### WhatsApp Business Insight
-- WhatsApp number confirmed: 0991 444 268 = strong digital presence already
-- Applies for WhatsApp Business = already has digital tool for appointments
-- No website = has a gap in online presence that WhatsApp alone can't fill
+### Messaging Business Insight
+- Messaging number confirmed: 0991 444 268 = strong digital presence already
+- Applies for Messaging Business = already has digital tool for appointments
+- No website = has a gap in online presence that Messaging alone can't fill
 
 ### Facebook
 - **Status:** NOT CONFIRMED (search results dominated by Los Barberos de López)
@@ -56,7 +56,7 @@
 1. 118 Google reviews = established, PROVEN client base
 2. 4.8⭐ rating = quality service that deserves a website
 3. "Nde Barba" = local brand name with cultural identity = great for portfolio showcase
-4. WhatsApp Business active = digitally aware owner who already uses digital tools
+4. Messaging Business active = digitally aware owner who already uses digital tools
 5. NO website = clear gap — owner is handling appointments manually
 6. Near FP (1.7km) — walkable, easy to visit for consultation
 7. Barber category = simple services = potential for web + reservation system
@@ -66,12 +66,12 @@
 ## SELLING POINTS (for approach)
 - "Te armamos una web donde tus clientes reserven turno online"
 - "Mostramos tu trabajo, tu dirección, tus servicios — todo en un lugar"
-- "Con tu WhatsApp y tu web, manejás todo desde el celular"
+- "Con tu Messaging y tu web, manejás todo desde el celular"
 - "118 Reviews ya tenés — imaginá cómo grow si tu web aparece en Google"
 
 ---
 
 ## CONTACT
-- **WhatsApp direct:** wa.me/595991444268 — CELESTE directly
+- **Messaging direct:** wa.me/595991444268 — CELESTE directly
 - **Approach:** Show examples of other barber shops with online booking systems
 - **Lead quality:** MEDIUM-HIGH — established business, digitally active, no website = clear and immediate need

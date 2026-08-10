@@ -22,7 +22,7 @@
 | Images | 5 | 15 | 30 | Unlimited |
 | Services listed | 5 | 15 | 30 | Unlimited |
 | Custom domain | ❌ | ✅ | ✅ | ✅ |
-| WhatsApp Business | Basic | Pro | Pro | Pro |
+| Messaging Business | Basic | Pro | Pro | Pro |
 | Online booking | ❌ | ❌ | ✅ | ✅ |
 | E-commerce | ❌ | ❌ | ❌ | ✅ |
 | Priority support | ❌ | Email | Chat | Phone |
@@ -42,7 +42,7 @@
 
 **"Grand Opening" Bundle**
 - FREE website (any tier)
-- 3 months of WhatsApp Business FREE
+- 3 months of Messaging Business FREE
 - 1 month of booking system FREE
 - Total value: $100+
 - Timeline: First 3 months
@@ -110,7 +110,7 @@
 | Deal | Description | Price | Value |
 |------|-------------|-------|-------|
 | "Show Your Work" | Website + 20-photo portfolio | $79 setup | $150 value |
-| "Booking Master" | Website + booking + WhatsApp Pro | $45/mo | $75 value |
+| "Booking Master" | Website + booking + Messaging Pro | $45/mo | $75 value |
 | "Stylist Package" | Website + individual stylist pages | $99 setup | $175 value |
 | "Salon Launcher" | Full setup + 3 months free | $0 setup | $300 value |
 
@@ -284,7 +284,7 @@
 - If client doesn't get 5 new leads in 90 days
 - Refund setup fee
 - Keep website for free
-- Requires: Working phone/WhatsApp
+- Requires: Working phone/Messaging
 
 ### 7.2 Satisfaction Guarantees
 

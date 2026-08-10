@@ -41,7 +41,7 @@
 - Rarely updated
 
 ### Businesses WITHOUT Website (5,602 total - 75%)
-- Primarily WhatsApp-based communication
+- Primarily Messaging-based communication
 - Instagram as primary showcase
 - Rely on word-of-mouth
 - No online booking capability
@@ -61,7 +61,7 @@
 - **Largest category** in the market
 - **Highest competition** but also highest demand
 - **81% without websites** - massive opportunity
-- Strong WhatsApp usage for bookings
+- Strong Messaging usage for bookings
 - Instagram-dependent for visuals
 
 ### Target Customer
@@ -73,7 +73,7 @@
 ### Key Success Factors
 1. Portfolio (real work, not stock)
 2. Clear pricing
-3. Easy booking (WhatsApp + online)
+3. Easy booking (Messaging + online)
 4. Stylist personalities/connection
 5. Location convenience
 
@@ -82,7 +82,7 @@
 - Service menu with prices (Gs. 50,000 - 300,000)
 - Portfolio gallery (20+ images)
 - Team/stylist profiles
-- Contact + location + WhatsApp
+- Contact + location + Messaging
 - Mobile-first design
 
 ---
@@ -177,7 +177,7 @@
 - Portfolio gallery (30+ images)
 - Technician profiles
 - Contact + booking
-- WhatsApp integration
+- Messaging integration
 
 ---
 
@@ -376,7 +376,7 @@
 - GlossGenius/Vagaro integrations
 - Clean portfolios
 - Clear pricing
-- WhatsApp integration
+- Messaging integration
 - Mobile responsiveness
 
 ### What Doesn't Work (Common Issues)
@@ -395,7 +395,7 @@
 
 **"María" - Hair Salon Owner**
 - Age: 35-50
-- Tech comfort: Medium (WhatsApp, Instagram)
+- Tech comfort: Medium (Messaging, Instagram)
 - Pain points: 
   - Missed calls for bookings
   - Hard to show work to new clients
@@ -418,9 +418,9 @@
 **"Ana" - Beauty Service Consumer**
 - Age: 25-45
 - Primary device: Mobile (70%)
-- Discovery: Instagram, Google "near me", WhatsApp
+- Discovery: Instagram, Google "near me", Messaging
 - Decision factors: Reviews, photos, price clarity
-- Booking preference: Online + WhatsApp
+- Booking preference: Online + Messaging
 
 ---
 
@@ -455,7 +455,7 @@
 # 7. KEY FINDINGS SUMMARY
 
 1. **Massive Gap**: 75% of beauty/wellness businesses have no website
-2. **WhatsApp Market**: Paraguay runs on WhatsApp - must be integrated
+2. **Messaging Market**: Paraguay runs on Messaging - must be integrated
 3. **Mobile First**: 70%+ of searches happen on mobile
 4. **Visual is King**: Portfolio/gallery is critical for most categories
 5. **Booking is Barrier**: Most have no online booking capability

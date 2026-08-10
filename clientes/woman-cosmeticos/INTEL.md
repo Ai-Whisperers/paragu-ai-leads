@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Woman Cosmeticos |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595985695929 |
+| **Messaging** | wa.me/595985695929 |
 | **Phone** | 0985 695 929 |
 | **Address** | Mariscal Lopez 2783, Fernando de la Mora 110303 |
 | **Category** | Establecimiento comercial ( cosmetics retail?) |
@@ -56,7 +56,7 @@
 ## WHAT THEY HAVE
 - ✅ 4.8⭐ rating ALTO (rating premium despite bajo reviews)
 - ✅ Adresse premium (Mariscal Lopez = av. Principal)
-- ✅ WhatsApp directo
+- ✅ Messaging directo
 - ✅ Sin website = oportunidad
 
 ---
@@ -87,7 +87,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 985 695 929
+- [x] Messaging: +595 985 695 929
 - [x] Phone: 0985 695 929
 - [x] Google Maps: Listed con 9 reviews, 4.8⭐
 - [x] Address: Mariscal Lopez 2783, Fernando Mora 110303

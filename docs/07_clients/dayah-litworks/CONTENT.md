@@ -154,7 +154,7 @@ Section order on `/dayah-litworks` (mirrors `page-spec.json:sectionOrder`):
 5. **Testimonials** - Carousel; collect copy before launch.
 6. **Conditions of Service** - Accordion, collapsed by default.
 7. **Payment methods** - 3 icon tiles.
-8. **Contact CTA** - WhatsApp primary; persistent sticky pill bottom-right (desktop) and bottom-bar (mobile) after 600px scroll.
+8. **Contact CTA** - Messaging primary; persistent sticky pill bottom-right (desktop) and bottom-bar (mobile) after 600px scroll.
 
 ### Visual identity (see `page-spec.json:designTokens`)
 - Palette: cream `#f7f1e6` background, ink `#1a1a1a`, copper accent `#a3683f`.

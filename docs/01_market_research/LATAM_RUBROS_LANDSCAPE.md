@@ -15,7 +15,7 @@ Every LATAM SME is classified against three taxonomies simultaneously. All three
 |---|---|---|---|
 | **1. Statistical / fiscal** (CIIU Rev.4, SCIAN, CNAE) | National statistics office + tax authority | Authoritative list — every registered business maps here; best for bulk lead sourcing if registry is open | Varies widely (Brazil + Colombia open; Paraguay + Argentina restricted) |
 | **2. Regulatory** (MSP, INAN, ANMAT, INVIMA, ANVISA, COFEPRIS…) | Sector ministries / agencies | Tells us which rubros **need compliance pages** on their website (medical, food, financial, legal, construction). Builder already has 5 PY compliance templates; this layer says "replicate per country × rubro". | License numbers publicly queryable per country |
-| **3. Commercial / directory** (ClasiPar, MercadoLibre, Sección Amarilla, Páginas Amarillas, Google Business Profile) | Private marketplaces / directories | Where SMEs self-classify to get customers. **Where lead phone/WhatsApp data actually lives.** Scrape-friendly (most of the Amarillas family) or API-available (MercadoLibre). | Mixed — Amarillas is wide-open; MercadoLibre API is public unauthenticated |
+| **3. Commercial / directory** (ClasiPar, MercadoLibre, Sección Amarilla, Páginas Amarillas, Google Business Profile) | Private marketplaces / directories | Where SMEs self-classify to get customers. **Where lead phone/Messaging data actually lives.** Scrape-friendly (most of the Amarillas family) or API-available (MercadoLibre). | Mixed — Amarillas is wide-open; MercadoLibre API is public unauthenticated |
 
 > **The most useful layer for us is (3), cross-walked against (1) for completeness and flagged against (2) for compliance.**
 
@@ -31,7 +31,7 @@ Every LATAM SME is classified against three taxonomies simultaneously. All three
 | Issued by | INE (statistics); SET/DNIT adopts for RUC |
 | Where encountered | RUC inscription, Marangatu, SUACE |
 | Regulators triggering compliance pages | DINAVISA (pharma), INAN (food), BCP/SEPRELAD (finance), MOPC (construction), DINATRAN (transport), CONATEL (telecom) |
-| Best lead source | **ClasiPar** (144 rubros, phone + WhatsApp exposed, no auth) — already mapped in `PARAGUAY_RUBROS_TAXONOMY.md` |
+| Best lead source | **ClasiPar** (144 rubros, phone + Messaging exposed, no auth) — already mapped in `PARAGUAY_RUBROS_TAXONOMY.md` |
 | Bulk public registry | SET consulta per-RUC only; no bulk dump — scraping = per-rubro crawling |
 | Builder coverage | ✅ Full — 5 compliance templates (privacy-py, AML-Nexa, INAN-food, cookies, ToS) live |
 
@@ -80,7 +80,7 @@ Every LATAM SME is classified against three taxonomies simultaneously. All three
 | Issued by | DANE (stats); DIAN adopts via Res. 000114/2020 |
 | Where encountered | RUT at DIAN, Cámara de Comercio matrícula, ICA municipal |
 | Regulators | INVIMA (pharma/food), Superfinanciera (finance), Consejo Superior Judicatura (legal), Curaduría + SIC (construction) |
-| Best lead source | **Páginas Amarillas Colombia (Publicar)** — self-branded "largest commercial directory in LATAM", phone + WhatsApp public. **MercadoLibre CO**. **RUES** from Confecámaras is queryable. |
+| Best lead source | **Páginas Amarillas Colombia (Publicar)** — self-branded "largest commercial directory in LATAM", phone + Messaging public. **MercadoLibre CO**. **RUES** from Confecámaras is queryable. |
 | Bulk public registry | **Best in class after Brazil** — RUES + DANE + DIAN all have public endpoints |
 | Builder coverage | ❌ No CO tenant — **highest-ROI expansion market** (open data + big population + big SME base) |
 
@@ -147,7 +147,7 @@ Grouped by **website feature profile**, which is what actually matters to the bu
 
 ### Cluster A — Appointment / Service Booking (highest value for our pitch)
 **Examples:** peluquería, barbería, estética, depilación, manicuría, masajes, gimnasio/personal trainer, spa, consultorio odontológico, consultorio médico, veterinaria, peluquería canina, lavadero de autos, taller mecánico (con turno), tatuador.
-**Needs:** online booking (Calendly/Cal.com/Fresha), WhatsApp float, hours widget, service menu with prices + durations, staff bios, gallery, Google reviews widget, Instagram feed.
+**Needs:** online booking (Calendly/Cal.com/Fresha), Messaging float, hours widget, service menu with prices + durations, staff bios, gallery, Google reviews widget, Instagram feed.
 **Builder verticals:** `beauty-personal-care`, `service-booking`, `pets-animals`, `health-wellness`, `automotive`.
 **Regulated?** Health sub-cluster yes (COFEPRIS/ANMAT/ANVISA/INVIMA/DIGEMID/MSP/ISP/DINAVISA).
 
@@ -165,19 +165,19 @@ Grouped by **website feature profile**, which is what actually matters to the bu
 
 ### Cluster D — Lead Generation / High-ACV Consultations
 **Examples:** abogados, contadores, despachantes de aduana, gestores, tasadores, seguros (agentes), consultores (RRHH, TI, agronomía), inmobiliaria, corredor inmobiliario, desarrollador inmobiliario, servicios financieros, asesores de inversión, notarios/escribanos.
-**Needs:** trust signals (years in business, logos of clients, certifications), practice areas/specialties, consultation form → CRM (HubSpot/Pipedrive), blog for SEO, compliance statements, WhatsApp for initial contact.
+**Needs:** trust signals (years in business, logos of clients, certifications), practice areas/specialties, consultation form → CRM (HubSpot/Pipedrive), blog for SEO, compliance statements, Messaging for initial contact.
 **Builder verticals:** `b2b-professional`, `finance-insurance`, `real-estate-relocation`.
 **Regulated?** Almost always — bar associations (OAB, colegios), superfinanciera, BCP, ANMAT for compounded medicines etc.
 
 ### Cluster E — Trades / Home Services (emergency-pattern)
 **Examples:** electricistas, plomeros, cerrajeros, carpinteros, albañiles, herreros, destapaciones, fumigación, aire acondicionado, pintores, jardinería, limpieza, mudanzas, servicio técnico electrodomésticos "línea blanca".
-**Needs:** "call now" button everywhere, emergency indicator section, service area map, before/after gallery, pricing transparency, warranty/certification badges, WhatsApp.
+**Needs:** "call now" button everywhere, emergency indicator section, service area map, before/after gallery, pricing transparency, warranty/certification badges, Messaging.
 **Builder verticals:** `trades-home-services`, `logistics-transport` (mudanzas).
 **Regulated?** Construction obras mayores yes (municipal + CREA/CAU in BR); small trades mostly not.
 
 ### Cluster F — Event / Hospitality (seasonal, high-impact)
 **Examples:** salones de fiestas, catering, bebidas, animación/alquiler de juegos, decoración y ambientación, vehículos para eventos, alquiler de carpas/escenarios/mobiliario/indumentaria, fotografía de eventos, DJs, hoteles, hostales, alquiler temporario, excursiones y paseos, agencias de viajes, paquetes turísticos.
-**Needs:** availability calendar, booking widget, gallery (weddings/events), package pricing, map, WhatsApp, multi-locale (for tourism).
+**Needs:** availability calendar, booking widget, gallery (weddings/events), package pricing, map, Messaging, multi-locale (for tourism).
 **Builder verticals:** `hospitality-tourism`, `arts-entertainment-venues`.
 **Regulated?** Hotels register with tourism ministries (SENATUR PY, MINCETUR PE, etc.), food service same as cluster C.
 
@@ -189,13 +189,13 @@ Grouped by **website feature profile**, which is what actually matters to the bu
 
 ### Cluster H — Logistics / Transport
 **Examples:** alquiler de autos, encomiendas/mensajerías, mudanzas (local + internacional Mercosur), pasajeros (colectivo/combi/trafic escolar), remolques, remisería, auxilio mecánico.
-**Needs:** quote calculator, tracking (if applicable), route/coverage map, fleet photos, reservation form, WhatsApp.
+**Needs:** quote calculator, tracking (if applicable), route/coverage map, fleet photos, reservation form, Messaging.
 **Builder verticals:** `logistics-transport`.
 **Regulated?** High — DINATRAN (PY), ANTT (BR), MTT (CL), SICT (MX).
 
 ### Cluster I — Pets
 **Examples:** veterinaria, peluquería canina, adiestramiento, paseadores, pensionados/guarderías, adopciones, traslados, cruza.
-**Needs:** booking, pet profile forms, service menu, gallery (before/after grooming), testimonials, WhatsApp.
+**Needs:** booking, pet profile forms, service menu, gallery (before/after grooming), testimonials, Messaging.
 **Builder verticals:** `pets-animals`.
 **Regulated?** Veterinary license required (colegios de veterinarios); others not.
 
@@ -265,7 +265,7 @@ Where do we deploy builder capacity next? Scored on **market size × data openne
 - **Paraguay ClasiPar** — 144 rubros already mapped (`PARAGUAY_RUBROS_TAXONOMY.md`)
 - **Uruguay Gallito** — Empleos + Servicios with phone exposed
 - **Chile Amarillas.cl + Yapo.cl** — phone exposed, region-faceted
-- **Colombia Publicar (Páginas Amarillas)** — phone + WhatsApp exposed
+- **Colombia Publicar (Páginas Amarillas)** — phone + Messaging exposed
 - **Mexico Sección Amarilla** — phone exposed, ~10M monthly visits
 - **Peru Páginas Amarillas** — phone public
 

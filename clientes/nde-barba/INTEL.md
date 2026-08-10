@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Nde Barba (Barbería) |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595991444268 |
+| **Messaging** | wa.me/595991444268 |
 | **Phone** | 0991 444 268 |
 | **Address** | Entre Libertad, Nicasio Villalba, Fernando de la Mora 110311 |
 | **Category** | Barbería / Peluquería Masculina |
@@ -64,7 +64,7 @@
 - ✅ 118 Google reviews · 4.8⭐ (rating alto)
 - ✅ **Nombre de marca local fuerte** (guaraní + conexión cultural)
 - ✅ Sin sitio web = oportunidad CRASH
-- ✅ WhatsApp directo
+- ✅ Messaging directo
 - ✅ 1.7 km de FP
 
 ---
@@ -96,13 +96,13 @@ Razones:
 - Catálogo de servicios (corte + barba + combos)
 - Turnos online
 - Mapa con cómo llegar (importante para barberías de barrio)
-- Integración WhatsApp
+- Integración Messaging
 - Sección "Hacé tu estilo" (quiz de styles)
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 991 444 268
+- [x] Messaging: +595 991 444 268
 - [x] Phone: 0991 444 268
 - [x] Google Maps: Listed with 118 reviews
 - [x] Address: Entre Libertad, Nicasio Villalba, Fernando de la Mora
@@ -114,7 +114,7 @@ Razones:
 
 ## 🔥 Round 2 Research Findings (2026-05-28)
 - **IG NOT FOUND** — deep searches confirmed: NO Instagram presence for "Nde Barba"
-- **WhatsApp Business active** at 0991 444 268 = owner already using digital tools for appointments
+- **Messaging Business active** at 0991 444 268 = owner already using digital tools for appointments
 - **118 Google reviews** = proven client base, quality 4.8⭐ rating
 - **Name etymology:** "Nde Barba" = Guaraní-derived brand name = authentic LOCAL identity
 - **Market context:** Los Barberos de López (barberos.com.py) dominant competitor with subscription model

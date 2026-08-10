@@ -7,7 +7,7 @@
 ## BUSINESS IDENTIFICATION
 - **Name:** Barbye Nails
 - **Owner:** Unknown
-- **WhatsApp:** Unknown — NOT in original dataset
+- **Messaging:** Unknown — NOT in original dataset
 - **Phone:** NOT confirmed
 - **Address:** San Lorenzo / Fernando de la Mora — near Politécnica (~1.6km)
 - **Category:** Beauty Salon (Nails specialist)
@@ -45,7 +45,7 @@
 2. NEW business = client probably started THIS YEAR
 3. Near university = young, digital audience that EXPECTS web
 4. No established client base = building now = PERFECT moment for a web
-5. Small operation = simple to start (just 1-2 service pages + WhatsApp booking)
+5. Small operation = simple to start (just 1-2 service pages + Messaging booking)
 
 **CRITICAL:** If this is a brand new business started in 2025-2026, the owner might be:
 - A nail tech who quit her JOB to go full-time
@@ -56,7 +56,7 @@
 ---
 
 ## WHAT TO OFFER
-- Landing page + services + WhatsApp CTA
+- Landing page + services + Messaging CTA
 - Photo gallery of nails work
 - Simple booking system
 - Price list
@@ -73,12 +73,12 @@
 ---
 
 ## CONTACT STRATEGY
-- **Must find phone:** Search Google Maps listing directly or through WhatsApp
+- **Must find phone:** Search Google Maps listing directly or through Messaging
 - **Approach:** Frame as "build your presence" — she's probably starting from scratch and needs legitimacy
 
 ---
 
 ## CONTACT
-- **WhatsApp:** NOT IN DATASET — must search Google Maps directly
+- **Messaging:** NOT IN DATASET — must search Google Maps directly
 - **Phone:** Unknown
 - **Score:** 107.2 — #11 in ranking despite low reviews because of perfect 5.0⭐ rating

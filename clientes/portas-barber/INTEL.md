@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Portas barber shop |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595994215627 |
+| **Messaging** | wa.me/595994215627 |
 | **Phone** | 0994 215 627 |
 | **Address** | Av. Santa Teresa, Fernando de la Mora 110301 |
 | **Category** | Barbería clásica / Peluquería masculina |
@@ -91,7 +91,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 994 215 627
+- [x] Messaging: +595 994 215 627
 - [x] Phone: 0994 215 627
 - [x] Google Maps: Listed with 162 reviews, 4.9⭐
 - [x] Address: Av. Santa Teresa, Fernando de la Mora
@@ -105,8 +105,8 @@ Razones:
 - **IG NOT FOUND** — deep searches confirmed: no Instagram, TikTok, or Facebook presence as "Portas Barber"
 - **162 reviews** = highest review volume of ALL barber leads = proven loyal client base
 - **4.9⭐** = best rating among barbers in area
-- **WhatsApp Business confirmed** at 0994 215 627 = owner already using digital tools
+- **Messaging Business confirmed** at 0994 215 627 = owner already using digital tools
 - **Av. Santa Teresa** = competitive commercial strip with high foot traffic
 - **Los Barberos de López** (barberos.com.py) = dominant competitor with website + subscription model (G.150K/month unlimited)
 - **Opportunity:** 162 loyal clients — owner managing appointments manually — needs online reservation system
-- **Contact directly via WhatsApp:** wa.me/595994215627
+- **Contact directly via Messaging:** wa.me/595994215627

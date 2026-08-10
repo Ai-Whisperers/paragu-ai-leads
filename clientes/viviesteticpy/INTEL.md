@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Viviesteticpy |
 | **Owner** | **Viviana Ocampo** |
-| **WhatsApp** | wa.me/595976668289 |
+| **Messaging** | wa.me/595976668289 |
 | **Phone** | 0976 668 289 |
 | **Address** | San Lorenzo 111405 (zona San Lorenzo Central) |
 | **Category** | Spa de cejas y pestañas / Belleza |
@@ -56,7 +56,7 @@
 - ✅ **IG confirmado @viviestetic_py** (Viviana Ocampo)
 - ✅ Cejas y pestañas = NICHO PREMIUM (microblading = trending service)
 - ✅ 61 Google reviews · 4.7⭐ (base establecida)
-- ✅ Número WhatsApp directo
+- ✅ Número Messaging directo
 - ✅ Especialista en cejas/pestañas → diferenciación clara
 
 ---
@@ -92,7 +92,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 976 668 289
+- [x] Messaging: +595 976 668 289
 - [x] Phone: 0976 668 289
 - [x] IG: @viviestetic_py ( confirmado Viviana Ocampo)
 - [x] Address: San Lorenzo 111405

@@ -1,4 +1,4 @@
-﻿categoria,rank,nom_neg,whatsapp,telefono,direccion,dist_km,lat,lng,rating,reviews,score,tipos,zona,google_types
+﻿categoria,rank,nom_neg,messaging,telefono,direccion,dist_km,lat,lng,rating,reviews,score,tipos,zona,google_types
 Barberia,1,Portas barber shop,+5950994215627,0994 215627,"Av. Santa Teresa, Fernando de la Mora 110301, Paraguay",2.1,-25.298647,-57.5449081,4.9,162,85.6,establishment|hair_care|health|point_of_interest,,establishment|hair_care|health|point_of_interest
 Barberia,2,Arno's Barber Shop,+5950983996086,0983 996086,"Jacarandá, San Lorenzo 111403, Paraguay",1.8,-25.3116452,-57.51708559999999,5.0,24,67.6,establishment|hair_care|health|point_of_interest|store,,establishment|hair_care|health|point_of_interest|store
 Gimnasio/Fitness,1,XXG Gym,+595021678171,(021) 678 171,"MFR8+RFF, Fernando de la Mora 110303, Paraguay",1.6,-25.3079257,-57.5338267,4.7,119,92.4,establishment|gym|health|point_of_interest,Fernando Zona Norte,establishment|gym|health|point_of_interest

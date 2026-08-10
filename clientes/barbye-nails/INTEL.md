@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Barbye Nails I — San Lorenzo |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595961336346 |
+| **Messaging** | wa.me/595961336346 |
 | **Phone** | 0961 336 346 |
 | **Address** | Clemente Romero 302, San Lorenzo |
 | **Category** | Nails / Estética / Uñas |
@@ -47,7 +47,7 @@
 ## WHAT THEY HAVE
 - ✅ 92 Google reviews con 4.8⭐ (rating alto)
 - ✅ Muy cerca de FP (1.0 km)
-- ✅ Número WhatsApp directo
+- ✅ Número Messaging directo
 - ✅ Sin sitio web = oportunidad
 
 ---
@@ -77,12 +77,12 @@ Razones:
 **Propuesta sugerida:**
 - Sitio web simple с галерея + turnos online
 - Precios por servicio
-- Integración WhatsApp
+- Integración Messaging
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 961 336 346
+- [x] Messaging: +595 961 336 346
 - [x] Phone: 0961 336 346
 - [x] Google Maps: Listed with 92 reviews
 - [x] Address: Clemente Romero 302, San Lorenzo
@@ -95,4 +95,4 @@ Razones:
 ## NEXT STEPS
 1. Extraer reviews y fotos de maps
 2. Buscar IG "Barbye Nails Paraguay" público
-3. Identificar servicios + precios vía chamada WhatsApp
+3. Identificar servicios + precios vía chamada Messaging

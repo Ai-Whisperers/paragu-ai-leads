@@ -610,7 +610,7 @@ Title: "¿Cómo funciona?"
 | Location | Ubicación |
 | Address | Dirección |
 | Phone | Teléfono |
-| WhatsApp | WhatsApp |
+| Messaging | Messaging |
 | Email | Correo / Email |
 | Instagram | Instagram |
 | Facebook | Facebook |

@@ -13,7 +13,7 @@ Lead Source → Initial Contact → Interest Qualify → Intake Sent
 | Step | Action | Time | Owner |
 |------|--------|------|-------|
 | 1.1 | Pull leads from Priority A list | 10 min | System |
-| 1.2 | Send WhatsApp message | 30 sec/lead | Founder |
+| 1.2 | Send Messaging message | 30 sec/lead | Founder |
 | 1.3 | Log response (Y/N) | 10 sec | Founder |
 | 1.4 | Call non-responders | 2 min/lead | Founder |
 | 1.5 | Send intake form to interested | 30 sec | Founder |
@@ -74,12 +74,12 @@ Launch +1 Week → Check In → Collect Feedback → Upsell Opportunity
 
 ## 2. Standard Operating Procedures
 
-### SOP 1: WhatsApp Outreach
+### SOP 1: Messaging Outreach
 
 ```
 PURPOSE: Initial contact with new leads
 WHEN: Daily at 9am (Paraguay time)
-TOOLS: WhatsApp Business
+TOOLS: Messaging Business
 
 STEPS:
 1. Open lead list
@@ -100,12 +100,12 @@ RULES:
 ### SOP 2: Phone Outreach
 
 ```
-PURPOSE: Follow up on non-responsive WhatsApp leads
+PURPOSE: Follow up on non-responsive Messaging leads
 WHEN: Days 3, 7, 14 after initial message
 TOOLS: Phone + Lead tracker
 
 STEPS:
-1. Pull list of leads with no WhatsApp response
+1. Pull list of leads with no Messaging response
 2. Dial each number
 3. Follow script (see LEAD_MANAGEMENT.md)
 4. Log outcome in tracker
@@ -131,7 +131,7 @@ STEPS:
 3. Input:
    - Business name + tagline
    - Services + prices
-   - Contact info (phone, WhatsApp, address)
+   - Contact info (phone, Messaging, address)
    - Team/stylist profiles (if provided)
    - Photos (from intake or stock)
 4. Generate preview
@@ -142,7 +142,7 @@ ERROR CHECK:
 - Check phone numbers format
 - Verify address is readable
 - Ensure all images load
-- Test WhatsApp link works
+- Test Messaging link works
 ```
 
 ### SOP 4: Website Launch
@@ -167,7 +167,7 @@ CHECKLIST:
 - [ ] All pages accessible
 - [ ] Images display
 - [ ] Forms submit
-- [ ] WhatsApp link works
+- [ ] Messaging link works
 - [ ] Mobile responsive
 ```
 
@@ -179,7 +179,7 @@ CHECKLIST:
 - [ ] Mobile responsive (test on iOS + Android)
 - [ ] All images load within 3 seconds
 - [ ] Contact form submits successfully
-- [ ] WhatsApp button links correctly
+- [ ] Messaging button links correctly
 - [ ] Business name and phone visible above fold
 - [ ] Services listed with prices
 - [ ] Address visible with map link
@@ -187,7 +187,7 @@ CHECKLIST:
 ### Customer Service Standards
 | Metric | Target |
 |--------|--------|
-| Response time (WhatsApp) | < 2 hours |
+| Response time (Messaging) | < 2 hours |
 | Response time (email) | < 24 hours |
 | Website delivery time | < 7 days from intake |
 | Revisions included | 2 free, then $25 each |
@@ -213,7 +213,7 @@ CHECKLIST:
 | Pages | 1 | 3 | 5 | Unlimited |
 | Gallery Images | 10 | 30 | 50 | Unlimited |
 | Custom Domain | ❌ | ✅ | ✅ | ✅ |
-| WhatsApp Business | ❌ | ✅ | ✅ | ✅ |
+| Messaging Business | ❌ | ✅ | ✅ | ✅ |
 | Online Booking | ❌ | ❌ | ✅ | ✅ |
 | E-commerce | ❌ | ❌ | ❌ | ✅ |
 | Priority Support | ❌ | ❌ | ✅ | ✅ |
@@ -253,7 +253,7 @@ COMMON (ALL TEMPLATES):
 - Services section
 - Gallery grid
 - Contact with map
-- WhatsApp floating button
+- Messaging floating button
 - Mobile responsive
 - Contact form
 - Business hours
@@ -278,7 +278,7 @@ CATEGORY-SPECIFIC:
 ### Required Tools
 | Tool | Purpose | Cost |
 |------|---------|------|
-| WhatsApp Business | Primary comm | Free |
+| Messaging Business | Primary comm | Free |
 | Google Sheets | Lead tracking | Free |
 | Webflow/Next.js | Website builder | $0-20/mo |
 | Domain registrar | Domain purchase | $15/yr |
@@ -291,7 +291,7 @@ CATEGORY-SPECIFIC:
 | Tool | Purpose | Cost | When |
 |------|---------|------|------|
 | Airtable | Better CRM | $20/mo | 50+ leads |
-| Chat API | Bulk WhatsApp | $40/mo | 100+ contacts |
+| Chat API | Bulk Messaging | $40/mo | 100+ contacts |
 | Zapier | Automation | $20/mo | Process automation |
 | Mixpanel | Analytics | $0/mo | Scale |
 
@@ -302,7 +302,7 @@ CATEGORY-SPECIFIC:
 ### Daily Routine
 | Time | Activity | Duration |
 |------|----------|----------|
-| 9:00 AM | Check WhatsApp responses | 15 min |
+| 9:00 AM | Check Messaging responses | 15 min |
 | 9:15 AM | Send new outreach messages | 30 min |
 | 10:00 AM | Process new leads | 30 min |
 | 11:00 AM | Build websites | 2 hours |
@@ -310,7 +310,7 @@ CATEGORY-SPECIFIC:
 | 2:00 PM | Follow up on pending | 30 min |
 | 2:30 PM | Phone calls | 1 hour |
 | 3:30 PM | Build websites | 2 hours |
-| 5:30 PM | Check WhatsApp | 15 min |
+| 5:30 PM | Check Messaging | 15 min |
 | 5:45 PM | Plan tomorrow | 15 min |
 
 ### Weekly Activities
@@ -342,7 +342,7 @@ CATEGORY-SPECIFIC:
 | Lead needs changes | 2 free revisions, then $25 |
 | Website doesn't load | Check hosting, contact support |
 | Domain issues | Verify DNS, wait 24h |
-| WhatsApp link broken | Test link format: https://wa.me/595... |
+| Messaging link broken | Test link format: tel:+595... |
 | Images not showing | Check file size < 1MB, correct format |
 | Lead wants to cancel | Understand why, offer solutions |
 
@@ -406,7 +406,7 @@ CATEGORY-SPECIFIC:
 - **Customer files:** Google Drive folder per customer
 - **Intake forms:** Airtable or Google Sheets
 - **Website backups:** Hosting provider + local
-- **Communications:** WhatsApp chat history
+- **Communications:** Messaging chat history
 
 ### Record Keeping
 - Keep all customer data for 2 years
