@@ -21,7 +21,7 @@ Celeste's TikTok bio explicitly states: **"@celestialnails : IG"** + **linktr.ee
 2. 21K TikTok + unknown IG followers = she HAS the audience, just not on her own website
 3. Multi-category (nails + beauty + health) = content is visual = PERFECT for portfolio web
 4. Near FP (1.6km) = walkable consultation
-5. WhatsApp direct with Celeste = direct owner contact
+5. Messaging direct with Celeste = direct owner contact
 
 ### 🔥 CRITICAL DISCOVERY — IG Handle Found
 - **CELESTE is on TikTok as @celestialnails** — 21K followers, 952K TikTok likes
@@ -38,7 +38,7 @@ Celeste's TikTok bio explicitly states: **"@celestialnails : IG"** + **linktr.ee
 |-------|------|
 | **Business Name** | SHINE Nails & Beauty by Celeste Villalba |
 | **Owner** | Celeste Villalba |
-| **WhatsApp** | wa.me/595986693259 |
+| **Messaging** | wa.me/595986693259 |
 | **Phone** | 0986 693 259 |
 | **Address** | Luis Morinigo, San Lorenzo 111402 |
 | **Category** | Beauty Salon / Uñas / Manicure / Pedicure |
@@ -66,9 +66,9 @@ Celeste's TikTok bio explicitly states: **"@celestialnails : IG"** + **linktr.ee
 
 - ✅ Puede ser que esté en IG con nombre diferente (buscar "Celeste nails Paraguay", "SHINE nails Paraguay", "Celeste Villalba nail artist")
 - ❌ NO se encontró presencia IG confirmada vía búsqueda pública
-- Hipótesis: puede estar usando el teléfono o nombre personal para WhatsApp sin IG público
+- Hipótesis: puede estar usando el teléfono o nombre personal para Messaging sin IG público
 
-**Acción requerida:** Verificación manual del número 0986 693 259 en WhatsApp para identificar el handle IG real.
+**Acción requerida:** Verificación manual del número 0986 693 259 en Messaging para identificar el handle IG real.
 
 ---
 
@@ -99,7 +99,7 @@ Celeste's TikTok bio explicitly states: **"@celestialnails : IG"** + **linktr.ee
 - ✅ 287 Google reviews con 4.9⭐ — la más alta calificación del grupo nails
 - ✅ Ultra-cerca de la FP (1.0 km)
 - ✅ multicategoría Google (beauty + hair + health) = oferta amplia
-- ✅ Número WhatsApp directo
+- ✅ Número Messaging directo
 - ✅ Sin sitio web = oportunidad CRASH
 
 ---
@@ -126,20 +126,20 @@ Razones:
 5. Potencial de **reserva online** de turnos
 6. Potencial de **catálogo de servicios** + precios públicos
 7. Oportunidad para crear **galería de trabajos** comoPortfolio
-8. **WhatsApp Business API** para automatización de turnos
+8. **Messaging Business API** para automatización de turnos
 
 **Propuesta sugerida:**
 - Sitio web simple con turnos online
 - Galería de trabajos (fotos reales)
 - Lista de precios por servicio
 - Mapa con cómo llegar
-- Integración WhatsApp
+- Integración Messaging
 - Paquetes: "Manicure + Pedicure + Esmaltado" con descuento
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 986 693 259 (PRIMARY)
+- [x] Messaging: +595 986 693 259 (PRIMARY)
 - [x] Phone: 0986 693 259
 - [x] Google Maps: Listed with 287 reviews
 - [x] Address: Luis Morinigo, San Lorenzo 111402
@@ -151,6 +151,6 @@ Razones:
 
 ## Siguiente paso
 1. Buscar "@shinenailsparaguay", "Celeste Villalba nails", "Celeste nails Paraguay" en IG manualmente
-2. Confirmar handle IG a través del number en WhatsApp
+2. Confirmar handle IG a través del number en Messaging
 3. Extraer datos de Google Maps (todas las fotos y reviews)
 4. Identificar servicios exactos + precios vía web scraping de competitors locales

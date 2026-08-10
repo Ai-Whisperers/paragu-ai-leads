@@ -139,7 +139,7 @@ python -m src.main
 ## 📋 Next Steps
 
 1. **Build MVP Template** - Start with Peluquería (highest volume)
-2. **Set up booking integration** - Fresha + WhatsApp
+2. **Set up booking integration** - Fresha + Messaging
 3. **Create lead outreach** - Contact Priority A businesses
 4. **Deploy first websites** - Launch minimum viable product
 

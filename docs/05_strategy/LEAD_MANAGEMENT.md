@@ -30,16 +30,16 @@
 ### Channel Mix
 | Channel | Use Case | Priority |
 |---------|----------|----------|
-| **WhatsApp** | Primary contact - Paraguay market | HIGH |
+| **Messaging** | Primary contact - Paraguay market | HIGH |
 | **Phone Call** | Follow-up on non-responders | MEDIUM |
-| **Instagram DM** | Secondary if no WhatsApp | LOW |
+| **Instagram DM** | Secondary if no Messaging | LOW |
 | **SMS** | Last resort fallback | LOW |
 
 ### Contact Sequence
 ```
-Day 0: WhatsApp message (first attempt)
+Day 0: Messaging message (first attempt)
 Day 3: Phone call (if no response)
-Day 7: WhatsApp message (second attempt)
+Day 7: Messaging message (second attempt)
 Day 14: Instagram DM (if available)
 Day 21: Final attempt (phone)
 Day 30: Mark as "No Response" - move to nurture
@@ -47,7 +47,7 @@ Day 30: Mark as "No Response" - move to nurture
 
 ---
 
-## 3. WhatsApp Outreach
+## 3. Messaging Outreach
 
 ### Initial Message Template (Spanish)
 ```
@@ -105,12 +105,12 @@ Option B (After interest):
 |-----------|----------|
 | "I already have a website" | "Great! Can I take a quick look and see if there's anything we could improve?" |
 | "I'm not interested" | "No problem at all. Just to understand - is it the timing or is it not something you need right now?" |
-| "I don't have time" | "I understand. How about I send you a quick WhatsApp with info, and you can review it whenever convenient?" |
+| "I don't have time" | "I understand. How about I send you a quick Messaging with info, and you can review it whenever convenient?" |
 | "How much does it cost?" | "We have a FREE tier for basic websites. If you want premium features, it's very affordable. Can I tell you more?" |
 
 ### Closing (Interested)
 ```
-"Perfecto! What's your WhatsApp number so I can send you the intake form?"
+"Perfecto! What's your Messaging number so I can send you the intake form?"
 ```
 
 ---
@@ -123,7 +123,7 @@ Option B (After interest):
 | Business Name | Data | From phone/website |
 | Contact Name | Conversation | Ask directly |
 | Phone | Data + verified | Verify during call |
-| WhatsApp | Conversation | Confirm active |
+| Messaging | Conversation | Confirm active |
 | Category | Data | From category |
 | City | Data | From city field |
 | Address | Data | Optional |
@@ -163,7 +163,7 @@ NEW → CONTACTED → INTERRESPONDED → CONVERTED
 ### Stage 4: Launch
 - [ ] Lead approved final version
 - [ ] Website went live
-- [ ] Set up WhatsApp integration
+- [ ] Set up Messaging integration
 - [ ] Sent login details
 
 ### Stage 5: Follow-up
@@ -190,7 +190,7 @@ NEW → CONTACTED → INTERRESPONDED → CONVERTED
 | Itauguá | ~70 | LOW |
 
 ### Daily Outreach Capacity
-- WhatsApp messages: 50/day max
+- Messaging messages: 50/day max
 - Phone calls: 20/day max
 - Target: 5-10 conversions per week
 
@@ -199,12 +199,12 @@ NEW → CONTACTED → INTERRESPONDED → CONVERTED
 ## 8. Tools Needed
 
 ### Required
-- **WhatsApp Business** - Primary communication
+- **Messaging Business** - Primary communication
 - **Google Sheets** - Lead tracking (simple)
 - **Airtable** - Better option for tracking (recommended)
 
 ### Optional (Later)
-- **WhatsApp Marketing Tool** - Bulk messaging (e.g., Chat API)
+- **Messaging Marketing Tool** - Bulk messaging (e.g., Chat API)
 - **CRM** - For larger scale
 - **Auto-reply** - For after-hours
 
@@ -213,7 +213,7 @@ NEW → CONTACTED → INTERRESPONDED → CONVERTED
 ## 9. Success Metrics
 
 ### Outreach Metrics
-- WhatsApp delivery rate: >90%
+- Messaging delivery rate: >90%
 - Response rate target: 15%
 - Phone connect rate: 20%
 
@@ -235,25 +235,25 @@ NEW → CONTACTED → INTERRESPONDED → CONVERTED
 
 ### Batch 1: Asunción Peluquerías (HIGH PRIORITY)
 - **Count:** 500 leads
-- **Approach:** WhatsApp blitz
+- **Approach:** Messaging blitz
 - **Target:** 25 conversions
 - **Timeline:** 2 weeks
 
 ### Batch 2: All Gyms + Spas
 - **Count:** 800 leads
-- **Approach:** Phone + WhatsApp
+- **Approach:** Phone + Messaging
 - **Target:** 40 conversions
 - **Timeline:** 3 weeks
 
 ### Batch 3: Uñas + Tatuajes
 - **Count:** 500 leads
-- **Approach:** WhatsApp
+- **Approach:** Messaging
 - **Target:** 20 conversions
 - **Timeline:** 2 weeks
 
 ### Batch 4: Estética + Maquillaje
 - **Count:** 200 leads
-- **Approach:** WhatsApp
+- **Approach:** Messaging
 - **Target:** 10 conversions
 - **Timeline:** 1 week
 
@@ -264,7 +264,7 @@ NEW → CONTACTED → INTERRESPONDED → CONVERTED
 
 ---
 
-## 11. Sample WhatsApp Message Library
+## 11. Sample Messaging Message Library
 
 ### Opening (Initial Contact)
 ```
@@ -310,7 +310,7 @@ Hola de nuevo! Te veía con [Business Type] y queria recordarte lo de la web gra
 A: Business Name
 B: Contact Name (if learned)
 C: Phone
-D: WhatsApp (verified)
+D: Messaging (verified)
 E: Category
 F: City
 G: Rating

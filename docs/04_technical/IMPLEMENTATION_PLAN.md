@@ -31,7 +31,7 @@
    - Featured services preview
    - Photo gallery preview (3-6 images)
    - Location + hours
-   - WhatsApp button
+   - Messaging button
 
 2. **Services Page**
    - Full service menu with prices
@@ -52,14 +52,14 @@
 5. **Contact/Location Page**
    - Full address with map embed
    - Phone number (click-to-call)
-   - WhatsApp link
+   - Messaging link
    - Business hours
    - Parking/transit info
 
 **Technical Requirements:**
 - Mobile-first responsive
 - Booking integration (GlossGenius/Fresha/Square)
-- WhatsApp floating button
+- Messaging floating button
 - Page load < 3 seconds
 - SSL certificate
 
@@ -163,7 +163,7 @@
 5. **Contact/Booking**
    - Location + hours
    - Online booking
-   - WhatsApp
+   - Messaging
 
 ---
 
@@ -200,7 +200,7 @@
 
 | Component | Description |
 |-----------|-------------|
-| Header | Logo, nav, book button, WhatsApp |
+| Header | Logo, nav, book button, Messaging |
 | Footer | Contact, hours, social links, copyright |
 | Hero Section | Image/video background, headline, CTA |
 | Service Card | Image, title, price, duration, book button |
@@ -209,7 +209,7 @@
 | Testimonial Slider | Quote, client photo, rating |
 | Map Block | Embedded Google Maps |
 | CTA Banner | Full-width call to action |
-| WhatsApp Float | Fixed position chat button |
+| Messaging Float | Fixed position chat button |
 
 ### 2.2 Category-Specific Components
 
@@ -248,19 +248,19 @@
 | **GlossGenius** | Salons, marketing tools | Full API |
 | **Square** | Small businesses | Full API |
 | **Calendly** | Consultations, simple | Widget embed |
-| **WhatsApp** | Direct booking | Click-to-chat |
+| **Messaging** | Direct booking | Click-to-chat |
 
 ### 3.2 Paraguayan Adaptation
 
 **Recommended Approach:**
 1. Primary: Fresha (free, supports Spanish, popular)
-2. Fallback: WhatsApp business integration
+2. Fallback: Messaging business integration
 3. Premium: GlossGenius for salons wanting more features
 
 **Implementation:**
 - Embed booking widget in "Book Now" buttons
-- Add WhatsApp quick-chat for direct bookings
-- Create custom booking form that sends to business WhatsApp
+- Add Messaging quick-chat for direct bookings
+- Create custom booking form that sends to business Messaging
 
 ---
 
@@ -323,7 +323,7 @@
 - [ ] Page load speed < 3 seconds (Core Web Vitals)
 - [ ] SSL certificate installed
 - [ ] Google Business Profile linked
-- [ ] WhatsApp business number integrated
+- [ ] Messaging business number integrated
 - [ ] Booking system connected and tested
 - [ ] Contact forms sending to business
 - [ ] Images optimized (WebP format)
@@ -348,7 +348,7 @@
 - Hero section
 - Service cards grid
 - Gallery lightbox
-- WhatsApp floating button
+- Messaging floating button
 - Contact form
 - Map embed
 - Footer

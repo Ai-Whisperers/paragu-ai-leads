@@ -10,7 +10,7 @@
 - [ ] Tagline (optional): _______________
 - [ ] Owner Name: _______________
 - [ ] Phone Number: _______________
-- [ ] WhatsApp Number: _______________
+- [ ] Messaging Number: _______________
 - [ ] Email: _______________
 - [ ] Physical Address: _______________
 - [ ] City/Neighborhood: _______________
@@ -57,7 +57,7 @@ For each stylist:
 
 ## Section 7: Booking Preferences
 - [ ] Use online booking system? (Yes/No/Not sure)
-- [ ] Preferred platform: ( ) Fresha ( ) GlossGenius ( ) Square ( ) WhatsApp only ( ) Not decided
+- [ ] Preferred platform: ( ) Fresha ( ) GlossGenius ( ) Square ( ) Messaging only ( ) Not decided
 - [ ] Accept walk-ins? (Yes/No/Sometimes)
 
 ## Section 8: Branding
@@ -80,7 +80,7 @@ For each stylist:
 - [ ] Tagline: _______________
 - [ ] Owner/Manager Name: _______________
 - [ ] Phone: _______________
-- [ ] WhatsApp: _______________
+- [ ] Messaging: _______________
 - [ ] Email: _______________
 - [ ] Address: _______________
 
@@ -95,7 +95,7 @@ For each stylist:
 ## Section 3: Class Schedule
 - [ ] Number of weekly classes: _______
 - [ ] Class types offered (list):
-- [ ] Class schedule format: ( ) Printed ( ) WhatsApp ( ) App - Name: _______
+- [ ] Class schedule format: ( ) Printed ( ) Messaging ( ) App - Name: _______
 
 ## Section 4: Trainers
 For each trainer:
@@ -370,7 +370,7 @@ Before we start building, please provide:
 ## Priority 1 (Must Have)
 - [ ] Business name and contact info
 - [ ] Address and city
-- [ ] Phone/WhatsApp number
+- [ ] Phone/Messaging number
 - [ ] List of services with prices
 - [ ] 3-5 photos (portfolio samples)
 

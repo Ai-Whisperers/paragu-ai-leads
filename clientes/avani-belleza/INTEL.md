@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Avani Spa / Avani Cuidado de la Belleza |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595994202928 |
+| **Messaging** | wa.me/595994202928 |
 | **Phone** | 0994 202 928 |
 | **Address** | Del Carmen &, MFQF+X76, Benza Carrera, Fernando de la Mora 110311 |
 | **Category** | Spa / Belleza / Wellness |
@@ -61,7 +61,7 @@
 
 → Misma marca, 2ubicaciones posibles.
 
-This needs confirmation via WhatsApp.
+This needs confirmation via Messaging.
 
 ---
 
@@ -80,7 +80,7 @@ This needs confirmation via WhatsApp.
 ## WHAT THEY HAVE
 - ✅ Eventos experienciales activos (Glow Privé 2026)
 - ✅ 4.7⭐ Rating (base pequeña pero premium)
-- ✅ WhatsApp directo
+- ✅ Messaging directo
 - ✅ Ubicación premium (Benza Carrera + Av. Santa Teresa = zona dorada)
 - ✅ POSIBLE multi-sucursal
 
@@ -115,7 +115,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 994 202 928
+- [x] Messaging: +595 994 202 928
 - [x] Phone: 0994 202 928
 - [x] Google Maps: Listed con 25 reviews, 4.7⭐
 - [x] Address: Del Carmen & Benza Carrera, Fernando Mora
@@ -129,7 +129,7 @@ Razones:
 1. Confirm if Avani Benza Carrera = Avani Spa Av. Santa Teresa
 2. Buscar IG "Avani Spa Paraguay", "@avani_belleza"
 3. Extraer reviews + fotos de Google Maps
-4. Confirmar servicios + precios vía WhatsApp
+4. Confirmar servicios + precios vía Messaging
 
 ---
 

@@ -23,10 +23,10 @@ Tienes **118 reseñas y 4.8⭐** — eso significa que el trabajo está. Lo que 
 2. **Servicios** — Corte, barba, diseño,套餐 — todo con precios y duración
 3. **Galería** — Fotos de trabajos (antes/después)
 4. **Historia** — La historia detrás de "Nde Barba" — identidad guaraní
-5. **Contacto** — WhatsApp + mapa + horarios
+5. **Contacto** — Messaging + mapa + horarios
 
 ### Features:
-- ✅ WhatsApp CTA flotante
+- ✅ Messaging CTA flotante
 - ✅ Catálogo de servicios con precios
 - ✅ Reserva online
 - ✅ Historia de marca (tu diferenciador guaraní)
@@ -35,7 +35,7 @@ Tienes **118 reseñas y 4.8⭐** — eso significa que el trabajo está. Lo que 
 
 ---
 
-## MENSAJE FRÍO — WhatsApp
+## MENSAJE FRÍO — Messaging
 
 > *¡Hola! Soy Iván de ParaguAI.*
 >

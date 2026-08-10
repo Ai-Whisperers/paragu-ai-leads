@@ -12,7 +12,7 @@ The free website model targets the 75% of businesses without websites. Revenue c
 ### Revenue Streams
 | Stream | Description | Potential |
 |--------|-------------|-----------|
-| WhatsApp Business Premium | Enhanced features | $15-30/month |
+| Messaging Business Premium | Enhanced features | $15-30/month |
 | Featured Listings | Priority in directory | $10-20/month |
 | Additional Services | Extra pages, e-commerce | $50-200 once |
 | Featured Placement | "Sponsor" businesses | $20-50/month |
@@ -20,7 +20,7 @@ The free website model targets the 75% of businesses without websites. Revenue c
 ### Free Tier Features
 - 1-page website
 - Basic services listing
-- WhatsApp integration
+- Messaging integration
 - Contact form
 - Map location
 - Basic SEO
@@ -30,7 +30,7 @@ The free website model targets the 75% of businesses without websites. Revenue c
 - Portfolio gallery expansion: $50-100
 - Online booking integration: $30-50/month
 - E-commerce/shop: $100-300 setup + $30/month
-- WhatsApp marketing: $15-25/month
+- Messaging marketing: $15-25/month
 
 ---
 
@@ -40,7 +40,7 @@ The free website model targets the 75% of businesses without websites. Revenue c
 **Price: $150-250 (one-time)**
 - 5 page website
 - Service menu with pricing
-- Contact form + WhatsApp
+- Contact form + Messaging
 - Basic gallery (10 images)
 - Mobile responsive
 - Basic SEO setup
@@ -130,7 +130,7 @@ Includes:
 - Professional website
 - Google Business Profile optimization
 - Basic SEO
-- 3 months WhatsApp marketing
+- 3 months Messaging marketing
 - Analytics setup
 
 ## 3.2 Website + Booking Bundle
@@ -148,7 +148,7 @@ Includes:
 Includes:
 - Full website
 - Booking integration
-- WhatsApp marketing
+- Messaging marketing
 - Google ads management
 - Monthly content updates
 

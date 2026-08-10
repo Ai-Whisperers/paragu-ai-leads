@@ -75,10 +75,10 @@ Reuse: `src/scrapers/google_maps.py` patterns; `BUSINESS_TYPES_ANALYSIS.md` taxo
 **Phase 3 — Outreach + CRM-lite (Weeks 5–6)**
 
 - Lead status pipeline state machine: `new → enriched → demo_ready → contacted → responded → onboarding → paying → churned/dead`
-- WhatsApp outreach: start with click-to-send `wa.me` deep links from admin UI using templates from `LEAD_MANAGEMENT.md`; log send event to `outreach_events`
+- Messaging outreach: start with click-to-send `wa.me` deep links from admin UI using templates from `LEAD_MANAGEMENT.md`; log send event to `outreach_events`
 - Onboarding form at `/onboarding/[lead_token]` — business confirms info, picks palette, requests text changes; submission updates lead → triggers regeneration
 - Trackable demo URLs: UTM params + page-view beacon → `outreach_events` row
-- Critical files: `src/app/admin/outreach/page.tsx` (NEW), `src/lib/outreach/whatsapp.ts` (NEW), `src/app/onboarding/[token]/page.tsx` (NEW), `src/lib/outreach/templates.ts` (NEW, ports content from leads-repo `LEAD_MANAGEMENT.md`)
+- Critical files: `src/app/admin/outreach/page.tsx` (NEW), `src/lib/outreach/messaging.ts` (NEW), `src/app/onboarding/[token]/page.tsx` (NEW), `src/lib/outreach/templates.ts` (NEW, ports content from leads-repo `LEAD_MANAGEMENT.md`)
 
 **Phase 4 — Conversion + Payments (Weeks 7–8)**
 
@@ -99,7 +99,7 @@ Reuse: `src/scrapers/google_maps.py` patterns; `BUSINESS_TYPES_ANALYSIS.md` taxo
 - `src/app/admin/funnel/` — NEW funnel dashboard
 - `src/app/api/leads/[id]/generate-preview/route.ts` — NEW pipeline endpoint
 - `src/app/onboarding/[token]/page.tsx` — NEW customer onboarding
-- `src/lib/outreach/whatsapp.ts` + `templates.ts` — NEW (port from leads-repo docs)
+- `src/lib/outreach/messaging.ts` + `templates.ts` — NEW (port from leads-repo docs)
 - `src/lib/payments/mercadopago.ts` + webhook route — NEW
 - `scripts/import-leads.ts` — existing, must be run after Supabase setup
 - `src/lib/generation/from-lead.ts` — NEW, reuses content loader from PR #20
@@ -132,14 +132,14 @@ Reuse: `src/scrapers/google_maps.py` patterns; `BUSINESS_TYPES_ANALYSIS.md` taxo
 End-to-end smoke test (run after Phase 4):
 
 1. Pick a Priority A lead from Supabase admin UI → click "Generate preview" → preview renders at `/preview/[id]`
-2. Click "Send WhatsApp" → opens `wa.me` link with templated message including demo URL
+2. Click "Send Messaging" → opens `wa.me` link with templated message including demo URL
 3. Open demo URL → page-view event lands in `outreach_events`
 4. Submit onboarding form at `/onboarding/[token]` → lead status flips to `onboarding`, site regenerates
 5. Complete MercadoPago checkout (sandbox) → webhook flips status to `paying`, subscription row created
 6. Lead appears in `/admin/funnel` cohort with full chain of events
 
 **Pilot KPI gates** (measured against 50 Priority A leads in Phase 3):
-- Contact rate (delivered WhatsApp) > 80%
+- Contact rate (delivered Messaging) > 80%
 - Response rate > 15%
 - Onboarding form completion > 5% of contacted
 - Paying conversion > 2% of contacted

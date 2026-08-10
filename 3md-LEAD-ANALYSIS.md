@@ -77,7 +77,7 @@ This shows they work with REAL clients across multiple industries:
 - No case studies / project pages
 - No team/about page
 - No blog / thought leadership
-- No WhatsApp business integration
+- No Messaging business integration
 - No online booking for consultations
 
 ### Competitive gap:
@@ -102,7 +102,7 @@ This is a HUGE opportunity. A creative agency with 7.5k followers and real clien
 │   └── Publicidad
 ├── /nosotros            # Team + story
 ├── /clientes            # Client logos (VW, Carmen Steffens, etc.)
-├── /contacto            # Contact form + WhatsApp
+├── /contacto            # Contact form + Messaging
 ├── /blog                # Case studies + insights
 └── /faq                 # FAQ
 ```

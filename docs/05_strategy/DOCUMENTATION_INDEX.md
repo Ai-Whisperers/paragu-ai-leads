@@ -96,7 +96,7 @@
 ### 📄 TECHNICAL_IMPLEMENTATION.md
 - Technology stack recommendations (Webflow/WordPress/Static)
 - Infrastructure (domain, hosting, SSL)
-- Booking integration (Fresha, WhatsApp)
+- Booking integration (Fresha, Messaging)
 - SEO implementation (meta tags, schema, image optimization)
 - Performance optimization (Core Web Vitals)
 - Accessibility requirements (WCAG)
@@ -147,15 +147,15 @@
 
 | # | Category | Businesses | No Website % | MVP Pages | Primary Booking |
 |---|----------|------------|--------------|-----------|-----------------|
-| 1 | Peluquería | 2,393 | 81% | 5 | Platform + WhatsApp |
+| 1 | Peluquería | 2,393 | 81% | 5 | Platform + Messaging |
 | 2 | Gimnasio | 1,087 | 72% | 5 | Platform |
-| 3 | Spa/Wellness | 927 | 76% | 5 | Platform + WhatsApp |
-| 4 | Uñas | 488 | 75% | 5 | Platform + WhatsApp |
-| 5 | Tatuajes | 272 | 70% | 4 | Form + WhatsApp |
-| 6 | Barbería | 39 | 77% | 5 | Walk-in + WhatsApp |
-| 7 | Estética | 137 | 77% | 5 | Form + WhatsApp |
-| 8 | Maquillaje | 130 | 72% | 5 | Form + WhatsApp |
-| 9 | Depilación | 9 | 78% | 5 | Form + WhatsApp |
+| 3 | Spa/Wellness | 927 | 76% | 5 | Platform + Messaging |
+| 4 | Uñas | 488 | 75% | 5 | Platform + Messaging |
+| 5 | Tatuajes | 272 | 70% | 4 | Form + Messaging |
+| 6 | Barbería | 39 | 77% | 5 | Walk-in + Messaging |
+| 7 | Estética | 137 | 77% | 5 | Form + Messaging |
+| 8 | Maquillaje | 130 | 72% | 5 | Form + Messaging |
+| 9 | Depilación | 9 | 78% | 5 | Form + Messaging |
 
 ---
 
@@ -164,7 +164,7 @@
 ### Phase 1: MVP (Hair Salon - Priority 1)
 - 5 core pages
 - Basic template structure
-- WhatsApp integration
+- Messaging integration
 - No booking system (or simple)
 
 ### Phase 2: Templates (Gym, Spa, Nails)
@@ -194,7 +194,7 @@
 
 1. **Choose technology stack** (Webflow recommended)
 2. **Build first template** (Hair salon - highest volume)
-3. **Set up booking integration** (Fresha + WhatsApp)
+3. **Set up booking integration** (Fresha + Messaging)
 4. **Create business input form** (use BUSINESS_INPUT_FORM.md)
 5. **Start lead outreach** (Priority A businesses)
 

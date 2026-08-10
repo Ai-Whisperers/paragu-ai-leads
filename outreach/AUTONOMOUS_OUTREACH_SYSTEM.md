@@ -4,14 +4,14 @@
 ---
 
 ## MISSION
-Convert leads into ParaguAI paying clients via WhatsApp-first outreach.
+Convert leads into ParaguAI paying clients via Messaging-first outreach.
 Revenue > Infrastructure. Zero paying clients as of May 2026.
 
 ---
 
 ## LEAD QUEUE — Tier 1 (Contact esta semana)
 
-| # | Lead | WhatsApp | Score | Status | Last Contact |
+| # | Lead | Messaging | Score | Status | Last Contact |
 |---|------|----------|-------|--------|--------------|
 | 1 | Estudio Medieval | wa.me/595961482854 | 133.2 | COLD | Never |
 | 2 | SHINE Nails (Celeste) | wa.me/595986693259 | 130.7 | COLD | Never |
@@ -65,7 +65,7 @@ es un sitio web profesional para:
 
 ✅ Mostrar tu portafolio completo
 ✅ Catálogo de servicios con precios
-✅ Turnos online + consulta por WhatsApp
+✅ Turnos online + consulta por Messaging
 ✅ Presencia real en Google (más allá del mapa)
 
 ¿Querés que te cuente cómo funciona? Sin compromiso.
@@ -73,7 +73,7 @@ es un sitio web profesional para:
 
 ---
 
-## WHATSAPP DELIVERY RULES
+## MESSAGING DELIVERY RULES
 - Send 1 message per lead per day (max 3/day across all leads)
 - Wait 48h before follow-up #2
 - Wait 72h before follow-up #3
@@ -96,14 +96,14 @@ es un sitio web profesional para:
 
 Format:
 ```
-lead_name, whatsapp, score, msg1_sent, msg2_sent, msg3_sent, response, status, next_action
+lead_name, messaging, score, msg1_sent, msg2_sent, msg3_sent, response, status, next_action
 Estudio Medieval, wa.me/595961482854, 133.2, --, --, --, --, PENDING, msg1_today
 ```
 
 ---
 
 ## KNOWN BLOCKERS
-- Estudio Medieval: WhatsApp directo ya funcionando = buena señal
+- Estudio Medieval: Messaging directo ya funcionando = buena señal
 - SHINE Nails: TikTok activo, usa Linktree = digitamente activo = alta aceptación
 - Barbers: Sin IG = website llenaría ese vacío de marca
 - All: Sin precios online = 82% del mercado tampoco muestra — FIRST MOVER advantage

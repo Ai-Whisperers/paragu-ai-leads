@@ -31,7 +31,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 **Essential Features:**
 - Service catalog with prices (cuts, coloring, treatments)
 - Online booking with date/time selection
-- WhatsApp integration for confirmations
+- Messaging integration for confirmations
 - Before/after photo gallery
 - Staff profiles
 - Appointment reminders
@@ -64,10 +64,10 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 3. Galería (portfolio)
 4. Nuestro equipo (staff)
 5. Reservas (booking widget)
-6. Contacto (map, WhatsApp)
+6. Contacto (map, Messaging)
 
 ### Pitch
-> "Tus clientes pueden reservar su turno online sin que tengas que responder WhatsApp todo el día"
+> "Tus clientes pueden reservar su turno online sin que tengas que responder Messaging todo el día"
 
 ---
 
@@ -84,7 +84,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - Trainer profiles
 - Amenities showcase
 - Trial pass/offer
-- WhatsApp for inquiries
+- Messaging for inquiries
 - Location + parking info
 
 **Optional Features:**
@@ -138,7 +138,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - Photo gallery (atmosphere)
 - Gift cards
 - Package deals
-- WhatsApp integration
+- Messaging integration
 - Appointment reminders
 
 **Optional Features:**
@@ -184,7 +184,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - Service catalog (specific nail services)
 - Nail art portfolio gallery
 - Online booking
-- WhatsApp integration
+- Messaging integration
 - Design options showcase
 - Price list
 - Appointment duration
@@ -232,7 +232,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - Price guide (by size/type)
 - Age verification notice
 - Consent forms
-- WhatsApp for design inquiries
+- Messaging for design inquiries
 - Location + hours
 
 **Optional Features:**
@@ -282,7 +282,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - Professional credentials display
 - Online booking
 - Consultation scheduling
-- WhatsApp integration
+- Messaging integration
 - Package deals
 - Patient forms
 
@@ -331,7 +331,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - Trial session booking
 - Price list
 - Testimonials/reviews
-- WhatsApp contact
+- Messaging contact
 - Service area coverage
 
 **Optional Features:**
@@ -355,7 +355,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 3. Servicios (with prices)
 4. Trial (booking)
 5. Testimonios
-6. Contacto + WhatsApp
+6. Contacto + Messaging
 
 ### Pitch
 > "Tu talento merece ser visto — Portafolio online que muestra tu arte y atrae clientes"
@@ -370,7 +370,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 **Essential Features:**
 - Service menu with wait times
 - Quick booking (minimal friction)
-- WhatsApp integration
+- Messaging integration
 - Before/after photos
 - Staff/barber profiles
 - Walk-in vs appointment display
@@ -412,7 +412,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - Treatment areas pricing
 - Package deals (sessions)
 - Online booking
-- WhatsApp integration
+- Messaging integration
 - Information about methods
 - FAQ section
 - Location + hours
@@ -437,7 +437,7 @@ Analysis of **7,463 beauty, wellness, and fitness businesses** across Paraguay t
 - [ ] Peak booking times
 - [ ] Popular services/combinations
 - [ ] Payment methods common in Paraguay
-- [ ] WhatsApp as primary communication
+- [ ] Messaging as primary communication
 
 ### Category-Specific Research
 - [ ] Peluqueria: Hair trends, product brands

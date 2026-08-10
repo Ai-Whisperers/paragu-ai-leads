@@ -11,7 +11,7 @@
 Pero no tienes sitio web. Eso significa que:
 - Nuevos clientes te googlean → solo ven el mapa → se van
 - Potential customers no pueden ver servicios ni precios antes de ir
-- Reservar es solo por WhatsApp → fricción = perdés turnos
+- Reservar es solo por Messaging → fricción = perdés turnos
 
 La reputación la tenés. El sitio web falta.
 
@@ -26,10 +26,10 @@ La reputación la tenés. El sitio web falta.
 2. **Servicios** — Corte clásico, fade, barba,+hote towel, paquetes
 3. **Historia** — 77+ años de tradición barber (inspiration: "El Arte del Corte")
 4. **Galería** — Fotos de trabajos
-5. **Contacto** — WhatsApp + mapa
+5. **Contacto** — Messaging + mapa
 
 ### Features:
-- ✅ WhatsApp CTA flotante en todas las páginas
+- ✅ Messaging CTA flotante en todas las páginas
 - ✅ Catálogo de servicios con precios
 - ✅ Reserva online
 - ✅ Historia de marca (tu diferenciador = built heritage)
@@ -38,7 +38,7 @@ La reputación la tenés. El sitio web falta.
 
 ---
 
-## MENSAJE FRÍO — WhatsApp
+## MENSAJE FRÍO — Messaging
 
 > *¡Hola! Soy Iván de ParaguAI.*
 >

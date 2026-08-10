@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Leticia Carballo — Makeup & Hair Color |
 | **Owner/Artist** | Leticia Carballo |
-| **WhatsApp** | wa.me/595984904215 |
+| **Messaging** | wa.me/595984904215 |
 | **Phone** | 0984 904 215 |
 | **Address** | Don Bosco & Del Carmen, Fernando de la Mora 110310 — Fernando Zona Norte |
 | **Founded** | unknown (presencia confirmada 2024–2026) |
@@ -83,7 +83,7 @@
 - ❌ Reserva online
 - ❌ Mapa de ubicación con indicaciones
 - ❌ Fan page Facebook
-- ❌ WhatsApp Business configurado como comercial
+- ❌ Messaging Business configurado como comercial
 - ❌ Email de contacto
 - ❌ Presencia en Google Maps optimizada (reviews sin respuesta?)
 
@@ -108,7 +108,7 @@ Razones:
 - Página Makeup social + Página Microblading individual
 - Booking online para eventos
 - Mapa GPS integradas
-- Integración WhatsApp Business API
+- Integración Messaging Business API
 - Blog: tendencias de maquillaje / before&after
 
 ---
@@ -121,7 +121,7 @@ Razones:
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 984 904 215
+- [x] Messaging: +595 984 904 215
 - [x] Phone: 0984 904 215
 - [x] IG: @lcmakeuphaircolor (52K followers!)
 - [x] Location: Don Bosco & Del Carmen, Fernando de la Mora

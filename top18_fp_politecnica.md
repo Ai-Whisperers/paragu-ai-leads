@@ -30,16 +30,16 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 0.8 km de la FP |
 | **Rating** | 4.6⭐ · 392 reseñas Google Maps |
 | **Teléfono** | 0961 482 854 |
-| **WhatsApp** | wa.me/595961482854 |
+| **Messaging** | wa.me/595961482854 |
 | **Dirección** | Cnel. Feliciano Duarte 315 esq. Mariscal Estigarribia, San Lorenzo |
 | **Horario** | Lunes a Sábado 10:00–20:00 hs |
 | **Servicios** | Tatuajes · Body Piercing · Insumos tattoo (B2B) · Showroom productos · Sección estética |
 | **Instagram** | @estudiomedievalsrl — 58K audiencia total |
-| **Facebook** | fb.com/estudiomedivalS.R.L — con WhatsApp directo en biofilm |
+| **Facebook** | fb.com/estudiomedivalS.R.L — con Messaging directo en biofilm |
 | **B2B brands** | @studsuppliestattoo (insumos) · @showroommedieval · @estudiomedievalstetic |
 | **Engagement IG** | ~962 interacciones/post · alcance 6.4K cuentas/semana |
 | **Website** | ❌ NO |
-| **Valor de scraping** | ★★★★★ — 392 reseñas + 58K audiencia IG + 3 sub-marcas B2B + horarios completos + WhatsApp directo confirmado. LA base de datos más rica del grupo. |
+| **Valor de scraping** | ★★★★★ — 392 reseñas + 58K audiencia IG + 3 sub-marcas B2B + horarios completos + Messaging directo confirmado. LA base de datos más rica del grupo. |
 
 #### TOP 2 — Scott Tatuajes
 | Campo | Detalle |
@@ -48,7 +48,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 2.0 km de la FP |
 | **Rating** | 4.6⭐ · 82 reseñas |
 | **Teléfono** | 0981 575 176 |
-| **WhatsApp** | wa.me/595981575176 |
+| **Messaging** | wa.me/595981575176 |
 | **Dirección** | Eugenio A. Garay, Fernando Zona Norte |
 | **Website** | ❌ NO |
 | **Valor** | ★★ — backup del lead #1 Tattoo |
@@ -64,7 +64,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.0 km de la FP |
 | **Rating** | 4.9⭐ · 287 reseñas |
 | **Teléfono** | 0986 693 259 |
-| **WhatsApp** | wa.me/595986693259 |
+| **Messaging** | wa.me/595986693259 |
 | **Dirección** | Luis Morinigo, San Lorenzo 111402 |
 | **Servicios** | Uñas acrílicas · Gel · Esmaltado semipermanente · Manicure · Pedicure · Belleza general |
 | **Google types** | beauty_salon · doctor · establishment · hair_care · health |
@@ -78,7 +78,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.0 km de la FP |
 | **Rating** | 4.8⭐ · 92 reseñas |
 | **Teléfono** | 0961 336 346 |
-| **WhatsApp** | wa.me/595961336346 |
+| **Messaging** | wa.me/595961336346 |
 | **Dirección** | Clemente Romero 302, San Lorenzo |
 | **Website** | ❌ NO |
 | **Valor** | ★★★ — cerca + rating alto, menos datos que SHINE Nails |
@@ -94,7 +94,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.6 km de la FP |
 | **Rating** | 4.7⭐ · 119 reseñas |
 | **Teléfono** | (021) 678 171 |
-| **WhatsApp** | wa.me/595021678171 |
+| **Messaging** | wa.me/595021678171 |
 | **Dirección** | MFR8+RFF, Fernando de la Mora 110303 |
 | **Zona** | Fernando Zona Norte |
 | **Servicios (supuestos)** | Musculación · Fitness · Cardio |
@@ -108,7 +108,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.6 km de la FP |
 | **Rating** | 4.9⭐ · 51 reseñas |
 | **Teléfono** | 0976 934 789 |
-| **WhatsApp** | wa.me/595976934789 |
+| **Messaging** | wa.me/595976934789 |
 | **Dirección** | MFV8+2FV, Mariscal José F. Estigarribia, Fernando de la Mora |
 | **Zona** | Fernando Zona Norte |
 | **Website** | ❌ NO |
@@ -126,7 +126,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.7 km de la FP |
 | **Rating** | 4.8⭐ · 118 reseñas |
 | **Teléfono** | 0991 444 268 |
-| **WhatsApp** | wa.me/595991444268 |
+| **Messaging** | wa.me/595991444268 |
 | **Dirección** | entre Libertad, Nicasio Villalba, Fernando de la Mora 110311 |
 | **Servicios** | Barbería · Peluquería · Cortes masculinos |
 | **Website** | ❌ NO |
@@ -139,7 +139,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 2.0 km de la FP |
 | **Rating** | 4.6⭐ · 66 reseñas |
 | **Teléfono** | 0982 992 766 |
-| **WhatsApp** | wa.me/595982992766 |
+| **Messaging** | wa.me/595982992766 |
 | **Dirección** | MFPC+67H, Fernando de la Mora 110310 — Fernando Zona Norte |
 | **Modelo** | Híbrido peluquería + barbershop |
 | **Website** | ❌ NO |
@@ -156,7 +156,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 2.1 km de la FP |
 | **Rating** | 4.9⭐ · 162 reseñas |
 | **Teléfono** | 0994 215 627 |
-| **WhatsApp** | wa.me/595994215627 |
+| **Messaging** | wa.me/595994215627 |
 | **Dirección** | Av. Santa Teresa, Fernando de la Mora 110301 |
 | **Servicios** | Barbería clásica |
 | **Website** | ❌ NO |
@@ -169,7 +169,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.8 km de la FP |
 | **Rating** | 5.0⭐ · 24 reseñas |
 | **Teléfono** | 0983 996 086 |
-| **WhatsApp** | wa.me/595983996086 |
+| **Messaging** | wa.me/595983996086 |
 | **Dirección** | Jacarandá, San Lorenzo 111403 (con store/insumos) |
 | **Website** | ❌ NO |
 | **Nota** | 5.0⭐ perfecto pero solo 24 reviews — posible negocio nuevo, sub-valorado o muy seleccionado. |
@@ -186,7 +186,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 2.1 km de la FP |
 | **Rating** | 4.6⭐ · 206 reseñas |
 | **Teléfono** | 0984 904 215 |
-| **WhatsApp** | wa.me/595984904215 |
+| **Messaging** | wa.me/595984904215 |
 | **Dirección** | Don Bosco & Del Carmen, Fernando de la Mora 110310 |
 | **Zona** | Fernando Zona Norte |
 | **Servicios** | Maquillaje social/glam/artístico · Color · Mechas · Corte · Microblading · Micropigmentación labios y ojos · Manicure · Pedicure |
@@ -202,7 +202,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.9 km de la FP |
 | **Rating** | 4.8⭐ · 82 reseñas |
 | **Teléfono** | 0985 598 630 |
-| **WhatsApp** | wa.me/595985598630 |
+| **Messaging** | wa.me/595985598630 |
 | **Dirección** | Cnel. Luis Irrazabal casi, Fernando de la Mora 110311 |
 | **Website** | ❌ NO |
 | **Valor** | ★★ — backup. Necesita scrapeo de redes. |
@@ -218,7 +218,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 2.2 km de la FP |
 | **Rating** | 4.6⭐ · 233 reseñas |
 | **Teléfono** | 0981 953 000 |
-| **WhatsApp** | wa.me/595981953000 |
+| **Messaging** | wa.me/595981953000 |
 | **Dirección** | Don Bosco 2221, Fernando de la Mora 110310 |
 | **Zona** | Fernando Zona Norte |
 | **Servicios** | Spa · Belleza · Nutrición (modelo híbrido fitness+nutrición) |
@@ -233,7 +233,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 3.0 km de la FP |
 | **Rating** | **5.0⭐** · **377 reseñas** (más reviews del grupo) |
 | **Teléfono** | 0993 444 222 |
-| **WhatsApp** | wa.me/595993444222 |
+| **Messaging** | wa.me/595993444222 |
 | **Dirección** | Av. Mariscal López y, San Lorenzo 111420 |
 | **Servicios** | Spa para bebés · Hidroestimulación · Hidromasaje infantil · Family wellness |
 | **Fundadores** | Fabio Castillo + Fátima Flecha (datos de prensa) |
@@ -252,7 +252,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.6 km de la FP |
 | **Rating** | 4.7⭐ · 61 reseñas |
 | **Teléfono** | 0976 668 289 |
-| **WhatsApp** | wa.me/595976668289 |
+| **Messaging** | wa.me/595976668289 |
 | **Dirección** | San Lorenzo 111405 |
 | **Servicios** | Estética + estética (mix services) |
 | **Website** | ❌ NO |
@@ -265,7 +265,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.5 km de la FP |
 | **Rating** | 4.7⭐ · 25 reseñas |
 | **Teléfono** | 0994 202 928 |
-| **WhatsApp** | wa.me/595994202928 |
+| **Messaging** | wa.me/595994202928 |
 | **Dirección** | Del Carmen & MFQF+X76, Benza Carrera, Fernando de la Mora 110311 |
 | **Website** | ❌ NO |
 | **Valor** | ★ — volumen bajo. |
@@ -281,7 +281,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 1.6 km de la FP |
 | **Rating** | 4.8⭐ · 9 reseñas |
 | **Teléfono** | 0985 695 929 |
-| **WhatsApp** | wa.me/595985695929 |
+| **Messaging** | wa.me/595985695929 |
 | **Dirección** | Mariscal López 2783, Fernando de la Mora 110303 |
 | **Servicios** | Cosméticos + belleza |
 | **Website** | ❌ NO |
@@ -294,7 +294,7 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 | **Distancia** | 3.5 km de la FP |
 | **Rating** | 5.0⭐ · 21 reseñas |
 | **Teléfono** | 0981 924 858 |
-| **WhatsApp** | wa.me/595981924858 |
+| **Messaging** | wa.me/595981924858 |
 | **Dirección** | Mompox 1739, Fernando de la Mora 110312 — Fernando Zona Norte |
 | **Servicios** | Estética facial |
 | **Website** | ❌ NO |
@@ -315,13 +315,13 @@ Lead Score = rating × (1 + log(1 + reviews)) × max(0, 5 − dist_km)
 ---
 
 ## Archivos Adjuntos
-- `csv`: `/root/paragu-ai-leads/top18_fp_politecnica.csv` — 18 leads con coords GPS, scores, WhatsApp
-- `json`: Datos disponibles en CSV anterior (exportable a Google Sheets / WhatsApp
+- `csv`: `/root/paragu-ai-leads/top18_fp_politecnica.csv` — 18 leads con coords GPS, scores, Messaging
+- `json`: Datos disponibles en CSV anterior (exportable a Google Sheets / Messaging
       
 ## Siguiente Paso Recomendado
-Generar mensajes de WhatsApp personalizados para los **TOP 5** usando Closer-Bot, incorporando:
+Generar mensajes de Messaging personalizados para los **TOP 5** usando Closer-Bot, incorporando:
 1. Nombre del negocio
 2. Lo que Ya tienen (reviews ⭐, redes sociales con followers)
 3. Lo que NO tienen (sitio web profesional)
 4. Propuesta de valor Ai-Whisperers / ParaguAI
-5. CTA: WhatsApp directo +595XXXXXXXXX
+5. CTA: Messaging directo +595XXXXXXXXX

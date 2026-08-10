@@ -1,14 +1,14 @@
-# WHATSAPP CRM — ARQUITECTURA COMPLETA
+# MESSAGING CRM — ARQUITECTURA COMPLETA
 ## ParaguAI Outreach System
 
 ---
 
 ## PROBLEMA ACTUAL
 
-Los mensajes se envían por WhatsApp bridge (localhost:3007) pero:
+Los mensajes se envían por Messaging bridge (localhost:3007) pero:
 - ❌ No hay registro de respuestas de clientes
 - ❌ No hay historial de conversación guardado
-- ❌ No se puede ver estado sin abrir WhatsApp
+- ❌ No se puede ver estado sin abrir Messaging
 - ❌ Seguimiento manual y propenso a perderse
 
 ## ARQUITECTURA PROPUESTA
@@ -36,7 +36,7 @@ Los mensajes se envían por WhatsApp bridge (localhost:3007) pero:
         ┌──────────────┴──────────────┐
         ▼                              ▼
 ┌─────────────────────┐  ┌─────────────────────────────┐
-│   WHATSAPP BRIDGE    │  │      SUPABASE POSTGRES      │
+│   MESSAGING BRIDGE    │  │      SUPABASE POSTGRES      │
 │  localhost:3007      │  │  ────────────────────────   │
 │                     │  │  leads                      │
 │  GET  /messages     │  │  conversations             │
@@ -56,8 +56,8 @@ CREATE TABLE leads (
   id              UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   business_name   TEXT NOT NULL,
   contact_name    TEXT,
-  whatsapp_number TEXT NOT NULL,          -- +595991234567
-  wa_chat_id      TEXT,                   -- ID interno de WhatsApp
+  messaging_number TEXT NOT NULL,          -- +595991234567
+  wa_chat_id      TEXT,                   -- ID interno de Messaging
   score           DECIMAL(5,1),           -- 0-150
   rating          DECIMAL(2,1),           -- 0-5 estrellas
   reviews         INTEGER DEFAULT 0,
@@ -82,7 +82,7 @@ CREATE TABLE messages (
   lead_id       UUID NOT NULL REFERENCES leads(id) ON DELETE CASCADE,
   direction     TEXT NOT NULL CHECK (direction IN ('outbound','inbound')),
   content       TEXT NOT NULL,
-  wa_message_id TEXT,                     -- ID de WhatsApp
+  wa_message_id TEXT,                     -- ID de Messaging
   status        TEXT DEFAULT 'sent' CHECK (status IN (
                   'queued','sent','delivered','read','failed'
                 )),
@@ -99,7 +99,7 @@ CREATE TABLE follow_ups (
   id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   lead_id     UUID NOT NULL REFERENCES leads(id) ON DELETE CASCADE,
   due_date    TIMESTAMPTZ NOT NULL,
-  type        TEXT CHECK (type IN ('call','whatsapp','email','meeting')),
+  type        TEXT CHECK (type IN ('call','messaging','email','meeting')),
   notes       TEXT,
   completed   BOOLEAN DEFAULT FALSE,
   completed_at TIMESTAMPTZ,
@@ -122,7 +122,7 @@ CREATE TABLE response_metrics (
 
 ---
 
-## API DEL BRIDGE WHATSAPP (localhost:3007)
+## API DEL BRIDGE MESSAGING (localhost:3007)
 
 El bridge actual expone estos endpoints:
 
@@ -144,7 +144,7 @@ Los mensajes RECIBIDOS llegan via long-poll GET /messages.
 
 ```
 1. ENVÍO DE MENSAJE
-   Erebus → POST /send (bridge.js) → WhatsApp → cliente
+   Erebus → POST /send (bridge.js) → Messaging → cliente
    Erebus → POST /api/messages (backend) → guardar en DB (outbound)
 
 2. RECEPCIÓN DE RESPUESTA
@@ -180,10 +180,10 @@ Los mensajes RECIBIDOS llegan via long-poll GET /messages.
 │       └── app.js               # Lógica del frontend
 │
 ├── docs/
-│   └── WHATSAPP_CRM_ARCHITECTURE.md  # Este documento
+│   └── MESSAGING_CRM_ARCHITECTURE.md  # Este documento
 │
 └── scripts/
-    ├── sync_whatsapp.py         # Script que polls /messages y guarda en DB
+    ├── sync_messaging.py         # Script que polls /messages y guarda en DB
     └── init_supabase.sql        # SQL para crear tablas
 ```
 
@@ -247,13 +247,13 @@ psql "$SUPABASE_DATABASE_URL" -f scripts/init_supabase.sql
 ```bash
 export SUPABASE_URL="https://xxxxx.supabase.co"
 export SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-export WHATSAPP_BRIDGE_URL="http://localhost:3007"
+export MESSAGING_BRIDGE_URL="http://localhost:3007"
 export CRM_PORT=3042
 ```
 
 ---
 
-## SCRIPT DE SINCRONIZACIÓN (sync_whatsapp.py)
+## SCRIPT DE SINCRONIZACIÓN (sync_messaging.py)
 
 Este script debe correr como cron job para hacer polling del bridge:
 
@@ -288,7 +288,7 @@ def save_to_supabase(msg):
 
 | Job | Schedule | Qué hace |
 |-----|----------|----------|
-| `whatsapp-poll` | every 1m | Poll /messages del bridge, guarda en DB |
+| `messaging-poll` | every 1m | Poll /messages del bridge, guarda en DB |
 | `follow-up-check` | every 30m | Revisa leads con next_follow_up pendiente |
 | `status-cleanup` | daily 9am | Limpia estados stale (>7 días sin respuesta → 'cold') |
 
@@ -334,7 +334,7 @@ def save_to_supabase(msg):
 - **Backend:** Python 3.12 + FastAPI + Uvicorn
 - **Base de datos:** Supabase (PostgreSQL)
 - **Frontend:** Vanilla HTML/CSS/JS (sin frameworks)
-- **WhatsApp:** Bridge existente en localhost:3007
+- **Messaging:** Bridge existente en localhost:3007
 - **Deployment:** Docker en VPS (puerto 3042)
 
 ---
@@ -346,7 +346,7 @@ def save_to_supabase(msg):
 ```
 /root/paragu-ai-leads/
 ├── docs/
-│   └── WHATSAPP_CRM_ARCHITECTURE.md    ← Este documento
+│   └── MESSAGING_CRM_ARCHITECTURE.md    ← Este documento
 │
 ├── crm/
 │   ├── backend/
@@ -360,7 +360,7 @@ def save_to_supabase(msg):
 │   │
 │   ├── scripts/
 │   │   ├── init_supabase.sql            ← Schema de BD
-│   │   └── sync_whatsapp.py             ← Polling del bridge
+│   │   └── sync_messaging.py             ← Polling del bridge
 │   │
 │   └── Dockerfile                       ← Deploy al VPS
 ```
@@ -388,7 +388,7 @@ def save_to_supabase(msg):
 cat > /root/paragu-ai-leads/crm/.env << EOF
 SUPABASE_URL=https://xxxx.supabase.co
 SUPABASE_KEY=eyJhbG...service_role_key...
-WHATSAPP_BRIDGE_URL=http://localhost:3007
+MESSAGING_BRIDGE_URL=http://localhost:3007
 CRM_PORT=3042
 EOF
 ```

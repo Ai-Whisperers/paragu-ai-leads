@@ -7,7 +7,7 @@
 ## BUSINESS IDENTIFICATION
 - **Name:** Arno's Barber Shop (also referenced as "Barbershop near Jacarandá, San Lorenzo")
 - **Owner:** Arno (possibly owner-operator)
-- **WhatsApp:** wa.me/595983996086 (0983 996 086)
+- **Messaging:** wa.me/595983996086 (0983 996 086)
 - **Phone:** 0983 996 086
 - **Address:** San Lorenzo — near Jacarandá area (~1.8km from Politécnica)
 - **Category:** Barbershop
@@ -53,7 +53,7 @@
 ---
 
 ## WHAT AI-Whisperers SHOULD OFFER
-- **SIMPLE web** (landing page + services + WhatsApp CTA)
+- **SIMPLE web** (landing page + services + Messaging CTA)
 - **No complex booking system** if owner is the only barber (walk-ins are fine)
 - Focus on: showcasing work (portfolio photos from Google Maps), contact info, location map
 - **Growth angle:** "If you're getting 5.0 from 24 people, imagine what 5-star reviews from a full website look like"
@@ -63,10 +63,10 @@
 ## KEY ADVANTAGES FOR AI-Whisperers
 1. 5.0⭐ perfect rating = EXCEPTIONAL service quality — easy to sell with web evidence
 2. Location in Jacarandá = premium area with disposable income clients
-3. Owner name = Arno = personal brand = EASY to find owner on WhatsApp and contact directly
-4. No website = gap for a 1-man operation already managing clients via WhatsApp
+3. Owner name = Arno = personal brand = EASY to find owner on Messaging and contact directly
+4. No website = gap for a 1-man operation already managing clients via Messaging
 5. Near FP (1.8km) = easy to visit
-6. WhatsApp confirmed = digitally active
+6. Messaging confirmed = digitally active
 
 ---
 
@@ -78,5 +78,5 @@
 ---
 
 ## CONTACT
-- **WhatsApp direct:** wa.me/595983996086 (0983 996 086)
+- **Messaging direct:** wa.me/595983996086 (0983 996 086)
 - **Approach:** Lead with the 5.0 star proof, play up the personal/shop feel

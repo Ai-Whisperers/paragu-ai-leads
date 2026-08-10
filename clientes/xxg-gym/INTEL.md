@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | XXG Gym |
 | **Owner/Contact** | unknown (sin dato confirmado) |
-| **WhatsApp** | wa.me/595021678171 |
+| **Messaging** | wa.me/595021678171 |
 | **Phone** | (021) 678 171 |
 | **Address** | MFR8+RFF, Fernando de la Mora 110303 |
 | **Category** | Gym / Fitness / Musculación |
@@ -71,7 +71,7 @@ Esto significa:
 ## WHAT THEY HAVE
 - ✅ 119 Google reviews · 4.7⭐ (rating alto, decent volume)
 - ✅ Presencia confirmada en Google Maps
-- ✅ Número WhatsApp / teléfono formales
+- ✅ Número Messaging / teléfono formales
 - ✅ Sin sitio web = oportunidad
 
 ---
@@ -106,13 +106,13 @@ Razones:
 - Landing page membresías + horarios
 - Fitness goals tracker
 - Formulario de consulta/visita gratuitas
-- Integración WhatsApp
+- Integración Messaging
 - Galería de equipos
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 021 678 171
+- [x] Messaging: +595 021 678 171
 - [x] Phone: (021) 678 171
 - [x] Google Maps: Listed with 119 reviews
 - [x] Address: MFR8+RFF, Fernando de la Mora
@@ -125,7 +125,7 @@ Razones:
 ## Siguiente paso
 1. Confirmar página IG/FB de XXG para saber qué tan activo es
 2. Extraer reviews y fotos de Google Maps
-3. Identificar planes/membresías vía chamada direta ao WhatsApp
+3. Identificar planes/membresías vía chamada direta ao Messaging
 4. Comparar con CRONOS ACADEMY para strategi competitive
 
 ---

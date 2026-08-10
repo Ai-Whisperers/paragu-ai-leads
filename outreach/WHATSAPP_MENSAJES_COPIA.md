@@ -1,11 +1,11 @@
-# WHATSAPP OUTREACH — IVÁN, COPY-PASTE ESTOS MENSAJES
+# MESSAGING OUTREACH — IVÁN, COPY-PASTE ESTOS MENSAJES
 
 ## Mañana (29/05/2026) — Envía 1 por día
 
 ---
 
 ### 📱 CONTACTO 1 — ESTUDIO MEDIEVAL (133.2 — EL SHOW PIECE)
-**WhatsApp:** wa.me/595961482854 | **Para:** Léo / Estudio Medieval SrL
+**Messaging:** wa.me/595961482854 | **Para:** Léo / Estudio Medieval SrL
 
 > ¡Hola! Soy Iván de ParaguAI.
 >
@@ -16,18 +16,18 @@
 ---
 
 ### 📱 CONTACTO 2 — SHINE NAILS (130.7 — CELESTE, DIGITALLY ACTIVE)
-**WhatsApp:** wa.me/595986693259 | **Para:** Celeste
+**Messaging:** wa.me/595986693259 | **Para:** Celeste
 
 > ¡Hola! Soy Iván de ParaguAI.
 >
-> Vi tu TikTok @celestialnails — 21K seguidores y 952K likes. Tenés la audiencia. Lo que te falta es el lugar donde tus clientes reservan online sin usar WhatsApp.
+> Vi tu TikTok @celestialnails — 21K seguidores y 952K likes. Tenés la audiencia. Lo que te falta es el lugar donde tus clientes reservan online sin usar Messaging.
 >
 > ¿Querés que te cuente cómo sería un sitio web para SHINE Nails? Sin compromiso.
 
 ---
 
 ### 📱 CONTACTO 3 — NDE BARBA (92.6 — MARCA GUARANÍ)
-**WhatsApp:** wa.me/595991444268
+**Messaging:** wa.me/595991444268
 
 > ¡Hola! Soy Iván de ParaguAI.
 >
@@ -40,7 +40,7 @@
 ---
 
 ### 📱 CONTACTO 4 — PORTAS BARBER (85.6 — #1 EN CATEGORÍA)
-**WhatsApp:** wa.me/595994215627
+**Messaging:** wa.me/595994215627
 
 > ¡Hola! Soy Iván de ParaguAI.
 >
@@ -53,7 +53,7 @@
 ---
 
 ### 📱 CONTACTO 5 — ARNO'S BARBER SHOP (88.0 ⭐5.0)
-**WhatsApp:** wa.me/595983996086
+**Messaging:** wa.me/595983996086
 
 > ¡Hola! Soy Iván de ParaguAI.
 >

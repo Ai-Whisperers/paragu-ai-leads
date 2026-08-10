@@ -1,4 +1,4 @@
-"""Configuration for ParaguAI WhatsApp CRM Backend"""
+"""Configuration for ParaguAI Messaging CRM Backend"""
 
 import os
 from dotenv import load_dotenv
@@ -9,8 +9,8 @@ load_dotenv()
 SUPABASE_URL = os.getenv("SUPABASE_URL", "")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")  # Use service_role key for backend
 
-# WhatsApp Bridge
-WHATSAPP_BRIDGE_URL = os.getenv("WHATSAPP_BRIDGE_URL", "http://localhost:3007")
+# Messaging Bridge
+MESSAGING_BRIDGE_URL = os.getenv("MESSAGING_BRIDGE_URL", "http://localhost:3007")
 
 # Server
 CRM_HOST = os.getenv("CRM_HOST", "0.0.0.0")

@@ -7,7 +7,7 @@
 ## BUSINESS IDENTIFICATION
 - **Name:** XXGym (possibly "X-Fit" or "XXGym" in Fernando de la Mora)
 - **Owner:** Unknown
-- **WhatsApp:** (021) 678 171 — landline
+- **Messaging:** (021) 678 171 — landline
 - **Phone:** (021) 678 171
 - **Address:** San Lorenzo / Fernando de la Mora (~2.3km from Politécnica)
 - **Category:** Gym / Fitness Center
@@ -73,5 +73,5 @@ Gyms are HIGH VALUE clients for web + app + membership systems:
 ---
 
 ## CONTACT
-- **Phone:** (021) 678 171 — call or WhatsApp
+- **Phone:** (021) 678 171 — call or Messaging
 - Status: LEGITIMATE — organization with fixed landline = established operation

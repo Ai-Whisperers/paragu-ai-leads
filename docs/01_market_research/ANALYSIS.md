@@ -4,7 +4,7 @@
 
 This analysis covers **7,463 beauty, wellness, and fitness businesses** across **209 cities in Paraguay**. The data reveals a massive market opportunity: **75% of businesses have no website**, and **97% are classified as Priority A or B leads** suitable for Vete/Paragu-AI's services.
 
-**Key Finding**: The beauty and wellness market in Paraguay is underserved digitally. Most businesses operate via WhatsApp and Instagram only, with no professional web presence. This represents a significant opportunity for Vete's free website + WhatsApp booking offering.
+**Key Finding**: The beauty and wellness market in Paraguay is underserved digitally. Most businesses operate via Messaging and Instagram only, with no professional web presence. This represents a significant opportunity for Vete's free website + Messaging booking offering.
 
 ---
 
@@ -23,7 +23,7 @@ This analysis covers **7,463 beauty, wellness, and fitness businesses** across *
 | Has Website | 563 | 8% |
 
 **Critical Insight**: Only 8% of beauty/wellness businesses in Paraguay have a real website. The remaining 92% operate via:
-- WhatsApp messages
+- Messaging messages
 - Instagram/Facebook pages
 - Word of mouth
 
@@ -39,12 +39,12 @@ This is exactly Vete's target market — businesses that need professional websi
 - High repeat customer rate (clients return every 2-4 weeks)
 - Service-based (cuts, coloring, treatments)
 - Typically 1-3 staff members
-- Operate primarily via WhatsApp bookings
+- Operate primarily via Messaging bookings
 
 **Target Fit for Vete:**
 - ✅ Service catalog (perfect for listing services/prices)
 - ✅ Booking system (essential for appointment management)
-- ✅ WhatsApp integration (already how they communicate)
+- ✅ Messaging integration (already how they communicate)
 - ✅ Reminders (reduce no-shows, drive repeat visits)
 - ✅ Loyalty program (reward frequent clients)
 
@@ -127,7 +127,7 @@ This is exactly Vete's target market — businesses that need professional websi
 **Target Fit for Vete:**
 - ✅ Quick booking system
 - ✅ Service menu with wait times
-- ✅ WhatsApp integration (primary channel)
+- ✅ Messaging integration (primary channel)
 - ✅ Walk-in vs appointment management
 
 **Priority A Targets:** 469 businesses
@@ -167,7 +167,7 @@ This is exactly Vete's target market — businesses that need professional websi
 - ✅ Consultation booking
 - ✅ Forms (consent, age verification)
 - ✅ Aftercare instructions
-- ✅ WhatsApp for design updates
+- ✅ Messaging for design updates
 
 **Priority A Targets:** 95 businesses
 
@@ -258,9 +258,9 @@ Many businesses have their Instagram or Facebook URL in the "website" field. The
 
 **Approach:**
 1. Start with **peluquerías** (easiest pitch, highest volume)
-2. Offer: "Sitio web profesional gratis + sistema de reservas por WhatsApp"
+2. Offer: "Sitio web profesional gratis + sistema de reservas por Messaging"
 3. Focus on businesses with 50+ reviews (proven client base)
-4. Personal outreach (WhatsApp message → call → meeting)
+4. Personal outreach (Messaging message → call → meeting)
 
 **Metrics:**
 - Contact 50 businesses per week
@@ -295,7 +295,7 @@ Many businesses have their Instagram or Facebook URL in the "website" field. The
 ### For Peluquerías (Hair Salons)
 > "Hola [Name], vimos que [Salon Name] tiene [X] reseñas en Google — ¡es claro que los clientes aman tu trabajo! 🎉
 > 
-> Мы создаем бесплатные сайты для бизнеса как yours — с sistema de reservas por WhatsApp included.
+> Мы создаем бесплатные сайты для бизнеса как yours — с sistema de reservas por Messaging included.
 > 
 > Tus клиенты pueden reservar online sin que tengas que responder mensajes todo el dia.
 > 

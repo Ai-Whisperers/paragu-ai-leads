@@ -7,7 +7,7 @@
         "Service catalog (cuts, coloring, treatments, styling)",
         "Pricing per service",
         "Online booking with date/time selection",
-        "WhatsApp integration for confirmations",
+        "Messaging integration for confirmations",
         "Before/after photo gallery",
         "Staff profiles",
         "Appointment reminders",
@@ -45,10 +45,10 @@
         "Galer\u00eda (portfolio)",
         "Nuestro equipo (staff)",
         "Reservas (booking widget)",
-        "Contacto (map, phone, WhatsApp)"
+        "Contacto (map, phone, Messaging)"
       ],
       "vete_tier": "Profesional",
-      "pitch_phrase": "Tus clientes pueden reservar su turno online sin que tengas que responder WhatsApp todo el d\u00eda"
+      "pitch_phrase": "Tus clientes pueden reservar su turno online sin que tengas que responder Messaging todo el d\u00eda"
     },
     "Salon de Belleza": {
       "count": 98,
@@ -58,7 +58,7 @@
         "Nail services subsection",
         "Makeup services",
         "Online booking with service selection",
-        "WhatsApp integration",
+        "Messaging integration",
         "Photo gallery (work showcase)",
         "Product retail section",
         "Appointment reminders",
@@ -108,7 +108,7 @@
       "essential_features": [
         "Service menu with wait times",
         "Quick booking (minimal friction)",
-        "WhatsApp integration",
+        "Messaging integration",
         "Before/after photos",
         "Staff/barber profiles",
         "Walk-in vs appointment display",
@@ -159,7 +159,7 @@
         "Photo gallery (atmosphere)",
         "Gift cards",
         "Package deals",
-        "WhatsApp integration",
+        "Messaging integration",
         "Appointment reminders"
       ],
       "optional_features": [
@@ -214,7 +214,7 @@
         "Amenities showcase",
         "Photo/video gallery",
         "Trial pass/offer",
-        "WhatsApp for inquiries",
+        "Messaging for inquiries",
         "Location + parking info"
       ],
       "optional_features": [
@@ -263,7 +263,7 @@
         "Service catalog (specific nail services)",
         "Nail art portfolio gallery",
         "Online booking",
-        "WhatsApp integration",
+        "Messaging integration",
         "Design options showcase",
         "Price list",
         "Appointment duration",
@@ -312,7 +312,7 @@
         "Price guide (by size/type)",
         "Age verification notice",
         "Consent forms",
-        "WhatsApp for design inquiries",
+        "Messaging for design inquiries",
         "Location + hours"
       ],
       "optional_features": [
@@ -360,7 +360,7 @@
         "Professional credentials display",
         "Online booking",
         "Consultation scheduling",
-        "WhatsApp integration",
+        "Messaging integration",
         "Package deals",
         "Patient forms"
       ],
@@ -411,7 +411,7 @@
         "Trial session booking",
         "Price list",
         "Testimonials/reviews",
-        "WhatsApp contact",
+        "Messaging contact",
         "Service area coverage"
       ],
       "optional_features": [
@@ -441,7 +441,7 @@
         "Servicios (with prices)",
         "Trial (booking)",
         "Testimonios",
-        "Contacto + WhatsApp"
+        "Contacto + Messaging"
       ],
       "vete_tier": "Profesional",
       "pitch_phrase": "Tu talento merece ser visto \u2014 Portafolio online que muestra tu arte attracting clientes"
@@ -453,7 +453,7 @@
         "Treatment areas pricing",
         "Package deals (sessions)",
         "Online booking",
-        "WhatsApp integration",
+        "Messaging integration",
         "Information about methods",
         "FAQ section",
         "Location + hours"

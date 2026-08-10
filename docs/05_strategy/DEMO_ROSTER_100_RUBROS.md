@@ -236,7 +236,7 @@ sites/demo-<rubro>/
 ├── pages/
 │   ├── home.json            # hero + 4-6 section stack from registry's default composition
 │   ├── servicios.json       # or equivalent for non-service rubros
-│   └── contacto.json        # address (fake Asunción), WhatsApp, form
+│   └── contacto.json        # address (fake Asunción), Messaging, form
 └── content/
     └── es.json              # copy overrides on top of src/content/<vertical>.content.json
 ```
@@ -251,7 +251,7 @@ sites/demo-<rubro>/
   "defaultLocale": "es",
   "locales": ["es"],
   "contact": {
-    "whatsapp": "+595981000<XXX>",
+    "messaging": "+595981000<XXX>",
     "email": "demo-<rubro>@paragu-ai.com",
     "instagram": "@demo.<rubro>.py"
   },
@@ -290,7 +290,7 @@ Three content tiers, chosen by rubro complexity:
 - City rotation: Asunción (40%), Gran Asunción metro (40%), Ciudad del Este / Encarnación (20%)
 - Prices in PYG (guaraníes), not USD — consult cluster C pricing norms
 - Hours: "Lun a Vie 8:00–18:00, Sáb 8:00–13:00"
-- WhatsApp CTA as the dominant contact action
+- Messaging CTA as the dominant contact action
 
 **Image strategy:**
 - Pull from `sites/shared-images/` first
@@ -352,7 +352,7 @@ A demo is "ready to pitch" if:
 
 - [ ] Resolves at `/s/es/demo-<rubro>/` with 200 + correct HTML
 - [ ] Hero + at least 4 sections render, no missing-image holes
-- [ ] WhatsApp float button works with placeholder number
+- [ ] Messaging float button works with placeholder number
 - [ ] All copy is Spanish, PY-flavored (no generic "123 Main St")
 - [ ] Regulated rubros (Wave 3) carry a compliance snippet in the footer
 - [ ] Lighthouse ≥85 on mobile (builder default budget)
@@ -390,7 +390,7 @@ These can be added as "Wave 4" expansion (target: +30 after the 110 are proven).
 
 1. **Route pattern:** `/demo/<rubro>` (singular `demo`, path-based — not subdomain). Shared auth + analytics with the rest of paragu-ai.com. Implementation: new `web/app/demo/[rubro]/page.tsx` that resolves to `sites/demo-<rubro>/` via the existing site loader.
 2. **SEO: noindex on all demos**, all 3 waves. Add `<meta name="robots" content="noindex,nofollow">` via the page's `generateMetadata` and include `/demo/*` in `robots.ts`. Demos are sales artifacts, not SEO assets — the `/p/<rubro>` marketing pages carry the SEO weight and link into the demos.
-3. **Contact forms → AI Whisperers sales inbox.** Every demo's form and WhatsApp float routes to our capture pipeline (`/api/leads` with `source: "demo"` and `demoRubro: "<rubro>"`). Demo visitors are leads; treat them as such. Existing leads-digest cron (PR #70) surfaces them in `/admin/demo-requests`.
+3. **Contact forms → AI Whisperers sales inbox.** Every demo's form and Messaging float routes to our capture pipeline (`/api/leads` with `source: "demo"` and `demoRubro: "<rubro>"`). Demo visitors are leads; treat them as such. Existing leads-digest cron (PR #70) surfaces them in `/admin/demo-requests`.
 4. **Promotion trigger: 50 generated tenants in that rubro.** When a rubro accumulates 50 live tenants (real + demo combined), the demo for that rubro gets promoted via `migrate-demo-to-site.ts` to become the canonical showcase for the rubro. Rationale: 50 tenants = proven market fit for that rubro; the demo becomes a reference implementation worth indexing. At promotion time: (a) flip `demo: false`, (b) remove the noindex, (c) wire real contact info if available, (d) move it out of `/demo/<rubro>` into its own slug. Track the counter in `/admin/tiles`.
 
 ---
@@ -405,7 +405,7 @@ All 4 locked decisions in §10 are implemented. Validation: 115/115 sites OK.
 **Not yet done:**
 - 72 country×cluster compliance templates (blocks Wave 3 promotion)
 - Admin filters on `demo: true` / `demoWave` in `/admin/tiles` + `/admin/leads`
-- Replace the `SALES_WHATSAPP` placeholder in `web/scripts/batch-create-demos.ts` with the real AI Whisperers sales line before pitch use
+- Replace the `SALES_MESSAGING` placeholder in `web/scripts/batch-create-demos.ts` with the real AI Whisperers sales line before pitch use
 
 ---
 

@@ -10,7 +10,7 @@
 |-------|------|
 | **Business Name** | Peluquería Barbershop |
 | **Owner/Contact** | unknown |
-| **WhatsApp** | wa.me/595982992766 |
+| **Messaging** | wa.me/595982992766 |
 | **Phone** | 0982 992 766 |
 | **Address** | Av. 11 de Setiembre, Fernando Zona Norte 110310 |
 | **Category** | Barbería / Peluquería |
@@ -60,7 +60,7 @@
 
 ## WHAT THEY HAVE
 - ✅ 66 Google reviews · 4.6⭐ (base establecida)
-- ✅ WhatsApp directo
+- ✅ Messaging directo
 - ✅ Sin website = oportunidad
 - ✅ Address en "Av. 11 de Setiembre" + 110310 (misma zona que Estudio Medieval)
 
@@ -85,13 +85,13 @@ Razones:
 4. Oportunidad de web simple para captar clientela local
 
 **Propuesta sugerida:**
-- Landing page simple с servicios + mapa + WhatsApp botón
+- Landing page simple с servicios + mapa + Messaging botón
 - Consider shared approach с Portas para efficiency
 
 ---
 
 ## CONTACT CHECKLIST
-- [x] WhatsApp: +595 982 992 766
+- [x] Messaging: +595 982 992 766
 - [x] Phone: 0982 992 766
 - [x] Google Maps: Listed con 66 reviews
 - [x] Address: Av. 11 de Setiembre, Fernando Mora 110310

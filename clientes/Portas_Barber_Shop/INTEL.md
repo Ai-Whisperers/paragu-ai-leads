@@ -7,7 +7,7 @@
 ## BUSINESS IDENTIFICATION
 - **Name:** Portas Barber Shop
 - **Owner:** Unknown
-- **WhatsApp:** wa.me/595994215627 (0994 215 627)
+- **Messaging:** wa.me/595994215627 (0994 215 627)
 - **Phone:** 0994 215 627
 - **Address:** Av. Santa Teresa, San Lorenzo / Fernando de la Mora (~2.1km from Politécnica)
 - **Category:** Barbershop
@@ -26,8 +26,8 @@
 - **Viralist scan:** NOT FOUND
 - **Facebook:** NOT FOUND confirmed
 
-### WhatsApp Business
-- WhatsApp number: 0994 215 627 = digitally active
+### Messaging Business
+- Messaging number: 0994 215 627 = digitally active
 - No website = gap in brand presence
 - 162 reviews = large established client base
 
@@ -44,7 +44,7 @@
 ## WHY THIS IS A TOP OPPORTUNITY
 1. **162 reviews** = #1 by volume among barbers — established, loyal clientele
 2. **4.9⭐ = best rating** among all barbers in the area
-3. WhatsApp confirmed = digitally active owner
+3. Messaging confirmed = digitally active owner
 4. NO website = clients calling or walking in; owner MANUALLY managing appointments
 5. Address on Santa Teresa = real, physical location = local authority brand
 6. 2.1km from FP = visitable
@@ -55,10 +55,10 @@
 - "162 personas ya confían en vos — una web profesional lista que tenés dominio digital"
 - "Te armamos reserva online y página de servicios"
 - "Santa Teresa se ve mejor con presencia web"
-- "Tu WhatsApp + web = sistema de turnos automático"
+- "Tu Messaging + web = sistema de turnos automático"
 
 ---
 
 ## CONTACT
-- **WhatsApp direct:** wa.me/595994215627
+- **Messaging direct:** wa.me/595994215627
 - **Approach:** Emphasize the volume already present (162 reviews) as proof of brand authority, and the untapped potential with a professional web presence

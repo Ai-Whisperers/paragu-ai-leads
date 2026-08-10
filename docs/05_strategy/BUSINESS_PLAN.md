@@ -7,9 +7,9 @@
 
 **Mission:** Empower Paraguay's beauty & wellness businesses with professional, affordable websites that drive real customer bookings.
 
-**Problem:** 75% of beauty/wellness businesses in Paraguay have NO website. They rely on WhatsApp/Instagram only, missing out on customers who search "near me" on Google.
+**Problem:** 75% of beauty/wellness businesses in Paraguay have NO website. They rely on Messaging/Instagram only, missing out on customers who search "near me" on Google.
 
-**Solution:** AI-powered website builder with pre-built templates for each business type, WhatsApp booking integration, and Spanish content.
+**Solution:** AI-powered website builder with pre-built templates for each business type, Messaging booking integration, and Spanish content.
 
 ---
 
@@ -33,7 +33,7 @@
 | 5 | Tatuajes | 272 | 70% |
 
 ### Market Gap
-- **Current state:** WhatsApp-only presence, no online booking
+- **Current state:** Messaging-only presence, no online booking
 - **Customer need:** Professional website + easy booking
 - **Willingness to pay:** Free → $50-200 for premium features
 
@@ -45,8 +45,8 @@
 
 | Tier | Price | Features |
 |------|-------|----------|
-| **FREE** | $0 | Basic 1-page website, WhatsApp link, contact form |
-| **BASIC** | $29/mo | Custom domain, no ads, WhatsApp Business |
+| **FREE** | $0 | Basic 1-page website, Messaging link, contact form |
+| **BASIC** | $29/mo | Custom domain, no ads, Messaging Business |
 | **PRO** | $59/mo | Online booking (Fresha), gallery expansion |
 | **ENTERPRISE** | $99/mo | E-commerce, multiple pages, priority support |
 
@@ -58,7 +58,7 @@
 ### Cost Structure
 - **Fixed:** Hosting ($5-10/mo), Domain ($15/yr)
 - **Variable:** Development time (minimized via templates)
-- **Customer Acquisition:** WhatsApp marketing, cold outreach
+- **Customer Acquisition:** Messaging marketing, cold outreach
 
 ---
 
@@ -70,13 +70,13 @@
 | "I lose customers who call and don't answer" | Website with booking calendar |
 | "I can't show my work to new clients" | Portfolio gallery with real photos |
 | "Website is too expensive" | FREE tier for basic presence |
-| "I don't know how to update" | Simple WhatsApp-based updates |
+| "I don't know how to update" | Simple Messaging-based updates |
 
 ### For End Customers
 - Find businesses via Google "near me"
 - Book appointments online anytime
 - See real reviews and portfolio
-- Contact via WhatsApp or call
+- Contact via Messaging or call
 
 ---
 
@@ -84,14 +84,14 @@
 
 ### Lead Generation (Phase 1)
 1. **Source:** 3,960 Priority A leads from data extraction
-2. **Channel:** WhatsApp outreach, Instagram DM
+2. **Channel:** Messaging outreach, Instagram DM
 3. **Script:** "We build FREE websites for beauty businesses. Would you like one?"
 4. **Target:** 50 businesses/month in MVP phase
 
 ### Website Creation (Phase 2)
 1. **Input:** Business fills simple form (15 min)
 2. **Build:** Auto-generate from template (30 min)
-3. **Review:** Business approves via WhatsApp
+3. **Review:** Business approves via Messaging
 4. **Launch:** Push to live URL (1 hr)
 
 ### Ongoing Support (Phase 3)
@@ -110,7 +110,7 @@
 | Developer | Template building, technical issues |
 
 ### Growth Phase
-- **Outreach Manager:** Lead generation, WhatsApp campaigns
+- **Outreach Manager:** Lead generation, Messaging campaigns
 - **Content Creator:** Photos, descriptions, marketing
 - **Developer:** New templates, integrations
 
@@ -139,7 +139,7 @@
 | Advantage | Description |
 |-----------|-------------|
 | **Local Market Focus** | Built specifically for Paraguay |
-| **WhatsApp-First** | Integrates naturally with how locals do business |
+| **Messaging-First** | Integrates naturally with how locals do business |
 | **Spanish Content** | All content in local language |
 | **Pre-built Templates** | No custom development needed per client |
 | **Pricing Model** | Free tier removes adoption barrier |
@@ -181,7 +181,7 @@
 
 ## Appendix: Key Metrics
 
-- **CAC (Customer Acquisition Cost):** $5-10 (mostly WhatsApp time)
+- **CAC (Customer Acquisition Cost):** $5-10 (mostly Messaging time)
 - **LTV (Lifetime Value):** $500-1,000 (multi-year relationship)
 - **Payback Period:** 3-6 months
 - **Target Market Size:** $2-5M annually

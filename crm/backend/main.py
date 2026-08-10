@@ -1,6 +1,6 @@
 """
-ParaguAI WhatsApp CRM - Backend API v1
-FastAPI server for lead management and WhatsApp integration
+ParaguAI Messaging CRM - Backend API v1
+FastAPI server for lead management and Messaging integration
 """
 
 from fastapi import FastAPI, HTTPException, Query
@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 # Configuration
 SUPABASE_URL = os.getenv("SUPABASE_URL", "")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
-WHATSAPP_BRIDGE_URL = os.getenv("WHATSAPP_BRIDGE_URL", "http://localhost:3007")
+MESSAGING_BRIDGE_URL = os.getenv("MESSAGING_BRIDGE_URL", "http://localhost:3007")
 PORT = int(os.getenv("CRM_PORT", "3042"))
 
 # Supabase client
@@ -78,7 +78,7 @@ def load_csv_leads():
                 "id": row.get("lead_id", ""),
                 "business_name": row.get("business_name", ""),
                 "contact_name": row.get("contact_name", ""),
-                "whatsapp_number": (row.get("whatsapp", "") or "").replace("wa.me/", ""),
+                "messaging_number": (row.get("messaging", "") or "").replace("wa.me/", ""),
                 "rating": None,
                 "reviews": reviews,
                 "score": float(row.get("score", 0) or 0),

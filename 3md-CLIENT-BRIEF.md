@@ -49,7 +49,7 @@ Standard lead site rate. Portfolio agency sites are premium — can charge highe
 
 ## NEXT STEPS
 
-1. Send WhatsApp intro: "Hola! Somos ParaguAI. Vimos su trabajo en Instagram (Carmen Steffens, VW Amarok — excelente!). Notamos que no tienen pagina web. Podemos ayudarles con una web profesional con portfolio, video showreel y contacto directo. Les interesa?"
+1. Send Messaging intro: "Hola! Somos ParaguAI. Vimos su trabajo en Instagram (Carmen Steffens, VW Amarok — excelente!). Notamos que no tienen pagina web. Podemos ayudarles con una web profesional con portfolio, video showreel y contacto directo. Les interesa?"
 2. If interested: gather photos, brand assets, project details
 3. Build site (~40h)
 4. Deploy to 3md.paragu-ai.com

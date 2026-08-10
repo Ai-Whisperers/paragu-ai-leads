@@ -66,7 +66,7 @@
 
 ### Contact (/contacto)
 - Contact form (name, email, phone, project type, message)
-- WhatsApp click-to-chat
+- Messaging click-to-chat
 - Google Maps embed (Fray Luis de Leon C/Venezuela)
 - Email: 3mindpy@gmail.com
 - Phone: 0991 691501

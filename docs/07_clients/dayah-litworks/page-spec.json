@@ -17,7 +17,7 @@
     "title": "Presupuesto de servicios",
     "subtitle": "Diseno de portadas y maquetacion para tu libro.",
     "deliveryBadge": "Entrega estimada: 2 a 4 semanas",
-    "primaryCta": { "label": "Solicitar presupuesto", "type": "whatsapp" }
+    "primaryCta": { "label": "Solicitar presupuesto", "type": "messaging" }
   },
   "packageGroups": [
     {
@@ -232,14 +232,14 @@
     "stickyCta": {
       "desktop": {
         "enabled": true,
-        "variant": "whatsapp-pill",
+        "variant": "messaging-pill",
         "position": "bottom-right",
         "showAfterScrollPx": 600
       },
       "mobile": {
         "enabled": true,
         "variant": "bottom-bar",
-        "primary": { "label": "Solicitar presupuesto", "type": "whatsapp" },
+        "primary": { "label": "Solicitar presupuesto", "type": "messaging" },
         "secondary": { "label": "Ver paquetes", "type": "scroll-to", "target": "packageGroups" }
       }
     }
